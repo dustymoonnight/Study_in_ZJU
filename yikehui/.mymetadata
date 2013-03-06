@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="yikehui"
+  id="myeclipse.1362483852384"
+  context-root="/yikehui"
+  j2ee-spec="5.0"
+  archive="yikehui.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
