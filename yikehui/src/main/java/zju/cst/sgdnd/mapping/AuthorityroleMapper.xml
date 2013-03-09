@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zju.cst.sgdnd.dao.AuthorityroleMapper" >
+  <resultMap id="BaseResultMap" type="zju.cst.sgdnd.model.Authorityrole" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="roleId" property="roleid" jdbcType="INTEGER" />
+    <result column="authorityId" property="authorityid" jdbcType="INTEGER" />
+    <result column="createId" property="createid" jdbcType="INTEGER" />
+    <result column="createTime" property="createtime" jdbcType="DATE" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, roleId, authorityId, createId, createTime
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from authorityrole
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from authorityrole
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="zju.cst.sgdnd.model.Authorityrole" >
+    insert into authorityrole (id, roleId, authorityId, 
+      createId, createTime)
+    values (#{id,jdbcType=INTEGER}, #{roleid,jdbcType=INTEGER}, #{authorityid,jdbcType=INTEGER}, 
+      #{createid,jdbcType=INTEGER}, #{createtime,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" parameterType="zju.cst.sgdnd.model.Authorityrole" >
+    insert into authorityrole
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="roleid != null" >
+        roleId,
+      </if>
+      <if test="authorityid != null" >
+        authorityId,
+      </if>
+      <if test="createid != null" >
+        createId,
+      </if>
+      <if test="createtime != null" >
+        createTime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="roleid != null" >
+        #{roleid,jdbcType=INTEGER},
+      </if>
+      <if test="authorityid != null" >
+        #{authorityid,jdbcType=INTEGER},
+      </if>
+      <if test="createid != null" >
+        #{createid,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="zju.cst.sgdnd.model.Authorityrole" >
+    update authorityrole
+    <set >
+      <if test="roleid != null" >
+        roleId = #{roleid,jdbcType=INTEGER},
+      </if>
+      <if test="authorityid != null" >
+        authorityId = #{authorityid,jdbcType=INTEGER},
+      </if>
+      <if test="createid != null" >
+        createId = #{createid,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null" >
+        createTime = #{createtime,jdbcType=DATE},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="zju.cst.sgdnd.model.Authorityrole" >
+    update authorityrole
+    set roleId = #{roleid,jdbcType=INTEGER},
+      authorityId = #{authorityid,jdbcType=INTEGER},
+      createId = #{createid,jdbcType=INTEGER},
+      createTime = #{createtime,jdbcType=DATE}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

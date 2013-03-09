@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zju.cst.sgdnd.dao.AuthorityMapper" >
+  <resultMap id="BaseResultMap" type="zju.cst.sgdnd.model.Authority" >
+    <id column="authorityId" property="authorityid" jdbcType="INTEGER" />
+    <result column="authorityName" property="authorityname" jdbcType="VARCHAR" />
+    <result column="columnName" property="columnname" jdbcType="VARCHAR" />
+    <result column="viewmode" property="viewmode" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    authorityId, authorityName, columnName, viewmode
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from authority
+    where authorityId = #{authorityid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from authority
+    where authorityId = #{authorityid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="zju.cst.sgdnd.model.Authority" >
+    insert into authority (authorityId, authorityName, columnName, 
+      viewmode)
+    values (#{authorityid,jdbcType=INTEGER}, #{authorityname,jdbcType=VARCHAR}, #{columnname,jdbcType=VARCHAR}, 
+      #{viewmode,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="zju.cst.sgdnd.model.Authority" >
+    insert into authority
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="authorityid != null" >
+        authorityId,
+      </if>
+      <if test="authorityname != null" >
+        authorityName,
+      </if>
+      <if test="columnname != null" >
+        columnName,
+      </if>
+      <if test="viewmode != null" >
+        viewmode,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="authorityid != null" >
+        #{authorityid,jdbcType=INTEGER},
+      </if>
+      <if test="authorityname != null" >
+        #{authorityname,jdbcType=VARCHAR},
+      </if>
+      <if test="columnname != null" >
+        #{columnname,jdbcType=VARCHAR},
+      </if>
+      <if test="viewmode != null" >
+        #{viewmode,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="zju.cst.sgdnd.model.Authority" >
+    update authority
+    <set >
+      <if test="authorityname != null" >
+        authorityName = #{authorityname,jdbcType=VARCHAR},
+      </if>
+      <if test="columnname != null" >
+        columnName = #{columnname,jdbcType=VARCHAR},
+      </if>
+      <if test="viewmode != null" >
+        viewmode = #{viewmode,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where authorityId = #{authorityid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="zju.cst.sgdnd.model.Authority" >
+    update authority
+    set authorityName = #{authorityname,jdbcType=VARCHAR},
+      columnName = #{columnname,jdbcType=VARCHAR},
+      viewmode = #{viewmode,jdbcType=VARCHAR}
+    where authorityId = #{authorityid,jdbcType=INTEGER}
+  </update>
+</mapper>

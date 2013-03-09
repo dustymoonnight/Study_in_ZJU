@@ -13,8 +13,8 @@
 
 	<!-- 引入属性 -->
 	<context:property-placeholder location="classpath:config.properties" />
-	
+
 	<!-- 自动扫描（自动注入） -->
-	<context:component-scan base-package="ssm.shininghead.yikehui.service"></context:component-scan>
-	
+	<context:component-scan base-package="zju.cst.sgdnd.service" />
+
 </beans>

@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
     http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 
-	<display-name>TestSSM</display-name>
+	<display-name>yikehui</display-name>
 
 	<!-- 上下文参数（第一启动），指定jdbc配置文件位置  -->
 	<context-param>
@@ -46,7 +46,7 @@
 
 	<servlet-mapping>
 		<servlet-name>spring-mvc</servlet-name>
-		<url-pattern>*.html</url-pattern>
+		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
 	<!-- 网站的默认首页   -->

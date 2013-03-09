@@ -1,0 +1,766 @@
+SpringJUnit4ClassRunner constructor called with [class zju.cst.sgdnd.tst.TestUser].
+Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@155bd22 declaringClass = 'zju.cst.sgdnd.tst.TestUser', locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [zju.cst.sgdnd.tst.TestUser]
+@TestExecutionListeners is not present for class [class zju.cst.sgdnd.tst.TestUser]: using defaults.
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@f7cbcc testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@f7cbcc testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [spring.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+Loading bean definitions
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+Looking for matching resources in directory tree [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/service/**/*.class]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\impl] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/service/**/*.class]
+Resolved location pattern [classpath*:zju/cst/sgdnd/service/**/*.class] to resources [file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\impl\UserServiceImpl.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\UserService.class]]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\impl\UserServiceImpl.class]
+Loaded 6 bean definitions from location pattern [classpath:spring.xml]
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+Loading bean definitions
+Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+Loaded 3 bean definitions from location pattern [classpath:spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@5bfbd8: startup date [Sat Mar 09 18:56:27 CST 2013]; root of context hierarchy
+Bean factory for org.springframework.context.support.GenericApplicationContext@5bfbd8: org.springframework.beans.factory.support.DefaultListableBeanFactory@404991: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Looking for matching resources in directory tree [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/dao/**/*.class]
+Resolved location pattern [classpath*:zju/cst/sgdnd/dao/**/*.class] to resources [file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityroleMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\RoleMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserroleMapper.class]]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityroleMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\RoleMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserroleMapper.class]
+Creating MapperFactoryBean with name 'authorityMapper' and 'zju.cst.sgdnd.dao.AuthorityMapper' mapperInterface
+Creating MapperFactoryBean with name 'authorityroleMapper' and 'zju.cst.sgdnd.dao.AuthorityroleMapper' mapperInterface
+Creating MapperFactoryBean with name 'roleMapper' and 'zju.cst.sgdnd.dao.RoleMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'zju.cst.sgdnd.dao.UserMapper' mapperInterface
+Creating MapperFactoryBean with name 'userroleMapper' and 'zju.cst.sgdnd.dao.UserroleMapper' mapperInterface
+Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Loading properties file from class path resource [config.properties]
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1fa1b16]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@18dbaa6]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@404991: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,authorityMapper,authorityroleMapper,roleMapper,userMapper,userroleMapper]; root of factory hierarchy
+Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Creating shared instance of singleton bean 'userService'
+Creating instance of bean 'userService'
+Registered injected element on class [zju.cst.sgdnd.service.impl.UserServiceImpl]: AutowiredMethodElement for public void zju.cst.sgdnd.service.impl.UserServiceImpl.setUserMapper(zju.cst.sgdnd.dao.UserMapper)
+Eagerly caching bean 'userService' to allow for resolving potential circular references
+Processing injected method of bean 'userService': AutowiredMethodElement for public void zju.cst.sgdnd.service.impl.UserServiceImpl.setUserMapper(zju.cst.sgdnd.dao.UserMapper)
+Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+Creating shared instance of singleton bean 'authorityMapper'
+Creating instance of bean 'authorityMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Eagerly caching bean 'authorityMapper' to allow for resolving potential circular references
+Processing injected method of bean 'authorityMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'authorityMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'authorityroleMapper'
+Creating instance of bean 'authorityroleMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Eagerly caching bean 'authorityroleMapper' to allow for resolving potential circular references
+Processing injected method of bean 'authorityroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'authorityroleMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'roleMapper'
+Creating instance of bean 'roleMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Eagerly caching bean 'roleMapper' to allow for resolving potential circular references
+Processing injected method of bean 'roleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'roleMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'userMapper'
+Creating instance of bean 'userMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Eagerly caching bean 'userMapper' to allow for resolving potential circular references
+Processing injected method of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'userMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'userroleMapper'
+Creating instance of bean 'userroleMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Eagerly caching bean 'userroleMapper' to allow for resolving potential circular references
+Processing injected method of bean 'userroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'userroleMapper' that is not fully initialized yet - a consequence of a circular reference
+Processing injected method of bean 'userroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Creating shared instance of singleton bean 'sqlSessionFactory'
+Creating instance of bean 'sqlSessionFactory'
+Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'dataSource'
+Creating instance of bean 'dataSource'
+Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+maxIdle is deprecated
+Invoking init method  'init' on bean with name 'dataSource'
+{dataSource-1} inited
+Finished creating instance of bean 'dataSource'
+Looking for matching resources in directory tree [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/mapping/*Mapper.xml]
+Resolved location pattern [classpath:zju/cst/sgdnd/mapping/*Mapper.xml] to resources [file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityroleMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\RoleMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserroleMapper.xml]]
+Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+Property 'configLocation' not specified, using default MyBatis Configuration
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityroleMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\RoleMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserroleMapper.xml]'
+Finished creating instance of bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'userroleMapper'
+Finished creating instance of bean 'userroleMapper'
+Processing injected method of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'userMapper'
+Finished creating instance of bean 'userMapper'
+Processing injected method of bean 'roleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'roleMapper'
+Finished creating instance of bean 'roleMapper'
+Processing injected method of bean 'authorityroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'authorityroleMapper'
+Finished creating instance of bean 'authorityroleMapper'
+Processing injected method of bean 'authorityMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'authorityMapper'
+Finished creating instance of bean 'authorityMapper'
+Returning cached instance of singleton bean 'userMapper'
+Autowiring by type from bean name 'userService' to bean named 'userMapper'
+Finished creating instance of bean 'userService'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Returning cached instance of singleton bean 'dataSource'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Returning cached instance of singleton bean 'authorityMapper'
+Returning cached instance of singleton bean 'authorityroleMapper'
+Returning cached instance of singleton bean 'roleMapper'
+Returning cached instance of singleton bean 'userMapper'
+Returning cached instance of singleton bean 'userroleMapper'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@548695]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Storing ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] in cache under key [[MergedContextConfiguration@f7cbcc testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Performing dependency injection for test context [[TestContext@1e6a528 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@164e81e, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@f7cbcc testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+Retrieved ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] from cache with key [[MergedContextConfiguration@f7cbcc testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Processing injected method of bean 'zju.cst.sgdnd.tst.TestUser': AutowiredMethodElement for public void zju.cst.sgdnd.tst.TestUser.setUserService(zju.cst.sgdnd.service.UserService)
+Returning cached instance of singleton bean 'userService'
+Autowiring by type from bean name 'zju.cst.sgdnd.tst.TestUser' to bean named 'userService'
+Retrieved ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] from cache with key [[MergedContextConfiguration@f7cbcc testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@186a830] was not registered for synchronization because synchronization is not active
+Fetching JDBC Connection from DataSource
+JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a93e86] will not be managed by Spring
+ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1a93e86]
+==>  Preparing: select userId, userName, password, trueName, sex, birthday, mobile, email, createId, createTime from user where userId = ? 
+==> Parameters: 1(Integer)
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@186a830]
+Returning JDBC Connection to DataSource
+After test method: context [[TestContext@1e6a528 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@164e81e, testMethod = test_for_user@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@f7cbcc testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], class dirties context [false], class mode [null], method dirties context [false].
+Resetting RequestContextHolder for test context [TestContext@1e6a528 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@164e81e, testMethod = test_for_user@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@f7cbcc testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+After test class: context [[TestContext@1e6a528 testClass = TestUser, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@f7cbcc testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+Closing org.springframework.context.support.GenericApplicationContext@5bfbd8: startup date [Sat Mar 09 18:56:27 CST 2013]; root of context hierarchy
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@404991: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,authorityMapper,authorityroleMapper,roleMapper,userMapper,userroleMapper]; root of factory hierarchy
+Retrieved dependent beans for bean 'userService': [zju.cst.sgdnd.tst.TestUser]
+Invoking destroy method 'close' on bean with name 'dataSource'
+{dataSource-1} closed
+SpringJUnit4ClassRunner constructor called with [class zju.cst.sgdnd.tst.TestUser].
+Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@1cb2dd1 declaringClass = 'zju.cst.sgdnd.tst.TestUser', locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [zju.cst.sgdnd.tst.TestUser]
+@TestExecutionListeners is not present for class [class zju.cst.sgdnd.tst.TestUser]: using defaults.
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@64f6fe testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@64f6fe testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [spring.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+Loading bean definitions
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+Looking for matching resources in directory tree [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/service/**/*.class]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\impl] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/service/**/*.class]
+Resolved location pattern [classpath*:zju/cst/sgdnd/service/**/*.class] to resources [file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\impl\UserServiceImpl.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\UserService.class]]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\impl\UserServiceImpl.class]
+Loaded 6 bean definitions from location pattern [classpath:spring.xml]
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+Loading bean definitions
+Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+Loaded 3 bean definitions from location pattern [classpath:spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@f33280: startup date [Sat Mar 09 19:04:56 CST 2013]; root of context hierarchy
+Bean factory for org.springframework.context.support.GenericApplicationContext@f33280: org.springframework.beans.factory.support.DefaultListableBeanFactory@7be610: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Looking for matching resources in directory tree [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/dao/**/*.class]
+Resolved location pattern [classpath*:zju/cst/sgdnd/dao/**/*.class] to resources [file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityroleMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\RoleMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserroleMapper.class]]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityroleMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\RoleMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserroleMapper.class]
+Creating MapperFactoryBean with name 'authorityMapper' and 'zju.cst.sgdnd.dao.AuthorityMapper' mapperInterface
+Creating MapperFactoryBean with name 'authorityroleMapper' and 'zju.cst.sgdnd.dao.AuthorityroleMapper' mapperInterface
+Creating MapperFactoryBean with name 'roleMapper' and 'zju.cst.sgdnd.dao.RoleMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'zju.cst.sgdnd.dao.UserMapper' mapperInterface
+Creating MapperFactoryBean with name 'userroleMapper' and 'zju.cst.sgdnd.dao.UserroleMapper' mapperInterface
+Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Loading properties file from class path resource [config.properties]
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1882554]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1d5b1dc]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7be610: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,authorityMapper,authorityroleMapper,roleMapper,userMapper,userroleMapper]; root of factory hierarchy
+Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Creating shared instance of singleton bean 'userService'
+Creating instance of bean 'userService'
+Registered injected element on class [zju.cst.sgdnd.service.impl.UserServiceImpl]: AutowiredMethodElement for public void zju.cst.sgdnd.service.impl.UserServiceImpl.setUserMapper(zju.cst.sgdnd.dao.UserMapper)
+Eagerly caching bean 'userService' to allow for resolving potential circular references
+Processing injected method of bean 'userService': AutowiredMethodElement for public void zju.cst.sgdnd.service.impl.UserServiceImpl.setUserMapper(zju.cst.sgdnd.dao.UserMapper)
+Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+Creating shared instance of singleton bean 'authorityMapper'
+Creating instance of bean 'authorityMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Eagerly caching bean 'authorityMapper' to allow for resolving potential circular references
+Processing injected method of bean 'authorityMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Processing injected method of bean 'authorityMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'authorityMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'authorityroleMapper'
+Creating instance of bean 'authorityroleMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Eagerly caching bean 'authorityroleMapper' to allow for resolving potential circular references
+Processing injected method of bean 'authorityroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Processing injected method of bean 'authorityroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'authorityroleMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'roleMapper'
+Creating instance of bean 'roleMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Eagerly caching bean 'roleMapper' to allow for resolving potential circular references
+Processing injected method of bean 'roleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Processing injected method of bean 'roleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'roleMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'userMapper'
+Creating instance of bean 'userMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Eagerly caching bean 'userMapper' to allow for resolving potential circular references
+Processing injected method of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Processing injected method of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'userMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'userroleMapper'
+Creating instance of bean 'userroleMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Eagerly caching bean 'userroleMapper' to allow for resolving potential circular references
+Processing injected method of bean 'userroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Processing injected method of bean 'userroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'userroleMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'sqlSessionFactory'
+Creating instance of bean 'sqlSessionFactory'
+Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'dataSource'
+Creating instance of bean 'dataSource'
+Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+maxIdle is deprecated
+Invoking init method  'init' on bean with name 'dataSource'
+{dataSource-1} inited
+Finished creating instance of bean 'dataSource'
+Looking for matching resources in directory tree [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/mapping/*Mapper.xml]
+Resolved location pattern [classpath:zju/cst/sgdnd/mapping/*Mapper.xml] to resources [file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityroleMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\RoleMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserroleMapper.xml]]
+Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+Property 'configLocation' not specified, using default MyBatis Configuration
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityroleMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\RoleMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserroleMapper.xml]'
+Finished creating instance of bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'userroleMapper'
+Finished creating instance of bean 'userroleMapper'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'userMapper'
+Finished creating instance of bean 'userMapper'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'roleMapper'
+Finished creating instance of bean 'roleMapper'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'authorityroleMapper'
+Finished creating instance of bean 'authorityroleMapper'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'authorityMapper'
+Finished creating instance of bean 'authorityMapper'
+Returning cached instance of singleton bean 'userMapper'
+Autowiring by type from bean name 'userService' to bean named 'userMapper'
+Finished creating instance of bean 'userService'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Returning cached instance of singleton bean 'dataSource'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Returning cached instance of singleton bean 'authorityMapper'
+Returning cached instance of singleton bean 'authorityroleMapper'
+Returning cached instance of singleton bean 'roleMapper'
+Returning cached instance of singleton bean 'userMapper'
+Returning cached instance of singleton bean 'userroleMapper'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5385d7]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Storing ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] in cache under key [[MergedContextConfiguration@64f6fe testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Performing dependency injection for test context [[TestContext@136dac0 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@537b0d, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@64f6fe testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+Retrieved ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] from cache with key [[MergedContextConfiguration@64f6fe testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Processing injected method of bean 'zju.cst.sgdnd.tst.TestUser': AutowiredMethodElement for public void zju.cst.sgdnd.tst.TestUser.setUserService(zju.cst.sgdnd.service.UserService)
+Returning cached instance of singleton bean 'userService'
+Autowiring by type from bean name 'zju.cst.sgdnd.tst.TestUser' to bean named 'userService'
+Retrieved ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] from cache with key [[MergedContextConfiguration@64f6fe testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ec877] was not registered for synchronization because synchronization is not active
+Fetching JDBC Connection from DataSource
+JDBC Connection [com.mysql.jdbc.JDBC4Connection@24be25] will not be managed by Spring
+ooo Using Connection [com.mysql.jdbc.JDBC4Connection@24be25]
+==>  Preparing: select userId, userName, password, trueName, sex, birthday, mobile, email, createId, createTime from user where userId = ? 
+==> Parameters: 1(Integer)
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ec877]
+Returning JDBC Connection to DataSource
+After test method: context [[TestContext@136dac0 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@537b0d, testMethod = test_for_user@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@64f6fe testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], class dirties context [false], class mode [null], method dirties context [false].
+Resetting RequestContextHolder for test context [TestContext@136dac0 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@537b0d, testMethod = test_for_user@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@64f6fe testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+After test class: context [[TestContext@136dac0 testClass = TestUser, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@64f6fe testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+Closing org.springframework.context.support.GenericApplicationContext@f33280: startup date [Sat Mar 09 19:04:56 CST 2013]; root of context hierarchy
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7be610: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,authorityMapper,authorityroleMapper,roleMapper,userMapper,userroleMapper]; root of factory hierarchy
+Retrieved dependent beans for bean 'userService': [zju.cst.sgdnd.tst.TestUser]
+Invoking destroy method 'close' on bean with name 'dataSource'
+{dataSource-1} closed
+SpringJUnit4ClassRunner constructor called with [class zju.cst.sgdnd.tst.TestUser].
+Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@1eb62b6 declaringClass = 'zju.cst.sgdnd.tst.TestUser', locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [zju.cst.sgdnd.tst.TestUser]
+@TestExecutionListeners is not present for class [class zju.cst.sgdnd.tst.TestUser]: using defaults.
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [spring.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+Loading bean definitions
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+Looking for matching resources in directory tree [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/service/**/*.class]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\impl] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/service/**/*.class]
+Resolved location pattern [classpath*:zju/cst/sgdnd/service/**/*.class] to resources [file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\impl\UserServiceImpl.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\UserService.class]]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\service\impl\UserServiceImpl.class]
+Loaded 6 bean definitions from location pattern [classpath:spring.xml]
+Loading XML bean definitions from class path resource [spring-mybatis.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+Loading bean definitions
+Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+Loaded 3 bean definitions from location pattern [classpath:spring-mybatis.xml]
+Refreshing org.springframework.context.support.GenericApplicationContext@788b76: startup date [Sat Mar 09 19:18:51 CST 2013]; root of context hierarchy
+Bean factory for org.springframework.context.support.GenericApplicationContext@788b76: org.springframework.beans.factory.support.DefaultListableBeanFactory@b7d774: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Looking for matching resources in directory tree [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/dao/**/*.class]
+Resolved location pattern [classpath*:zju/cst/sgdnd/dao/**/*.class] to resources [file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityroleMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\RoleMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserMapper.class], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserroleMapper.class]]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\AuthorityroleMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\RoleMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserMapper.class]
+Identified candidate component class: file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\dao\UserroleMapper.class]
+Creating MapperFactoryBean with name 'authorityMapper' and 'zju.cst.sgdnd.dao.AuthorityMapper' mapperInterface
+Creating MapperFactoryBean with name 'authorityroleMapper' and 'zju.cst.sgdnd.dao.AuthorityroleMapper' mapperInterface
+Creating MapperFactoryBean with name 'roleMapper' and 'zju.cst.sgdnd.dao.RoleMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'zju.cst.sgdnd.dao.UserMapper' mapperInterface
+Creating MapperFactoryBean with name 'userroleMapper' and 'zju.cst.sgdnd.dao.UserroleMapper' mapperInterface
+Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Loading properties file from class path resource [config.properties]
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@9946e]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@108622a]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b7d774: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,authorityMapper,authorityroleMapper,roleMapper,userMapper,userroleMapper]; root of factory hierarchy
+Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Creating shared instance of singleton bean 'userService'
+Creating instance of bean 'userService'
+Registered injected element on class [zju.cst.sgdnd.service.impl.UserServiceImpl]: AutowiredMethodElement for public void zju.cst.sgdnd.service.impl.UserServiceImpl.setUserMapper(zju.cst.sgdnd.dao.UserMapper)
+Eagerly caching bean 'userService' to allow for resolving potential circular references
+Processing injected method of bean 'userService': AutowiredMethodElement for public void zju.cst.sgdnd.service.impl.UserServiceImpl.setUserMapper(zju.cst.sgdnd.dao.UserMapper)
+Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+Creating shared instance of singleton bean 'authorityMapper'
+Creating instance of bean 'authorityMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Eagerly caching bean 'authorityMapper' to allow for resolving potential circular references
+Processing injected method of bean 'authorityMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Processing injected method of bean 'authorityMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'authorityMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'authorityroleMapper'
+Creating instance of bean 'authorityroleMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Eagerly caching bean 'authorityroleMapper' to allow for resolving potential circular references
+Processing injected method of bean 'authorityroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Processing injected method of bean 'authorityroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'authorityroleMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'roleMapper'
+Creating instance of bean 'roleMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Eagerly caching bean 'roleMapper' to allow for resolving potential circular references
+Processing injected method of bean 'roleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Processing injected method of bean 'roleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'roleMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'userMapper'
+Creating instance of bean 'userMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Eagerly caching bean 'userMapper' to allow for resolving potential circular references
+Processing injected method of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Processing injected method of bean 'userMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'userMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'userroleMapper'
+Creating instance of bean 'userroleMapper'
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Registered injected element on class [org.mybatis.spring.mapper.MapperFactoryBean]: AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Eagerly caching bean 'userroleMapper' to allow for resolving potential circular references
+Processing injected method of bean 'userroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory)
+Processing injected method of bean 'userroleMapper': AutowiredMethodElement for public final void org.mybatis.spring.support.SqlSessionDaoSupport.setSqlSessionTemplate(org.mybatis.spring.SqlSessionTemplate)
+Returning eagerly cached instance of singleton bean 'userroleMapper' that is not fully initialized yet - a consequence of a circular reference
+Creating shared instance of singleton bean 'sqlSessionFactory'
+Creating instance of bean 'sqlSessionFactory'
+Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'dataSource'
+Creating instance of bean 'dataSource'
+Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+maxIdle is deprecated
+Invoking init method  'init' on bean with name 'dataSource'
+{dataSource-1} inited
+Finished creating instance of bean 'dataSource'
+Looking for matching resources in directory tree [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping]
+Searching directory [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping] for files matching pattern [E:/GitHub/Study_in_ZJU/yikehui/target/classes/zju/cst/sgdnd/mapping/*Mapper.xml]
+Resolved location pattern [classpath:zju/cst/sgdnd/mapping/*Mapper.xml] to resources [file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityroleMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\RoleMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserMapper.xml], file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserroleMapper.xml]]
+Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+Property 'configLocation' not specified, using default MyBatis Configuration
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\AuthorityroleMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\RoleMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserMapper.xml]'
+Parsed mapper file: 'file [E:\GitHub\Study_in_ZJU\yikehui\target\classes\zju\cst\sgdnd\mapping\UserroleMapper.xml]'
+Finished creating instance of bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'userroleMapper'
+Finished creating instance of bean 'userroleMapper'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'userMapper'
+Finished creating instance of bean 'userMapper'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'roleMapper'
+Finished creating instance of bean 'roleMapper'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'authorityroleMapper'
+Finished creating instance of bean 'authorityroleMapper'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Invoking afterPropertiesSet() on bean with name 'authorityMapper'
+Finished creating instance of bean 'authorityMapper'
+Returning cached instance of singleton bean 'userMapper'
+Autowiring by type from bean name 'userService' to bean named 'userMapper'
+Finished creating instance of bean 'userService'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+Returning cached instance of singleton bean 'dataSource'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+Returning cached instance of singleton bean 'authorityMapper'
+Returning cached instance of singleton bean 'authorityroleMapper'
+Returning cached instance of singleton bean 'roleMapper'
+Returning cached instance of singleton bean 'userMapper'
+Returning cached instance of singleton bean 'userroleMapper'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@13952a4]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Storing ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] in cache under key [[MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Performing dependency injection for test context [[TestContext@67b7c8 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@152c44b, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+Retrieved ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] from cache with key [[MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Processing injected method of bean 'zju.cst.sgdnd.tst.TestUser': AutowiredMethodElement for public void zju.cst.sgdnd.tst.TestUser.setUserService(zju.cst.sgdnd.service.UserService)
+Returning cached instance of singleton bean 'userService'
+Autowiring by type from bean name 'zju.cst.sgdnd.tst.TestUser' to bean named 'userService'
+Retrieved ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] from cache with key [[MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c2ef53] was not registered for synchronization because synchronization is not active
+Fetching JDBC Connection from DataSource
+JDBC Connection [com.mysql.jdbc.JDBC4Connection@1961cca] will not be managed by Spring
+ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1961cca]
+==>  Preparing: select userId, userName, password, trueName, sex, birthday, mobile, email, createId, createTime from user where userId = ? 
+==> Parameters: 1(Integer)
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c2ef53]
+Returning JDBC Connection to DataSource
+After test method: context [[TestContext@67b7c8 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@152c44b, testMethod = test_for_getUserByID@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], class dirties context [false], class mode [null], method dirties context [false].
+Resetting RequestContextHolder for test context [TestContext@67b7c8 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@152c44b, testMethod = test_for_getUserByID@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Retrieved @ProfileValueSourceConfiguration [null] for test class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [zju.cst.sgdnd.tst.TestUser]
+Retrieved ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] from cache with key [[MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Performing dependency injection for test context [[TestContext@67b7c8 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@2bb567, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+Retrieved ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] from cache with key [[MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Processing injected method of bean 'zju.cst.sgdnd.tst.TestUser': AutowiredMethodElement for public void zju.cst.sgdnd.tst.TestUser.setUserService(zju.cst.sgdnd.service.UserService)
+Returning cached instance of singleton bean 'userService'
+Retrieved ApplicationContext for test class [class zju.cst.sgdnd.tst.TestUser] from cache with key [[MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@192ad7e] was not registered for synchronization because synchronization is not active
+Fetching JDBC Connection from DataSource
+JDBC Connection [com.mysql.jdbc.JDBC4Connection@1961cca] will not be managed by Spring
+ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1961cca]
+==>  Preparing: select * from user 
+==> Parameters: 
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@192ad7e]
+Returning JDBC Connection to DataSource
+After test method: context [[TestContext@67b7c8 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@2bb567, testMethod = test_for_getAll@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], class dirties context [false], class mode [null], method dirties context [false].
+Resetting RequestContextHolder for test context [TestContext@67b7c8 testClass = TestUser, testInstance = zju.cst.sgdnd.tst.TestUser@2bb567, testMethod = test_for_getAll@TestUser, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+After test class: context [[TestContext@67b7c8 testClass = TestUser, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@37153d testClass = TestUser, locations = '{classpath:spring.xml, classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+Closing org.springframework.context.support.GenericApplicationContext@788b76: startup date [Sat Mar 09 19:18:51 CST 2013]; root of context hierarchy
+Returning cached instance of singleton bean 'sqlSessionFactory'
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b7d774: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,authorityMapper,authorityroleMapper,roleMapper,userMapper,userroleMapper]; root of factory hierarchy
+Retrieved dependent beans for bean 'userService': [zju.cst.sgdnd.tst.TestUser]
+Invoking destroy method 'close' on bean with name 'dataSource'
+{dataSource-1} closed

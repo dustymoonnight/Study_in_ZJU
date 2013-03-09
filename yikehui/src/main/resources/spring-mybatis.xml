@@ -40,12 +40,12 @@
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<!-- 显式指定Mapper文件位置 -->
-		<property name="mapperLocations" value="classpath:ssm/shininghead/yikehui/mapping/*Mapper.xml" />
+		<property name="mapperLocations" value="classpath:zju/cst/sgdnd/mapping/*Mapper.xml" />
 	</bean>
 	
 	<!-- 扫描basePackage下所有以@MyBatisRepository标识的 接口-->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="ssm.shininghead.yikehui.dao" />
+		<property name="basePackage" value="zju.cst.sgdnd.dao" />
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
 </beans>
