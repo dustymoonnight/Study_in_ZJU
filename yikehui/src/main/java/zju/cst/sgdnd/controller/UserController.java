@@ -1,5 +1,7 @@
 package zju.cst.sgdnd.controller;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +25,13 @@ public class UserController {
 	@Autowired
 	public void setUserService(UserService userService) {
 		this.userService = userService;
+	}
+	
+	@RequestMapping("")
+	public String showAllUsers(HttpServletRequest request) {
+		List<User> list = userService.getAll();
+		request.setAttribute("list", list);
+		return "showAllUsers";
 	}
 
 	@RequestMapping("{id}")

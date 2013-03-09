@@ -1,0 +1,21 @@
+.table1 {
+	border: 1px solid #8DB2E3;
+	text-align: center;
+	width: 96%;
+	margin-top: 10px;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.table1 td {
+	border: 1px solid #8DB2E3;
+	border-collapse: collapse;
+	height: 31px;
+}
+
+.table1 .trbar {
+	background: url("../images/nav_link.png") repeat-x;
+	height: 32px;
+	font-size: 20px;
+	font-weight: bold;
+}
