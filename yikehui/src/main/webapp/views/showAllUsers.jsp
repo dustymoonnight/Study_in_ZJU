@@ -23,6 +23,12 @@
 					<td>${user.username }</td>
 				</tr>
 			</c:forEach>
+			<tr class="trbar">
+				<td colspan="2">
+				<a href="<%=path%>">返回</a>
+				<a href="<%=path%>/user/new">新建用户</a>
+				</td>
+			</tr>
 		</table>
 	</div>
 </body>

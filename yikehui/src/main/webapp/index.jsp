@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello World! xwq~~~</h2>
+<h2><a href="/yikehui/user">Hello World! xwq~~~</a></h2>
 </body>
 </html>
