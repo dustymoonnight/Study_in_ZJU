@@ -1,0 +1,255 @@
+.deal_detail {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; OVERFLOW-X: hidden; PADDING-BOTTOM: 10px; WIDTH: 710px; PADDING-TOP: 30px
+}
+.deal_detail .deal_contents {
+	BORDER-TOP-STYLE: none
+}
+.deal_detail .detail_info_box {
+	BORDER-RIGHT: #aeaeae 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #aeaeae 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; OVERFLOW: hidden; BORDER-LEFT: #aeaeae 1px solid; WIDTH: 708px; PADDING-TOP: 10px; BORDER-BOTTOM: #aeaeae 1px solid
+}
+.deal_detail UL.new_tabs {
+	FONT-WEIGHT: bold; Z-INDEX: 1000; POSITION: absolute; HEIGHT: 39px
+}
+.deal_detail UL.new_tabs LI {
+	BORDER-RIGHT: #b3b3b3 0px solid; BORDER-TOP: #b3b3b3 1px solid; FONT-SIZE: 14px; BACKGROUND: url(i/detail/tabs_bg.png); FLOAT: left; BORDER-LEFT: #b3b3b3 1px solid; WIDTH: 92px; LINE-HEIGHT: 37px; BORDER-BOTTOM: #b3b3b3 1px solid; HEIGHT: 37px; TEXT-ALIGN: center
+}
+.deal_detail .new_tabs LI.on {
+	BACKGROUND: url(i/detail/tabs_bg_on.png)
+}
+.deal_detail .new_tabs LI.buy {
+	BORDER-RIGHT: #b3b3b3 1px solid; BORDER-TOP: #b3b3b3 1px solid; BACKGROUND: url(i/detail/tabs_bg_buy.png); OVERFLOW: hidden; BORDER-LEFT: #b3b3b3 1px solid; WIDTH: 150px; BORDER-BOTTOM: #b3b3b3 1px solid
+}
+.deal_detail .new_tabs LI.buy SPAN {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bolder; FONT-SIZE: 18px; FLOAT: left; OVERFLOW: hidden; WIDTH: 72px; COLOR: #ed145b; FONT-FAMILY: "Arial"
+}
+.deal_detail .new_tabs LI.buy A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 50px; PADDING-TOP: 3px; HEIGHT: 30px
+}
+.deal_detail .new_tabs LI A {
+	COLOR: #000
+}
+.deal_detail .block_title {
+	WIDTH: 670px; HEIGHT: 50px
+}
+.deal_detail #title_deal_desc {
+	BACKGROUND: url(i/detail/today_deals.png)
+}
+.deal_detail #title_product_parameter {
+	BACKGROUND: url(i/detail/product_parameter.png)
+}
+.deal_detail #title_story {
+	BACKGROUND: url(i/detail/story.png)
+}
+.deal_detail #title_real_photo {
+	BACKGROUND: url(i/detail/real_photo.png)
+}
+.deal_detail #title_usage {
+	BACKGROUND: url(i/detail/usage.png)
+}
+.deal_detail #title_product_report {
+	BACKGROUND: url(i/detail/product_report.png)
+}
+.deal_detail #title_comments {
+	BACKGROUND: url(i/detail/comments.png)
+}
+.deal_detail #title_talk {
+	BACKGROUND: url(i/detail/talk.png)
+}
+.deal_detail #title_promise {
+	BACKGROUND: url(i/detail/promise.png)
+}
+.deal_detail .deal_contents {
+	PADDING-TOP: 0px
+}
+.deal_detail UL.review {
+	MARGIN-TOP: 20px; FONT-SIZE: 12px
+}
+.deal_detail UL.review LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; BACKGROUND: url(i/quote.gif) no-repeat 0px 2px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; WIDTH: 650px; COLOR: #000; LINE-HEIGHT: 22px; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px dashed; LIST-STYLE-TYPE: none
+}
+.deal_detail UL.review LI SPAN {
+	FLOAT: right
+}
+.deal_detail .deal_contents {
+	PADDING-RIGHT: 19px; PADDING-LEFT: 19px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.deal_detail .deal_contents .notice {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 18px; BACKGROUND: url(i/detail/notice.png); PADDING-BOTTOM: 5px; MARGIN: 10px 0px; WIDTH: 670px; PADDING-TOP: 5px; FONT-FAMILY: "Microsoft YaHei"; HEIGHT: 29px; TEXT-ALIGN: center
+}
+.deal_detail .deal_contents .notice A {
+	COLOR: #fff
+}
+.deal_detail .deal_contents .notice A:hover {
+	TEXT-DECORATION: none
+}
+.deal_detail .deal_contents .block_box {
+	
+}
+.deal_detail .deal_contents .block_box .title {
+	BACKGROUND: #b5b5b5; COLOR: #fff; HEIGHT: 30px
+}
+.deal_detail .deal_contents .block_box .title H2 {
+	PADDING-LEFT: 10px; FONT-WEIGHT: 500; FONT-SIZE: 22px; FLOAT: left; FONT-FAMILY: "Microsoft YaHei"
+}
+.deal_detail .deal_contents .block_box .title SPAN {
+	PADDING-RIGHT: 10px; FONT-SIZE: 12px; FLOAT: right; PADDING-TOP: 10px; FONT-FAMILY: "Eras Demi ITC"
+}
+.deal_detail .deal_contents .description_images {
+	MARGIN-TOP: 20px; OVERFLOW: hidden; WIDTH: 668px
+}
+.deal_detail .deal_contents TABLE {
+	MARGIN-TOP: 20px; FONT-SIZE: 14px; WIDTH: 670px
+}
+.deal_detail .deal_contents TABLE TD {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; WIDTH: 335px; PADDING-TOP: 7px
+}
+.deal_detail .deal_contents TABLE TD SPAN {
+	DISPLAY: block; FONT-SIZE: 12px; FLOAT: left; WIDTH: 240px; LINE-HEIGHT: 22px
+}
+.deal_detail .deal_contents TABLE TD B {
+	DISPLAY: block; FLOAT: left; WIDTH: 75px
+}
+.deal_detail .deal_contents UL.comments {
+	MARGIN-TOP: 5px; FONT-SIZE: 12px
+}
+.deal_detail .deal_contents UL.comments LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 15px 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.deal_detail .deal_contents UL.comments LI .avatar {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 2px; BORDER-LEFT: #999999 1px solid; MARGIN-RIGHT: 20px; PADDING-TOP: 2px; BORDER-BOTTOM: #999999 1px solid
+}
+.deal_detail .deal_contents UL.comments LI .contents {
+	MARGIN: 5px 2px 10px; WIDTH: 666px; MAX-HEIGHT: 70px
+}
+.deal_detail .deal_contents UL.comments LI .contents .desc {
+	MARGIN-TOP: 10px; COLOR: #666
+}
+.deal_detail .deal_contents UL.comments LI SPAN {
+	FLOAT: left
+}
+.deal_detail .deal_contents UL.comments LI .time {
+	FLOAT: right
+}
+.deal_detail #deal_desc UL.today_deals {
+	MARGIN: 20px 0px 0px
+}
+.deal_detail #deal_desc UL.today_deals LI {
+	BORDER-RIGHT: #aeaeae 1px solid; BORDER-TOP: #aeaeae 1px solid; FLOAT: left; MARGIN-BOTTOM: 20px; BORDER-LEFT: #aeaeae 1px solid; WIDTH: 208px; MARGIN-RIGHT: 20px; BORDER-BOTTOM: #aeaeae 1px solid; LIST-STYLE-TYPE: none; POSITION: relative; HEIGHT: 230px
+}
+.deal_detail #deal_desc UL.today_deals LI.no-right-margin {
+	MARGIN-RIGHT: 0px
+}
+.deal_detail .today_deals LI IMG {
+	DISPLAY: block; MARGIN: 4px; WIDTH: 200px; HEIGHT: 125px
+}
+.deal_detail .today_deals LI .info {
+	BACKGROUND: url(i/detail/buy.png) no-repeat; LEFT: -6px; WIDTH: 220px; POSITION: absolute; HEIGHT: 53px
+}
+.deal_detail .today_deals .soldout {
+	POSITION: relative
+}
+.deal_detail .today_deals .soldout .info {
+	BACKGROUND: url(i/detail/sold_out_button.png) no-repeat
+}
+.deal_detail .today_deals LI.soldout .sold_out {
+	BACKGROUND: url(i/detail/sold_out.png) no-repeat; LEFT: 130px; WIDTH: 59px; POSITION: absolute; TOP: 20px; HEIGHT: 59px; _background: transparent; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://images.jumei.com/templates/jumei/css/i/detail/sold_out.png')
+}
+.deal_detail .today_deals LI .info .price {
+	DISPLAY: inline; PADDING-LEFT: 10px; FONT-SIZE: 30px; FLOAT: left; COLOR: #fff; LINE-HEIGHT: 53px; FONT-FAMILY: "Arial"
+}
+.deal_detail .today_deals LI .info .buy {
+	DISPLAY: block; FLOAT: right; MARGIN: 12px 15px 0px 0px; WIDTH: 60px; HEIGHT: 30px
+}
+.deal_detail .today_deals .soldout .buy {
+	WIDTH: 1px; HEIGHT: 1px
+}
+.deal_detail .today_deals LI .name {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 61px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; LINE-HEIGHT: 25px; PADDING-TOP: 0px; HEIGHT: 25px; _position: absolute; _bottom: 15px
+}
+.deal_detail .today_deals LI .bottom {
+	BACKGROUND: url(i/detail/today_deals_bottom.png) repeat-x; MARGIN: 0px 1px 1px; WIDTH: 206px; HEIGHT: 14px; _position: absolute; _bottom: -3px
+}
+.deal_detail #product_report UL.product_reports {
+	MARGIN-TOP: 20px
+}
+.deal_detail #product_report UL.product_reports LI {
+	MARGIN-BOTTOM: 20px; POSITION: relative
+}
+.deal_detail #product_report UL.product_reports LI .shadow {
+	BORDER-RIGHT: #e8e8e8 3px solid; RIGHT: 0px; WIDTH: 578px; BORDER-BOTTOM: #e8e8e8 3px solid; POSITION: absolute; TOP: 3px; HEIGHT: 175px; _left: -578px
+}
+.deal_detail #product_report UL.product_reports LI .avatar {
+	BORDER-RIGHT: #aeaeae 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #aeaeae 1px solid; PADDING-LEFT: 2px; BACKGROUND: #e8e8e8; FLOAT: left; PADDING-BOTTOM: 2px; BORDER-LEFT: #aeaeae 1px solid; WIDTH: 64px; MARGIN-RIGHT: 15px; PADDING-TOP: 2px; BORDER-BOTTOM: #aeaeae 1px solid; HEIGHT: 64px
+}
+.deal_detail #product_report UL.product_reports LI .report {
+	BORDER-RIGHT: #d6d6d6 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #d6d6d6 1px solid; PADDING-LEFT: 15px; FONT-SIZE: 12px; Z-INDEX: 100; FLOAT: left; PADDING-BOTTOM: 7px; BORDER-LEFT: #d6d6d6 1px solid; WIDTH: 550px; PADDING-TOP: 7px; BORDER-BOTTOM: #d6d6d6 1px solid; POSITION: relative; HEIGHT: 162px
+}
+.deal_detail #product_report UL.product_reports LI .report .report_title {
+	FONT-SIZE: 12px; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+.deal_detail #product_report UL.product_reports LI .report .report_title A {
+	COLOR: #ed145b
+}
+.deal_detail #product_report UL.product_reports LI .report .user_info {
+	LINE-HEIGHT: 25px
+}
+.deal_detail #product_report UL.product_reports LI .report .user_info SPAN {
+	FLOAT: left; COLOR: #666
+}
+.deal_detail #product_report UL.product_reports LI .report .service_rating {
+	FLOAT: left; MARGIN: 6px 0px 0px 10px
+}
+.deal_detail #product_report UL.product_reports LI .report .desc {
+	MARGIN: 5px 0px 10px; LINE-HEIGHT: 20px; WORD-WRAP: break-word
+}
+.deal_detail #product_report UL.product_reports LI .report .num {
+	COLOR: #999999
+}
+.deal_detail #product_report UL.product_reports LI .arrow {
+	Z-INDEX: 101; BACKGROUND: url(i/detail/arrow.png) no-repeat; LEFT: 80px; WIDTH: 6px; POSITION: absolute; TOP: 10px; HEIGHT: 11px; _left: -587px
+}
+.deal_detail P {
+	MARGIN: 10px 0px; TEXT-ALIGN: left
+}
+.deal_detail #story {
+	LINE-HEIGHT: 20px
+}
+.deal_detail #story H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: #ff6666; COLOR: #fff
+}
+.deal_detail #promise .block_title {
+	MARGIN-BOTTOM: 20px
+}
+.deal_detail #story .block_title {
+	MARGIN-BOTTOM: 20px
+}
+.deal_detail #usage .block_title {
+	MARGIN-BOTTOM: 20px
+}
+.deal_detail #product_report UL.product_reports LI .report .report_title .valuable {
+	BACKGROUND: url(./i/product_report/sprite.png) no-repeat -4px -75px; LEFT: 15px; WIDTH: 20px; POSITION: absolute; TOP: 3px; HEIGHT: 35px
+}
+#deal_info .size {
+	MARGIN-TOP: 10px; MARGIN-LEFT: 15px
+}
+#deal_info .size SPAN {
+	BORDER-RIGHT: #ed145b 1px solid; PADDING-RIGHT: 7px; BORDER-TOP: #ed145b 1px solid; DISPLAY: block; PADDING-LEFT: 7px; FONT-WEIGHT: 500; FONT-SIZE: 12px; BACKGROUND: #fff; FLOAT: left; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 0px; BORDER-LEFT: #ed145b 1px solid; CURSOR: pointer; LINE-HEIGHT: 24px; MARGIN-RIGHT: 10px; PADDING-TOP: 0px; BORDER-BOTTOM: #ed145b 1px solid; HEIGHT: 24px
+}
+#deal_info .size SPAN.selected {
+	PADDING-RIGHT: 12px; BACKGROUND: url(i/detail/size_selected.png) no-repeat right 50%; MARGIN-BOTTOM: 7px; COLOR: #fff; BORDER-TOP-STYLE: none; MARGIN-RIGHT: 7px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 29px; BORDER-BOTTOM-STYLE: none
+}
+#deal_info .size SPAN.disable {
+	BORDER-LEFT-COLOR: #969696; BACKGROUND: #e1e1e1; BORDER-BOTTOM-COLOR: #969696; CURSOR: text; COLOR: #959595; BORDER-TOP-COLOR: #969696; BORDER-RIGHT-COLOR: #969696
+}
+.deal_detail #promise .selector UL {
+	MARGIN-LEFT: 24px
+}
+.deal_detail #promise .selector LI {
+	FLOAT: left; CURSOR: pointer; MARGIN-RIGHT: 12px
+}
+.deal_detail #promise .view_box {
+	PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 0px
+}
+.hide_in_detail {
+	DISPLAY: none
+}

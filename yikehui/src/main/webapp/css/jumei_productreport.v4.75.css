@@ -1,0 +1,1473 @@
+.product_report INPUT:focus {
+	outline: none
+}
+.product_report TEXTAREA:focus {
+	outline: none
+}
+.product_report SELECT:focus {
+	outline: none
+}
+.product_report .box H2 {
+	PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; LINE-HEIGHT: 25px; text-shadow: #fff 0 1px
+}
+.product_report A {
+	COLOR: #cb104e
+}
+.product_report A:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #cb104e; TEXT-DECORATION: none
+}
+.product_report .clear {
+	_line-height: 0; _font-size: 0; _height: 0
+}
+.product_report .tab_group {
+	PADDING-LEFT: 20px
+}
+.product_report .tab_group A {
+	FONT-SIZE: 12px
+}
+.product_report {
+	FONT-SIZE: 12px; WIDTH: 100%
+}
+.product_report .box LI {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; LINE-HEIGHT: 19px; _height: 1px
+}
+.product_report {
+	FONT: 14px/23px tahoma, arial, sans-serif
+}
+.product_report A {
+	FONT: 14px/23px tahoma, arial, sans-serif
+}
+.product_report H1 {
+	FONT: bold 14px "ËÎÌå", "Lucida Grande", Lucida, Verdana, sans-serif
+}
+.product_report H2 {
+	FONT: bold 14px "ËÎÌå", "Lucida Grande", Lucida, Verdana, sans-serif
+}
+.product_report H3 {
+	FONT: bold 14px "ËÎÌå", "Lucida Grande", Lucida, Verdana, sans-serif
+}
+.product_report .box H1 {
+	FONT-WEIGHT: normal; OVERFLOW: hidden
+}
+.product_report .box H2 {
+	FONT-WEIGHT: normal; OVERFLOW: hidden
+}
+.product_report .box H3 {
+	FONT-WEIGHT: normal; OVERFLOW: hidden
+}
+.product_report .main {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; BORDER-RIGHT-WIDTH: 0px
+}
+.product_report .two_columns.main {
+	WIDTH: 715px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.product_report .sidebar {
+	MARGIN-TOP: 31px; FLOAT: right; WIDTH: 260px
+}
+.product_report .box_container {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(./i/product_report/box_header.png) repeat-x; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.product_report .ads {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 10px; WIDTH: 508px! important; PADDING-TOP: 10px
+}
+.product_report .ads A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.product_report .box {
+	BORDER-RIGHT: #e9175d 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #e9175d 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; BORDER-LEFT: #e9175d 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #e9175d 1px solid; POSITION: relative; _zoom: 1
+}
+.product_report .blue.box {
+	BORDER-RIGHT: #6dcff6 1px solid; BORDER-TOP: #6dcff6 1px solid; BACKGROUND: #f3fcff; BORDER-LEFT: #6dcff6 1px solid; BORDER-BOTTOM: #6dcff6 1px solid
+}
+.product_report .sidebar .box P {
+	FONT-SIZE: 12px; OVERFLOW: hidden; WIDTH: 235px; LINE-HEIGHT: 19px; WORD-WRAP: break-word
+}
+.product_report .box_rect {
+	BORDER-RIGHT: #e6175c 1px solid; BORDER-TOP: #e6175c 1px solid; BACKGROUND: url(./i/product_report/box_rect_bg.png) #fff repeat-x left bottom; PADDING-BOTTOM: 10px; BORDER-LEFT: #e6175c 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #e6175c 1px solid
+}
+.product_report .cat_nav {
+	BORDER-RIGHT: #b5b5b5 1px solid; BORDER-TOP: #b5b5b5 0px solid; DISPLAY: inline; FLOAT: left; MARGIN: 0px 0px 0px 10px; BORDER-LEFT: #b5b5b5 1px solid; WIDTH: 168px; BORDER-BOTTOM: #b5b5b5 1px solid
+}
+.product_report .cat_nav .sub_nav {
+	MARGIN: 10px
+}
+.product_report .cat_nav .navigator {
+	PADDING-LEFT: 10px; BACKGROUND: url(./i/product_report/cat_nav_bg.png) repeat-x left bottom; HEIGHT: 21px; -moz-border-radius: 0px; border-radius: 0px
+}
+.product_report .cat_nav .item {
+	FONT-SIZE: 12px; COLOR: #000
+}
+.product_report .cat_nav .item:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #cb104e
+}
+.product_report .cat_nav .sub_nav P {
+	MARGIN-TOP: 10px; FONT-SIZE: 12px; LINE-HEIGHT: 16px; TEXT-ALIGN: center
+}
+.product_report .cat_nav .sub_nav P A {
+	FONT-SIZE: 12px; COLOR: #333
+}
+.product_report .cat_nav .sub_nav P A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ed145b
+}
+.product_report .cat_nav .sub_nav .left {
+	TEXT-ALIGN: left
+}
+.product_report .cat_nav .sub_nav .leave_msg {
+	COLOR: #ed145b
+}
+.product_report .cat_nav .sub_nav .leave_msg:hover {
+	TEXT-DECORATION: underline
+}
+.product_report .cat_nav .sub_nav .grey {
+	COLOR: #999
+}
+.product_report .report_detail_container {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; -moz-border-radius: 0px 0px 10px 10px; border-radius: 0px 0px 10px 10px
+}
+.product_report .box_two_columns .report_detail_container {
+	DISPLAY: inline; FLOAT: right; MARGIN: 0px 10px; OVERFLOW: hidden; WIDTH: 493px
+}
+.product_report .box_two_columns .box_container {
+	DISPLAY: inline; FLOAT: right; MARGIN: 0px 10px; OVERFLOW: hidden; WIDTH: 493px
+}
+.product_report .report_detail_container .footer {
+	MARGIN-TOP: 20px
+}
+.product_report H2 {
+	WORD-WRAP: break-word
+}
+.product_report H3 {
+	WORD-WRAP: break-word
+}
+.product_report .sidebar .box H2 {
+	PADDING-LEFT: 20px; BACKGROUND: url(./i/product_report/sprite.png) #fff no-repeat 0px -117px; PADDING-BOTTOM: 5px; MARGIN: 0px; FONT: bold 14px/16px "ËÎÌå", "Lucida Grande", Lucida, Verdana, sans-serif; PADDING-TOP: 10px; HEIGHT: 16px
+}
+.disregard {
+	COLOR: #636363
+}
+.small {
+	FONT-SIZE: 12px
+}
+.box_rect H2 {
+	FONT-SIZE: 14px
+}
+.box_rect H3 {
+	MARGIN-TOP: 10px; FONT-SIZE: 14px
+}
+.box_rect H4 {
+	MARGIN-TOP: 0px; FONT-SIZE: 14px
+}
+.product_report UL.button_container {
+	DISPLAY: block; LIST-STYLE-TYPE: none
+}
+.product_report .button_container LI {
+	FLOAT: left; MARGIN: 0px 10px; _display: inline
+}
+.product_report .button_container LI.desc {
+	FONT-SIZE: 12px; WIDTH: 344px; COLOR: #ccc
+}
+.product_report .button {
+	FLOAT: left; CURSOR: pointer; COLOR: #000; TEXT-DECORATION: none
+}
+.product_report .button:hover {
+	COLOR: #000; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.product_report .selected.button {
+	CURSOR: default
+}
+.product_report .button SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 10px 0px -10px; PADDING-TOP: 0px; FONT-FAMILY: "Î¢ÈíÑÅºÚ","Microsoft YaHei"; _position: relative
+}
+.product_report .btn_white.button {
+	BACKGROUND: url(./i/product_report/btn_white.png) no-repeat right top
+}
+.product_report .btn_white.button SPAN {
+	BACKGROUND: url(./i/product_report/btn_white.png) no-repeat left top; LINE-HEIGHT: 24px
+}
+.product_report .btn_white_selected.btn_white.button {
+	BACKGROUND: url(./i/product_report/btn_white.png) no-repeat right -24px
+}
+.product_report .btn_white_selected.btn_white.button SPAN {
+	BACKGROUND: url(./i/product_report/btn_white.png) no-repeat left -24px
+}
+.product_report .btn_green.button {
+	BACKGROUND: url(./i/product_report/btn_green.png) no-repeat right top
+}
+.product_report .btn_green.button SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: url(./i/product_report/btn_green.png) no-repeat left top; LINE-HEIGHT: 33px
+}
+.product_report .btn_yellow.button {
+	BACKGROUND: url(./i/product_report/btn_yellow.png) no-repeat right top
+}
+.product_report .btn_yellow.button SPAN {
+	BACKGROUND: url(./i/product_report/btn_yellow.png) no-repeat left top; LINE-HEIGHT: 33px; _line-height: 35px
+}
+.product_report .btn_yellow_small.button {
+	BACKGROUND: url(./i/product_report/btn_yellow_small.png) no-repeat right top
+}
+.product_report .btn_yellow_small.button SPAN {
+	FONT-SIZE: 12px; BACKGROUND: url(./i/product_report/btn_yellow_small.png) no-repeat left top; LINE-HEIGHT: 23px
+}
+.product_report .btn_gray.button {
+	BACKGROUND: url(./i/product_report/btn_gray.png) no-repeat right top
+}
+.product_report .btn_gray.button SPAN {
+	BACKGROUND: url(./i/product_report/btn_gray.png) no-repeat left top; LINE-HEIGHT: 33px
+}
+.product_report .tabbar LI {
+	MARGIN-RIGHT: -1px
+}
+.product_report .tabbar .selected {
+	FONT-WEIGHT: bold
+}
+.product_report .btn_tab_clean_container {
+	MARGIN-TOP: 10px; BACKGROUND: url(./i/product_report/btn_tab_clean.png) repeat-x right -60px; OVERFLOW: hidden; HEIGHT: 30px
+}
+.product_report .btn_tab_clean_container UL {
+	MARGIN-LEFT: 10px
+}
+.product_report .btn_tab_clean.button {
+	BACKGROUND: url(./i/product_report/btn_tab_clean.png) no-repeat right top
+}
+.product_report .btn_tab_clean.button SPAN {
+	BACKGROUND: url(./i/product_report/btn_tab_clean.png) no-repeat left top; LINE-HEIGHT: 30px
+}
+.product_report .btn_tab_clean_selected.btn_tab_clean.button {
+	BACKGROUND: url(./i/product_report/btn_tab_clean.png) no-repeat right -30px
+}
+.product_report .btn_tab_clean_selected.btn_tab_clean.button SPAN {
+	BACKGROUND: url(./i/product_report/btn_tab_clean.png) no-repeat left -30px
+}
+.product_report A.btn_bread_crumb {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 14px; BACKGROUND: url(http://images.jumei.com/templates/jumei/css/i/product_report/btn_break_crumb.png) no-repeat 0px 0px; PADDING-BOTTOM: 1px; COLOR: #000; PADDING-TOP: 1px; text-shadow: #fff 0px 1px; _background: transparent; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://images.jumei.com/templates/jumei/css/i/product_report/btn_break_crumb.png',sizingMethod="crop")
+}
+.product_report A.home.btn_bread_crumb {
+	PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; _background: transparent; _filter: none
+}
+.product_report A.btn_bread_crumb:hover {
+	COLOR: #cb104e
+}
+.product_report A.btn_bread_crumb_selected.btn_bread_crumb {
+	COLOR: #000; text-shadow: #fff 0 -1px
+}
+.product_report A.btn_bread_crumb_selected.btn_bread_crumb:hover {
+	
+}
+.product_report .sidebar .box #signup-user-form DIV.field {
+	MARGIN-BOTTOM: 10px
+}
+.product_report .f-input {
+	BORDER-RIGHT: #aeaeae 1px solid; BORDER-TOP: #aeaeae 1px solid; FONT-SIZE: 16px; BORDER-LEFT: #aeaeae 1px solid; LINE-HEIGHT: 20px; BORDER-BOTTOM: #aeaeae 1px solid; HEIGHT: 20px
+}
+.product_report .box .f-input {
+	FONT-SIZE: 14px; WIDTH: 227px; LINE-HEIGHT: 20px; HEIGHT: 20px
+}
+.product_report .box .lable {
+	COLOR: #333333
+}
+.product_report .act {
+	MARGIN: 10px 0px
+}
+.product_report .banner {
+	BORDER-RIGHT: #6dcff6 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: #6dcff6 1px solid; PADDING-LEFT: 20px; BACKGROUND: #f3fcff; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 20px; BORDER-LEFT: #6dcff6 1px solid; PADDING-TOP: 20px; BORDER-BOTTOM: #6dcff6 1px solid; POSITION: relative
+}
+.product_report .banner .text {
+	FONT-SIZE: 24px; COLOR: #0076a2
+}
+.product_report .banner .action {
+	POSITION: absolute
+}
+.product_report .bread_crumb {
+	HEIGHT: 24px; BORDER-BOTTOM-STYLE: none
+}
+.product_report .bread_crumb .button_container LI {
+	FONT-SIZE: 12px; LINE-HEIGHT: 15px; MARGIN-RIGHT: 0px; HEIGHT: 26px
+}
+.product_report .bread_crumb .button_container LI A {
+	FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #cb104e; LINE-HEIGHT: 15px
+}
+.product_report .paginator {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.product_report .share {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: #fefac9; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+.product_report .share .title {
+	FONT-SIZE: 20px; COLOR: #cb104e
+}
+.product_report .share .description {
+	COLOR: #555
+}
+.product_report .share .picture {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; WIDTH: 600px; BORDER-BOTTOM: #999 1px solid; HEIGHT: 200px
+}
+.product_report .share .picture IMG {
+	
+}
+.product_report .jia_this {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FONT-SIZE: 12px; BACKGROUND: #f7f7f7; PADDING-BOTTOM: 10px; MARGIN: 20px 0px; LINE-HEIGHT: 14px; PADDING-TOP: 10px; _zoom: 1; -moz-border-radius: 10px; border-radius: 10px
+}
+.jia_this .desc {
+	FLOAT: left
+}
+.jia_this #ckepop {
+	FLOAT: right
+}
+.jia_this A {
+	COLOR: #666
+}
+#ckepop .ckepopBottom {
+	DISPLAY: none
+}
+#ckepop .centerBottom {
+	DISPLAY: none
+}
+.product_report .pasteboard {
+	
+}
+.product_report .paste {
+	FLOAT: left; MARGIN-LEFT: 10px
+}
+.product_report .product_detail {
+	MARGIN-BOTTOM: 10px; HEIGHT: 323px; _zoom: 1
+}
+.product_report .product_detail .text_info {
+	MARGIN-TOP: 20px; FLOAT: left; WIDTH: 240px; _zoom: 1
+}
+.product_report .product_detail .text_info .title H1 {
+	FONT-SIZE: 20px; MARGIN-BOTTOM: 10px; HEIGHT: 50px
+}
+.product_report .product_detail .text_info .description {
+	FONT-SIZE: 12px; MARGIN: 10px 0px; OVERFLOW: hidden; MAX-HEIGHT: 120px; LINE-HEIGHT: 19px; TEXT-OVERFLOW: ellipsis
+}
+.product_report .product_detail .text_info .attribute {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #f4f4f4; PADDING-BOTTOM: 5px; MARGIN: 10px 0px; PADDING-TOP: 5px
+}
+.product_report .product_detail .text_info .attribute UL {
+	CLEAR: both; FONT-SIZE: 12px
+}
+.product_report .product_detail .text_info .attribute LI {
+	PADDING-RIGHT: 5px; FLOAT: left
+}
+.product_report .product_detail .text_info .attribute LI A {
+	FONT-SIZE: 12px
+}
+.product_report .product_detail .text_info .subscribe {
+	MARGIN-TOP: 10px
+}
+.product_report .product_detail .text_info .subscribe A {
+	FONT-SIZE: 12px; FLOAT: left; LINE-HEIGHT: 16px
+}
+.product_report .product_detail .text_info .sale {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.product_report .product_detail .text_info .sale A {
+	FONT-SIZE: 20px
+}
+.product_report .product_detail .text_info .pricing .box {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT-COLOR: #aeaeae; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-COLOR: #aeaeae; PADDING-BOTTOM: 10px; BORDER-TOP-COLOR: #aeaeae; PADDING-TOP: 10px; BORDER-RIGHT-COLOR: #aeaeae
+}
+.product_report .product_detail .text_info .pricing .current_price {
+	FONT-SIZE: 48px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 15px; LINE-HEIGHT: 40px; BORDER-BOTTOM: #aeaeae 1px solid; TEXT-ALIGN: center; _zoom: 1
+}
+.product_report .product_detail .text_info .pricing .market_price {
+	FLOAT: left; WIDTH: 70px; TEXT-ALIGN: center
+}
+.product_report .product_detail .text_info .pricing .discount_rate {
+	FLOAT: left; WIDTH: 70px; TEXT-ALIGN: center
+}
+.product_report .product_detail .text_info .pricing .saved {
+	FLOAT: left; WIDTH: 70px; TEXT-ALIGN: center
+}
+.product_report .product_detail .text_info .pricing SPAN {
+	FONT-WEIGHT: bold; COLOR: #ed415b
+}
+.product_report .product_detail .text_info .pricing .market_price SPAN {
+	TEXT-DECORATION: line-through
+}
+.product_report .product_detail .picture {
+	FLOAT: right; WIDTH: 430px; POSITION: relative; HEIGHT: 100%; _zoom: 1
+}
+.product_report .product_detail .picture IMG {
+	DISPLAY: block; RIGHT: 0px; WIDTH: 430px; BOTTOM: 0px; POSITION: absolute
+}
+.product_report .navigator {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 15px; BACKGROUND: url(./i/product_report/sprite.png) no-repeat -493px 4px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #ececec 1px solid; _zoom: 1; -moz-border-radius: 3px; border-radius: 3px
+}
+.product_report .borderless.navigator {
+	BORDER-BOTTOM-STYLE: none
+}
+.product_report .navigator .title {
+	FLOAT: left; PADDING-TOP: 3px
+}
+.product_report .navigator .more {
+	FLOAT: right
+}
+.product_report .navigator .more A {
+	FONT-SIZE: 12px
+}
+.product_report .navigator .action {
+	FLOAT: right; MARGIN-LEFT: 10px
+}
+.product_report .navigator .action A {
+	FONT: 12px/21px "ËÎÌå", "Lucida Grande", Lucida, Verdana, sans-serif
+}
+.product_report .navigator .top.action {
+	TOP: 0px
+}
+.product_report .navigator .filter {
+	FLOAT: right; MARGIN-LEFT: 10px
+}
+.product_report .navigator .filter A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; COLOR: #cb104e; PADDING-TOP: 0px
+}
+.product_report .navigator .filter .current {
+	text-shadow: rgba(255,255,255,0.3) 0 1px
+}
+.product_report .navigator .filter .current A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000000
+}
+.product_report .navigator .filter .current A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #cb104e
+}
+.product_report .navigator .filter A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #cb104e; TEXT-DECORATION: none
+}
+.product_report .navigator .filter .checkbox {
+	PADDING-LEFT: 0px; BACKGROUND: url(./i/product_report/checkbox.png) #fff no-repeat 0px 6px
+}
+.product_report .navigator .filter .checked.checkbox {
+	BACKGROUND-POSITION: 0px -14px
+}
+.product_report .navigator .filter .checkbox A {
+	COLOR: #9d9389
+}
+.product_report .navigator .filter .checked.checkbox A {
+	COLOR: #000
+}
+.product_report TABLE.table_view {
+	BORDER-RIGHT: #aeaeae 1px solid; BORDER-TOP: #aeaeae 1px solid; BACKGROUND: #fff; BORDER-LEFT: #aeaeae 1px solid; WIDTH: 100%; BORDER-BOTTOM: #aeaeae 1px solid; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left
+}
+.product_report TABLE.table_view TH {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; BACKGROUND: url(./i/product_report/alert_bg.png) #d7d7d7; PADDING-BOTTOM: 10px; COLOR: #000; PADDING-TOP: 10px
+}
+.product_report TABLE.product_table TR {
+	BORDER-TOP: #d7d7d7 1px solid
+}
+.product_report TABLE.table_view TR.alt_row {
+	BACKGROUND: #f9f9f9
+}
+.product_report TABLE.table_view TD {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.product_report TABLE.table_view .title {
+	PADDING-LEFT: 22px
+}
+.product_report TABLE.table_view .valuable.title {
+	BACKGROUND: url(./i/product_report/highlighted.png) no-repeat 4px 25px
+}
+.product_report TABLE.table_view TBODY TR:hover {
+	BACKGROUND: #faf4f6
+}
+.product_report TABLE.table_view TR SPAN.supporter_count {
+	FONT-WEIGHT: bold; COLOR: #f00
+}
+.product_report TABLE.table_view TR.alt_row .valuable.title {
+	BACKGROUND: url(./i/product_report/highlighted.png) #f9f9f9 no-repeat 4px 25px
+}
+.product_report TABLE.table_view TR.alt_row:hover .valuable.title {
+	BACKGROUND: url(./i/product_report/highlighted.png) #faf4f6 no-repeat 4px 25px
+}
+.product_report TABLE.table_view TR:hover .valuable.title {
+	BACKGROUND: url(./i/product_report/highlighted.png) #faf4f6 no-repeat 4px 25px
+}
+.product_report UL.element_view {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.product_report UL.element_view LI {
+	FLOAT: left; MARGIN: 10px
+}
+.product_report .element_view .action LI {
+	MARGIN: 0px
+}
+.product_report UL.element_view LI .product_info {
+	WIDTH: 210px; POSITION: relative; HEIGHT: 70px
+}
+.product_report UL.element_view LI .product_info .picture {
+	LEFT: 0px; OVERFLOW: hidden; WIDTH: 112px; POSITION: absolute; TOP: 0px
+}
+.product_report UL.element_view LI .product_info .picture IMG {
+	MARGIN-TOP: 1px; DISPLAY: block; MARGIN-LEFT: 1px; WIDTH: 110px; HEIGHT: 70px
+}
+.product_report UL.element_view LI .product_info .title {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; LEFT: 115px; OVERFLOW: hidden; WIDTH: 100px; LINE-HEIGHT: 16px; POSITION: absolute; TOP: 0px; HEIGHT: 32px; WORD-WRAP: break-word
+}
+.product_report UL.element_view LI .product_info .report_number {
+	FONT-SIZE: 11px; LEFT: 115px; WIDTH: 100px; COLOR: #999999; LINE-HEIGHT: 16px; POSITION: absolute; TOP: 30px; WORD-WRAP: break-word
+}
+.product_report UL.element_view LI .product_info .action {
+	LEFT: 126px; POSITION: absolute; TOP: 48px
+}
+.product_report UL.element_view LI .product_info .action A {
+	FONT-SIZE: 12px
+}
+.product_report .element_view_v2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.product_report .element_view_v2 LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 13px; WIDTH: 112px
+}
+.product_report .element_view_v2 LI .product_info {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 10px 0px; PADDING-TOP: 10px; _zoom: 1
+}
+.product_report .element_view_v2 .deal {
+	FLOAT: left; WIDTH: 110px
+}
+.product_report .element_view_v2 .product_info .deal .picture {
+	BACKGROUND: url(http://images.jumei.com/templates/jumei/css/i/product_report/img_bg.png) #fff; WIDTH: 112px; HEIGHT: 80px; _background: transparent; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://images.jumei.com/templates/jumei/css/i/product_report/img_bg.png', sizingMethod='scale')
+}
+.product_report .element_view_v2 .product_info .deal .picture IMG {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; WIDTH: 110px; PADDING-TOP: 1px; HEIGHT: 70px
+}
+.product_report .element_view_v2 .product_info .deal .name {
+	OVERFLOW: hidden; WIDTH: 110px; HEIGHT: 33px; TEXT-OVERFLOW: ellipsis; TEXT-ALIGN: center
+}
+.product_report .element_view_v2 .product_info .deal .name A {
+	FONT-SIZE: 13px; COLOR: #333; LINE-HEIGHT: 16px
+}
+.product_report .element_view_v2 .product_info .deal .name A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+.product_report UL.list_view {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.product_report UL.list_view LI .product_info {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 10px 0px; PADDING-TOP: 10px; BORDER-BOTTOM: #b3b3b3 1px dashed; _zoom: 1
+}
+.product_report UL.list_view LI .last_product_info.product_info {
+	BORDER-BOTTOM-WIDTH: 0px
+}
+.product_report .list_view .deal {
+	DISPLAY: inline; FLOAT: left; OVERFLOW: hidden; WIDTH: 112px
+}
+.product_report .list_view1 .deal {
+	FLOAT: left; WIDTH: 80px
+}
+.product_report .list_view .overview {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 20px; OVERFLOW: hidden; WIDTH: 560px
+}
+.product_report .list_view1 .overview {
+	FLOAT: left; MARGIN-LEFT: 20px; WIDTH: 567px
+}
+.product_report .box_two_columns .list_view .overview {
+	WIDTH: 350px
+}
+.product_report .list_view .avatar {
+	MARGIN-TOP: 5px; FLOAT: left; OVERFLOW: hidden; WIDTH: 66px; HEIGHT: 66px
+}
+.product_report .notice {
+	BORDER-RIGHT: #fab8cd 1px solid; PADDING-RIGHT: 30px; BORDER-TOP: #fab8cd 1px solid; PADDING-LEFT: 30px; BACKGROUND: #fef3f7; PADDING-BOTTOM: 10px; BORDER-LEFT: #fab8cd 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #fab8cd 1px solid
+}
+.product_report H2 {
+	PADDING-LEFT: 0px! important; BACKGROUND: none transparent scroll repeat 0% 0%; OVERFLOW: hidden
+}
+.product_report H2.recommended_report_title {
+	LINE-HEIGHT: 20px; HEIGHT: 40px
+}
+.product_report DIV.main DIV.box_rect DIV.box_container DIV.navigator DIV.title H2 {
+	MARGIN-TOP: 3px; HEIGHT: auto
+}
+.product_report H2 SPAN {
+	FONT: 14px Georgia, "Times New Roman", Times, serif
+}
+.product_report H2 SPAN A {
+	LINE-HEIGHT: 30px
+}
+.product_report H2 B {
+	FLOAT: left
+}
+.product_report .box_container .navigator .question {
+	FLOAT: left; POSITION: relative
+}
+.product_report .box_container .navigator .question A {
+	DISPLAY: block; FONT-SIZE: 12px; MARGIN-LEFT: 20px; WIDTH: 170px; COLOR: #ed2b5c
+}
+.product_report .box_container .navigator .question A SPAN {
+	DISPLAY: block; FLOAT: left
+}
+.product_report .box_container .navigator .question A IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.product_report .box_container .navigator .question A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+.product_report .box_container .navigator .question .answer {
+	PADDING-RIGHT: 10px; DISPLAY: none; PADDING-LEFT: 25px; FONT-SIZE: 12px; Z-INDEX: 100; BACKGROUND: url(i/product_report/answer.gif); LEFT: 193px; PADDING-BOTTOM: 10px; WIDTH: 216px; LINE-HEIGHT: 20px; PADDING-TOP: 10px; POSITION: absolute; TOP: -21px; HEIGHT: 80px
+}
+.product_report .list_view .overview .title {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 450px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.product_report .box_two_columns .list_view .overview .title {
+	WIDTH: 336px
+}
+.product_report .list_view .overview .timestamp {
+	FONT-SIZE: 12px; FLOAT: right; COLOR: #999
+}
+.product_report .box_two_columns .timestamp {
+	DISPLAY: none
+}
+.product_report .list_view .product_info .deal .picture {
+	BACKGROUND: url(http://images.jumei.com/templates/jumei/css/i/product_report/img_bg.png) #fff; WIDTH: 112px; HEIGHT: 80px; _background: transparent; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://images.jumei.com/templates/jumei/css/i/product_report/img_bg.png', sizingMethod='scale')
+}
+.product_report .list_view1 .product_info .deal .picture {
+	MARGIN-LEFT: 10px; WIDTH: 64px; HEIGHT: 64px
+}
+.product_report .picture A:hover {
+	BACKGROUND-COLOR: transparent
+}
+.product_report .avatar A:hover {
+	BACKGROUND-COLOR: transparent
+}
+.product_report .list_view .product_info .deal .picture IMG {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; WIDTH: 110px; PADDING-TOP: 1px; HEIGHT: 70px
+}
+.product_report .list_view1 .product_info .deal .picture IMG {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; WIDTH: 64px; PADDING-TOP: 1px; HEIGHT: 64px
+}
+.product_report .list_view .product_info .deal .name {
+	OVERFLOW: hidden; WIDTH: 110px; LINE-HEIGHT: 16px; TEXT-OVERFLOW: ellipsis; TEXT-ALIGN: center
+}
+.product_report .list_view .product_info .deal .name A {
+	FONT-SIZE: 13px; COLOR: #333; LINE-HEIGHT: 16px
+}
+.product_report .list_view .product_info .deal .name A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+.product_report .list_view .product_info .overview .head {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #f8f8f8; PADDING-BOTTOM: 2px; MARGIN: 5px 0px; PADDING-TOP: 2px; -moz-border-radius: 3px; border-radius: 3px; _height: 14px
+}
+.product_report .list_view .product_info .overview .head .title {
+	OVERFLOW: hidden; POSITION: relative; HEIGHT: 23px
+}
+.product_report .list_view .product_info .overview .head .title SPAN {
+	DISPLAY: block; FLOAT: left
+}
+.product_report .list_view .product_info .overview .head .title .valuable {
+	BACKGROUND: url(./i/product_report/sprite.png) no-repeat -4px -75px; LEFT: 0px; WIDTH: 20px; POSITION: absolute; TOP: -7px; HEIGHT: 35px
+}
+.product_report .list_view .product_info .overview .author_info {
+	FONT-SIZE: 12px; FLOAT: left
+}
+.product_report .list_view .product_info .overview .service_rating {
+	FLOAT: left; MARGIN-LEFT: 5px
+}
+.product_report .list_view .product_info .overview .description {
+	FONT-SIZE: 12px; MARGIN: 5px 0px; OVERFLOW: hidden; WIDTH: 560px; LINE-HEIGHT: 19px; WORD-WRAP: break-word
+}
+.product_report .box_two_columns .list_view .product_info .overview .description {
+	WIDTH: 350px
+}
+.product_report .list_view .product_info .overview .foot {
+	MARGIN: 10px 0px; FONT: 12px "Lucida Grande", Lucida, Verdana, sans-serif; COLOR: #999
+}
+.product_report .list_view .product_info .overview .foot .replies {
+	FLOAT: left; LINE-HEIGHT: 15px
+}
+.product_report .list_view .product_info .overview .foot .fav {
+	FLOAT: left; LINE-HEIGHT: 15px
+}
+.product_report .list_view .product_info .overview .foot .read {
+	FLOAT: left; LINE-HEIGHT: 15px
+}
+.product_report .report_side_view .container {
+	MARGIN: 20px 0px
+}
+.product_report .report_side_view .title {
+	OVERFLOW: hidden; WIDTH: 230px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.product_report .report_side_view .container .metadata {
+	FONT-SIZE: 13px; OVERFLOW: hidden; COLOR: #666; TEXT-OVERFLOW: ellipsis
+}
+.product_report .report_side_view .container .metadata A {
+	
+}
+.product_report .report_side_view .container .text {
+	MARGIN-TOP: 5px; FONT-SIZE: 12px; OVERFLOW: hidden; WIDTH: 230px; LINE-HEIGHT: 19px; TEXT-OVERFLOW: ellipsis
+}
+.product_report .report_side_view .more {
+	TEXT-ALIGN: right
+}
+.product_report .side_deal_info .price {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #f8f8f8; PADDING-BOTTOM: 10px; MARGIN: 5px 0px; PADDING-TOP: 10px; HEIGHT: 45px; -moz-border-radius: 10px; border-radius: 10px
+}
+.product_report .side_deal_info .price DIV {
+	FONT-SIZE: 12px; FLOAT: left; WIDTH: 71px; TEXT-ALIGN: center
+}
+.product_report .side_deal_info .picture IMG {
+	DISPLAY: block; MARGIN: auto; WIDTH: 240px; HEIGHT: 140px
+}
+.product_report .side_deal_info .price DIV SPAN {
+	FONT-WEIGHT: bold; COLOR: #ed415b
+}
+.product_report .side_deal_info .note {
+	FONT-SIZE: 12px; MARGIN: 10px 5px; WIDTH: 228px; LINE-HEIGHT: 19px; TEXT-OVERFLOW: ellipsis; WORD-WRAP: break-word
+}
+.product_report .product_report_edit H1 {
+	FONT-SIZE: 24px; MARGIN: 10px 0px
+}
+.product_report .product_report_edit H3 {
+	FLOAT: left; MARGIN: 0px; WIDTH: 110px; LINE-HEIGHT: 30px; TEXT-ALIGN: right
+}
+#xhe0_container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN-LEFT: 20px; WIDTH: 500px; PADDING-TOP: 0px; WORD-WRAP: break-word
+}
+.preview_content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN-LEFT: 20px; WIDTH: 500px; PADDING-TOP: 0px; WORD-WRAP: break-word
+}
+.preview_content {
+	LINE-HEIGHT: 30px
+}
+.product_report .product_report_edit .container {
+	MARGIN: 25px 0px
+}
+.product_report .product_report_edit .action {
+	MARGIN: 20px 0px; WIDTH: 600px; _height: 50px
+}
+.product_report .product_report_edit .report_title {
+	FLOAT: left; MARGIN-LEFT: 20px; WIDTH: 500px; _display: inline
+}
+.product_report .product_report_edit .service_rating {
+	MARGIN-TOP: 6px; FLOAT: left; MARGIN-LEFT: 20px
+}
+.product_report .product_report_edit .editor_buttons {
+	FLOAT: left; MARGIN-LEFT: 20px
+}
+.product_report .paging {
+	FLOAT: right; COLOR: #666
+}
+.product_report .paging LI {
+	FLOAT: left; MARGIN: 0px 3px; COLOR: #666
+}
+.product_report .paging A {
+	PADDING-RIGHT: 6px; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.product_report .paging SPAN {
+	PADDING-RIGHT: 6px; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.product_report .side_user_list LI {
+	FLOAT: left; MARGIN: 10px 6px; OVERFLOW: hidden; WIDTH: 64px; HEIGHT: 105px
+}
+.product_report .side_user_list .count {
+	FLOAT: left; FONT: 25px "Lucida Grande", Lucida, Verdana, sans-serif; WIDTH: 32px
+}
+.product_report .side_user_list .content {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; WIDTH: 64px; PADDING-TOP: 0px; HEIGHT: 64px; BORDER-RIGHT-WIDTH: 0px
+}
+.product_report .side_user_list .content .picture {
+	OVERFLOW: hidden; WIDTH: 64px; HEIGHT: 64px
+}
+.product_report .side_user_list .content IMG {
+	DISPLAY: block; MARGIN: 0px auto
+}
+.product_report .side_user_list .content .sub_content {
+	FONT-SIZE: 12px; OVERFLOW: hidden; COLOR: #000; TEXT-ALIGN: center; _zoom: 1
+}
+.product_report .side_user_list .content .nickname {
+	FONT-WEIGHT: bold; OVERFLOW: hidden; FONT-FAMILY: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; HEIGHT: 23px
+}
+.product_report .side_user_list .content .nickname A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000
+}
+.product_report .side_user_list .content .nickname A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+.product_report .side_user_list .content .art_count {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #666
+}
+.product_report .side_user_list .content .art_count A {
+	FONT-SIZE: 12px; COLOR: #b8b3ad; LINE-HEIGHT: 20px
+}
+.product_report .side_user_list .content .art_count A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+.product_report .side_list_view LI {
+	MARGIN: 10px 0px
+}
+.product_report .side_list_view .count {
+	FLOAT: left; FONT: bold 45px/35px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; WIDTH: 32px; COLOR: #b8b3ad
+}
+.product_report .side_list_view .content {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 180px; BORDER-RIGHT-WIDTH: 0px
+}
+.product_report .side_list_view .content .name {
+	OVERFLOW: hidden; WIDTH: 180px; COLOR: #000; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.product_report .side_list_view .content .name A {
+	FONT: bold 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; COLOR: #000
+}
+.product_report .side_list_view .content .name A:hover {
+	BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+.product_report .side_list_view .content .art_count {
+	FONT-SIZE: 12px; FLOAT: left; OVERFLOW: hidden; WIDTH: 100px; COLOR: #b8b3ad
+}
+.product_report .side_list_view .content .art_count A {
+	FONT-SIZE: 12px; COLOR: #b8b3ad; LINE-HEIGHT: 18px
+}
+.product_report .side_list_view .content .art_count A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+.product_report .side_list_view .content .rating {
+	MARGIN-TOP: 3px; FLOAT: right
+}
+.product_report .side_list_view .picture {
+	MARGIN-TOP: 10px
+}
+.product_report .side_list_view .picture IMG {
+	
+}
+.product_report .alert {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: url(./i/product_report/sprite.png) no-repeat 0px -146px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.product_report .alert A {
+	FONT-SIZE: 12px
+}
+.product_report .user_info .main_info {
+	BORDER-RIGHT: #ffd3da 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ffd3da 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fff5f3; PADDING-BOTTOM: 10px; MARGIN: 10px 0px; BORDER-LEFT: #ffd3da 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #ffd3da 1px solid; _zoom: 1
+}
+.product_report .user_info .main_info .avatar {
+	FLOAT: left; WIDTH: 64px; TEXT-ALIGN: center
+}
+.product_report .user_info .main_info .avatar IMG {
+	OVERFLOW: hidden; WIDTH: 64px; HEIGHT: 64px
+}
+.product_report .user_info .main_info .avatar A {
+	FONT-SIZE: 12px; COLOR: #9d9389
+}
+.product_report .user_info .main_info .avatar A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+.product_report .user_info .main_info .avatar IMG {
+	DISPLAY: block; MARGIN: 0px auto; -moz-border-radius: 2px; border-radius: 2px
+}
+.product_report .user_info {
+	COLOR: #666
+}
+.product_report .user_info .main_info .info {
+	FONT-SIZE: 12px; FLOAT: left; MARGIN-LEFT: 10px; WIDTH: 150px; LINE-HEIGHT: 21px
+}
+.product_report .user_info .main_info .info .nickname {
+	FONT: 18px "Î¢ÈíÑÅºÚ","Microsoft YaHei", "Lucida Grande", Lucida, Verdana, sans-serif; OVERFLOW: hidden; COLOR: #cb104e
+}
+.product_report .user_info .main_info .info .nickname A {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px
+}
+.product_report .user_info .stats {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BORDER-BOTTOM: #d8d0c6 1px solid; HEIGHT: 35px
+}
+.product_report .user_info .stats .border {
+	BORDER-RIGHT: #d8d0c6 1px solid; MARGIN-RIGHT: 20px
+}
+.product_report .user_info .stats DIV {
+	FLOAT: left; FONT: bold 20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; WIDTH: 90px; COLOR: #000
+}
+.product_report .user_info .stats DIV SPAN A {
+	DISPLAY: block; FONT-SIZE: 12px; COLOR: #9d9389; LINE-HEIGHT: 12px
+}
+.product_report .user_info .stats DIV SPAN A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+.product_report .user_info .alt_info {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; MARGIN: 0px 0px 10px; PADDING-TOP: 15px; BORDER-BOTTOM: #d8d0c6 1px solid; _zoom: 1
+}
+.product_report .user_info .alt_info .info {
+	FONT-SIZE: 12px; FLOAT: left; WIDTH: 155px; COLOR: #000
+}
+.product_report .user_info .alt_info SPAN {
+	COLOR: #9d9389
+}
+.product_report .user_info .alt_info .action {
+	FLOAT: left
+}
+.product_report .user_info .desc A {
+	FONT-SIZE: 12px; FLOAT: right; COLOR: #666
+}
+.product_report .user_info .desc A:hover {
+	COLOR: #fff
+}
+#wr_btn {
+	BACKGROUND: url(./i/product_report/sprite.png) no-repeat 0px -37px; WIDTH: 82px; HEIGHT: 31px
+}
+#wr_btn A {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+#wr_btn A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.product_report .user_info .desc {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; COLOR: #000; LINE-HEIGHT: 16px; PADDING-TOP: 0px
+}
+.product_report .user_info .subtitle {
+	MARGIN-TOP: 5px; COLOR: #000; TEXT-ALIGN: right
+}
+.product_report .brand_element_view {
+	MARGIN: 0px auto
+}
+.product_report .brand_element_view LI {
+	FLOAT: left; MARGIN: 5px; OVERFLOW: hidden; WIDTH: 175px
+}
+.product_report .brand_element_view .picture {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 88px; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: 88px
+}
+.product_report .brand_element_view IMG {
+	DISPLAY: block; WIDTH: 88px
+}
+.product_report .brand_element_view .brand_element_container {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.product_report .brand_element_view .brand_element_container A {
+	FONT-SIZE: 12px; COLOR: #666; LINE-HEIGHT: 20px
+}
+.product_report .brand_element_view .brand_element_container A:hover {
+	COLOR: #fff
+}
+.product_report .progress {
+	BORDER-RIGHT: #ed2b5c 1px solid; BORDER-TOP: #ed2b5c 1px solid; FONT-SIZE: 12px; BACKGROUND: #fff; OVERFLOW: hidden; BORDER-LEFT: #ed2b5c 1px solid; WIDTH: 140px; BORDER-BOTTOM: #ed2b5c 1px solid; POSITION: relative; HEIGHT: 5px; _zoom: 1; -moz-border-radius: 2px; border-radius: 2px
+}
+.product_report .progress .value {
+	Z-INDEX: 10; LEFT: 40px; LINE-HEIGHT: 12px; POSITION: absolute; TOP: 2px
+}
+.product_report .progress .bar {
+	BACKGROUND: #ed2b5c; LEFT: 0px; WIDTH: 0%; POSITION: absolute; HEIGHT: 5px
+}
+#report_home .recomm {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+#report_home .focus_slider {
+	DISPLAY: inline; BACKGROUND: #f1e7e3; FLOAT: left; MARGIN: 0px 10px 10px; WIDTH: 510px; HEIGHT: 235px
+}
+#report_home .recomm .highlight {
+	PADDING-BOTTOM: 10px; OVERFLOW: hidden; BORDER-BOTTOM: #dcdcdc 1px solid; HEIGHT: 95px
+}
+#report_home .recomm .secondary {
+	MARGIN-TOP: 4px
+}
+#report_home .recomm .secondary {
+	LINE-HEIGHT: 20px
+}
+#report_home .recomm .secondary A {
+	LINE-HEIGHT: 20px
+}
+#report_home .recomm .highlight .text {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 230px; PADDING-TOP: 0px
+}
+#report_home .recomm .highlight .text H2 A {
+	FONT: bold 16px "Î¢ÈíÑÅºÚ","Microsoft YaHei", "Lucida Grande", Lucida, Verdana, sans-serif; COLOR: #cb104e
+}
+#report_home .recomm .highlight .text H2 A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-DECORATION: underline
+}
+#report_home .recomm .highlight .text .desc {
+	FONT-SIZE: 12px; MARGIN: 6px 0px; OVERFLOW: hidden; COLOR: gray; LINE-HEIGHT: 18px; HEIGHT: 56px; WORD-WRAP: break-word
+}
+#report_home .recomm .highlight .text .desc A {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px
+}
+#report_home .recomm .image {
+	DISPLAY: inline; BACKGROUND: #f1e7e3; FLOAT: left; OVERFLOW: hidden; WIDTH: 228px; HEIGHT: 190px
+}
+#report_home .recomm .image .product_image {
+	MARGIN: 5px
+}
+#report_home .recomm .image .product_desc {
+	FONT-SIZE: 12px; MARGIN: 0px 10px; LINE-HEIGHT: 20px; TEXT-ALIGN: center
+}
+#report_home .recomm .image .product_desc A {
+	FONT-SIZE: 12px; COLOR: #000
+}
+#report_home .recomm .image .product_desc A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#report_home .recomm .image .product_image IMG {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; BORDER-LEFT: silver 1px solid; WIDTH: 215px; BORDER-BOTTOM: silver 1px solid; HEIGHT: 135px
+}
+#report_home .recomm .image .product_image A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#report_home .recomm .index {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden; WIDTH: 250px
+}
+#report_home .recomm .secondary UL {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#report_home .recomm .secondary UL LI {
+	LIST-STYLE-POSITION: inside; OVERFLOW: hidden; WIDTH: 230px; LIST-STYLE-TYPE: disc; HEIGHT: 22px
+}
+#report_home .recomm .secondary UL LI A {
+	FONT-SIZE: 12px
+}
+#report_home .brand_element_view LI {
+	MARGIN: 10px 11px; WIDTH: 90px; TEXT-ALIGN: center; _margin: 10px 10px
+}
+#report_home .report_slide_show {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; FLOAT: left; BORDER-LEFT: #999 1px solid; WIDTH: 390px; BORDER-BOTTOM: #999 1px solid; HEIGHT: 250px
+}
+#report_home .report_slide_show IMG {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; FLOAT: left; BORDER-LEFT: #999 1px solid; WIDTH: 390px; BORDER-BOTTOM: #999 1px solid; HEIGHT: 250px
+}
+#report_home .report_highlight {
+	FLOAT: right; WIDTH: 550px; HEIGHT: 250px
+}
+#report_home H4 {
+	LINE-HEIGHT: 36px
+}
+#view_report .banner .text {
+	PADDING-LEFT: 105px
+}
+#view_report .banner .action {
+	LEFT: 780px; TOP: 15px
+}
+.rp_bd .title {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 20px; _zoom: 1
+}
+.rp_bd .title H1 {
+	FONT-SIZE: 25px; FLOAT: left
+}
+.rp_bd .title .valuable {
+	BACKGROUND: url(./i/product_report/sprite.png) no-repeat -4px -75px; FLOAT: left; MARGIN-LEFT: 4px; WIDTH: 24px; HEIGHT: 35px
+}
+.rp_bd .title .action {
+	MARGIN-TOP: 6px; MARGIN-LEFT: 10px
+}
+.rp_bd .user_info {
+	MARGIN-TOP: 15px; FLOAT: left; WIDTH: 130px
+}
+.rp_bd .user_info .avatar {
+	DISPLAY: block; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 120px; HEIGHT: 64px
+}
+.rp_bd .user_info .avatar IMG {
+	DISPLAY: block; MARGIN: 0px auto
+}
+.rp_bd .user_info .nickname {
+	MARGIN: 2px 0px; FONT: bold 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; COLOR: #333; TEXT-ALIGN: center
+}
+.rp_bd .user_info .type {
+	FONT: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; COLOR: #999; TEXT-ALIGN: center
+}
+.rp_bd .content {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 10px 0px 0px 10px; WIDTH: 525px; BORDER-RIGHT-WIDTH: 0px; _zoom: 1
+}
+.rp_bd .content .summary {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 20px; COLOR: #666
+}
+.rp_bd .content .summary .prev {
+	FLOAT: left; WIDTH: 60px
+}
+.rp_bd .content .summary .center {
+	FONT-SIZE: 14px; FLOAT: left; OVERFLOW: hidden; WIDTH: 390px; HEIGHT: 23px; TEXT-ALIGN: center
+}
+.rp_bd .content .summary .next {
+	FLOAT: right; WIDTH: 60px
+}
+.rp_bd .content .text {
+	MARGIN: 10px 0px; OVERFLOW: hidden; WORD-WRAP: break-word
+}
+.rp_bd .content .text PRE {
+	
+}
+.rp_bd .content .summary .service_rating {
+	FLOAT: left
+}
+.rp_bd .content .summary .user_timestamp {
+	FLOAT: right
+}
+.rp_bd .metadata {
+	FONT-SIZE: 12px; MARGIN: 20px 0px; COLOR: #333; _zoom: 1; _margin-bottom: 0
+}
+.rp_bd .metadata DIV {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; FLOAT: left; BORDER-LEFT: #fff 1px solid; COLOR: #666; BORDER-BOTTOM: #fff 1px solid
+}
+.rp_bd .metadata .btn_sp {
+	BORDER-RIGHT: #a72b56 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #a72b56 1px solid; PADDING-LEFT: 6px; BACKGROUND: #e65e87; PADDING-BOTTOM: 1px; BORDER-LEFT: #a72b56 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #a72b56 1px solid
+}
+.rp_bd .metadata .btn_sp A {
+	FONT-SIZE: 12px; COLOR: #fff; TEXT-DECORATION: none
+}
+.rp_bd .metadata .btn_sp A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.rp_bd .metadata .spd {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid
+}
+.rp_bd .metadata .i_sp {
+	DISPLAY: none; PADDING-LEFT: 18px; BACKGROUND: url(./i/product_report/sprite.png) no-repeat 0px -13px; FLOAT: left
+}
+.comment_container {
+	MARGIN: 20px 0px; _zoom: 1
+}
+.comment_container .avatar {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 64px; POSITION: relative; HEIGHT: 64px
+}
+.comment_container .avatar IMG {
+	DISPLAY: block; MARGIN: 0px auto
+}
+.comment_container .avatar .edit_avatar {
+	DISPLAY: block; FONT-SIZE: 12px; BACKGROUND: #ed145b; FILTER: Alpha(opacity=50); LEFT: 0px; WIDTH: 100%; COLOR: #fff; BOTTOM: 0px; POSITION: absolute; TEXT-ALIGN: center; opacity: 0.5; -moz-opacity: .5
+}
+.comment_container .avatar .edit_avatar:hover {
+	BACKGROUND: #ed145b; FILTER: Alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7
+}
+.comment_container .content {
+	WIDTH: 450px
+}
+.comment_container .content .summary {
+	MARGIN: 0px; FONT: 12px/22px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; COLOR: #666
+}
+.comment_container .content .text {
+	WIDTH: 450px
+}
+.comment_container .content .summary .nickname {
+	FONT-WEIGHT: bold; FLOAT: left; COLOR: #000
+}
+.comment_container .content .summary .nickname A {
+	LINE-HEIGHT: 19px
+}
+.comment_container .content .summary .timestamp {
+	FLOAT: left; MARGIN-LEFT: 10px
+}
+.comment_form TEXTAREA {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 10px 0px; WIDTH: 430px; PADDING-TOP: 5px; HEIGHT: 70px
+}
+#edit_report .report_detail {
+	MARGIN-BOTTOM: 10px; WORD-WRAP: break-word
+}
+#edit_report .report_title INPUT {
+	HEIGHT: 22px
+}
+#report_list .navigator {
+	MARGIN-TOP: 10px
+}
+.product_report #brand-products {
+	
+}
+.product_report #brand-products H4 A:hover {
+	BACKGROUND-COLOR: transparent
+}
+.product_report #brand-products .products-list H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; OVERFLOW: hidden; PADDING-TOP: 0px; HEIGHT: 25px; WORD-WRAP: break-word
+}
+.product_report #brand-products .products-list H4 A {
+	COLOR: #666666
+}
+.product_report #brand-products .products-list LI {
+	BORDER-RIGHT: #cccccc 1px dashed; LIST-STYLE: none none outside; FLOAT: left; PADDING-BOTTOM: 17px; WIDTH: 330px; BORDER-BOTTOM: #cccccc 1px dashed; HEIGHT: 231px
+}
+.product_report #brand-products .products-list LI.alt {
+	BORDER-RIGHT: medium none; PADDING-LEFT: 20px
+}
+.product_report #brand-products .products-list LI.first {
+	HEIGHT: 213px
+}
+.product_report #brand-products .products-list .pic {
+	MARGIN-BOTTOM: 10px; MARGIN-LEFT: 20px; OVERFLOW: hidden; WIDTH: 240px; HEIGHT: 153px
+}
+.product_report #brand-products .products-list .pic IMG {
+	WIDTH: 240px; HEIGHT: 153px
+}
+.product_report #brand-products .products-list .action {
+	MARGIN-LEFT: 20px
+}
+#report_brands .brand_seg {
+	MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #fef3f7 1px solid
+}
+#report_brands .brand_index {
+	PADDING-RIGHT: 20px; FLOAT: left; FONT: 20px/30px "Lucida Grande", Lucida, Verdana, sans-serif; WIDTH: 100px; MARGIN-RIGHT: 20px; HEIGHT: 50px; TEXT-ALIGN: right
+}
+#report_brands .brand_container {
+	FLOAT: right; WIDTH: 800px
+}
+#report_brand #brand-products .info {
+	WIDTH: 100px
+}
+#my_report_list UL.element_view LI {
+	MARGIN-LEFT: 3px; MARGIN-RIGHT: 3px
+}
+#my_report_list UL.element_view .action LI {
+	MARGIN: 0px
+}
+#product_home .product_detail .text_info .info .art_count {
+	FLOAT: left; COLOR: gray
+}
+#product_home .product_detail .text_info .info .service_rating {
+	FLOAT: left; MARGIN-LEFT: 5px
+}
+#product_home .product_detail .text_info .info .rating_number {
+	FLOAT: left; FONT: bold 18px "Lucida Grande", Lucida, Verdana, sans-serif; MARGIN-LEFT: 5px; COLOR: #cb104e
+}
+#product_home .write_report {
+	PADDING-RIGHT: 20px; BORDER-TOP: #ececec 1px solid; PADDING-LEFT: 20px; BACKGROUND: #fef3de; PADDING-BOTTOM: 20px; MARGIN: 20px 0px; PADDING-TOP: 20px; BORDER-BOTTOM: #ececec 1px solid; _zoom: 1
+}
+#product_home .write_report .text_info {
+	FLOAT: left
+}
+#product_home .write_report .action {
+	MARGIN-TOP: 5px; FLOAT: right
+}
+.product_report .empty_list {
+	BORDER-RIGHT: #f2e1e5 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #f2e1e5 1px solid; PADDING-LEFT: 10px; BACKGROUND: #ffeef2; PADDING-BOTTOM: 10px; MARGIN: 10px; BORDER-LEFT: #f2e1e5 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #f2e1e5 1px solid
+}
+.product_report .empty_list .title {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; MARGIN: 10px 0px; COLOR: #cb104e
+}
+.product_report .empty_list .message UL LI {
+	MARGIN-LEFT: 20px; LIST-STYLE-TYPE: disc
+}
+#alerts .box_rect {
+	MIN-HEIGHT: 390px
+}
+.product_report_tab {
+	CLEAR: both; POSITION: relative; HEIGHT: 31px
+}
+.product_report_tab UL {
+	POSITION: absolute; TOP: 0px
+}
+.product_report_tab LI {
+	BACKGROUND: url(i/product_report/tab_bg.gif); FLOAT: left; WIDTH: 130px; LINE-HEIGHT: 30px; MARGIN-RIGHT: 10px; HEIGHT: 32px; TEXT-ALIGN: center
+}
+.product_report_tab LI.myhome {
+	BACKGROUND: url(i/product_report/tab_bg_myhome.gif) no-repeat
+}
+.product_report_tab LI.products {
+	BACKGROUND: url(i/product_report/tab_bg_products.gif) no-repeat
+}
+.product_report_tab LI.selected {
+	BACKGROUND: url(i/product_report/tab_bg_selected.gif); WIDTH: 130px; BORDER-BOTTOM-STYLE: none
+}
+.product_report_tab LI.myhome_selected {
+	BACKGROUND: url(i/product_report/tab_bg_myhome_selected.gif) no-repeat
+}
+.product_report_tab LI.products_selected {
+	BACKGROUND: url(i/product_report/tab_bg_products_selected.gif) no-repeat
+}
+.product_report_tab LI.selected A {
+	COLOR: #ff004f
+}
+.product_report_tab LI A {
+	FONT-WEIGHT: bold; COLOR: #000; LINE-HEIGHT: 32px
+}
+.product_report_tab LI A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ff004f
+}
+.product_report_tab LI.search {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 295px; MARGIN-RIGHT: 0px
+}
+.product_report_tab LI.search .search_keyword {
+	BORDER-RIGHT: #bebebe 1px; BORDER-TOP: #bebebe 1px solid; PADDING-LEFT: 5px; FLOAT: left; VERTICAL-ALIGN: middle; BORDER-LEFT: #bebebe 1px solid; WIDTH: 222px; LINE-HEIGHT: 25px; BORDER-BOTTOM: #bebebe 1px solid; HEIGHT: 25px
+}
+.product_report_tab LI.search .search_button {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 67px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 27px; BORDER-BOTTOM-STYLE: none
+}
+.product_report_tab LI.search .default {
+	COLOR: #a3a3a3
+}
+DIV#container DIV#body DIV.product_report#report_home DIV.main DIV.box_rect DIV.box_two_columns DIV.box_container DIV.navigator {
+	PADDING-TOP: 0px
+}
+DIV#container DIV#body DIV.product_report#report_home DIV.main DIV.box_rect DIV.box_two_columns DIV.box_container DIV.recomm DIV.index DIV.highlight DIV.text H2.recommended_report_title A {
+	LINE-HEIGHT: 20px
+}
+DIV#container DIV#body DIV.product_report#report_home DIV.main DIV.box_rect DIV.box_two_columns DIV.box_container DIV.recomm DIV.index DIV.highlight DIV.text H2.recommended_report_title A:hover {
+	BACKGROUND: #cb104e; COLOR: #fff; TEXT-DECORATION: none
+}
+.products_index .product_index_tab {
+	HEIGHT: 50px
+}
+.products_index .product_index_tab UL {
+	BACKGROUND: url(i/product_report/product_index_tab_bg.gif); OVERFLOW: hidden; POSITION: relative; HEIGHT: 50px
+}
+.products_index .product_index_tab LI {
+	FLOAT: left; WIDTH: 130px; LINE-HEIGHT: 50px; HEIGHT: 50px; TEXT-ALIGN: center
+}
+.products_index .product_index_tab LI.g {
+	BACKGROUND: #ccc; MARGIN: 5px 0px; WIDTH: 1px; HEIGHT: 40px
+}
+.products_index .product_index_tab LI A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #f00071
+}
+.products_index .product_index_tab LI A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000; LINE-HEIGHT: 50px
+}
+.products_index .product_index_tab LI.selected {
+	Z-INDEX: 100; BACKGROUND: url(i/product_report/product_index_tab_bg_selected.gif) no-repeat; COLOR: #f00071; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 51px; BORDER-BOTTOM-STYLE: none
+}
+.products_index .product_index_box {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; MARGIN: 0px 20px; PADDING-TOP: 20px; BORDER-BOTTOM: #b5b5b5 1px dashed; _height: 1%
+}
+.products_index .product_index_box .name {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 140px
+}
+.products_index .product_index_box .list {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 530px
+}
+.products_index .product_index_box .list A {
+	DISPLAY: block; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden; WIDTH: 160px; COLOR: #000; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+.products_index .product_index_box .list A:hover {
+	COLOR: #f00071
+}
+.category .product_index_box .list A {
+	WIDTH: 92px
+}
+.function .product_index_box .list {
+	WIDTH: 100%
+}
+.function .product_index_box .list A {
+	WIDTH: 100px
+}
+.products_index .filter {
+	CLEAR: both; PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FLOAT: none; PADDING-BOTTOM: 0px; WIDTH: 673px; LINE-HEIGHT: 35px; PADDING-TOP: 0px; BORDER-BOTTOM: #d6d6d6 1px solid; HEIGHT: 35px
+}
+.products_index .filter LI {
+	CURSOR: pointer; MARGIN-RIGHT: 15px
+}
+.products_index .filter LI.selected {
+	COLOR: #f00071
+}
+.repoet_share {
+	MARGIN-TOP: 10px; DISPLAY: none
+}
+.repoet_share .need_login {
+	MARGIN-TOP: 10px; FONT-WEIGHT: bold
+}
+.repoet_share .need_login A {
+	COLOR: #ff0052
+}
+.repoet_share .need_login A:hover {
+	COLOR: #fff
+}
+DIV#container DIV#body DIV.product_report#view_report DIV.main DIV.report_detail_container DIV.rp_bd DIV.content DIV.summary DIV A {
+	COLOR: #5a5a5a
+}
+DIV#container DIV#body DIV.product_report#view_report DIV.main DIV.report_detail_container DIV.rp_bd DIV.content DIV.summary DIV A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ed145b
+}
+.box_rect .user {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 10px
+}
+.box_rect .user .avatar {
+	FLOAT: left; MARGIN-RIGHT: 20px; POSITION: relative
+}
+.box_rect .user .edit_avatar {
+	DISPLAY: block; BACKGROUND: #ed145b; FILTER: Alpha(opacity=50); LEFT: 0px; WIDTH: 100%; COLOR: #fff; BOTTOM: 0px; POSITION: absolute; TEXT-ALIGN: center; _width: 177px; opacity: 0.5; -moz-opacity: .5
+}
+.box_rect .user .edit_avatar:hover {
+	BACKGROUND: #ed145b; FILTER: Alpha(opacity=70); opacity: 0.7; -moz-opacity: .7
+}
+.box_rect .user .avatar IMG {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.box_rect .user .username {
+	MARGIN-TOP: 8px; FONT-WEIGHT: bold; FONT-SIZE: 28px; FLOAT: left; WIDTH: 475px; LINE-HEIGHT: 45px; HEIGHT: 45px
+}
+.box_rect .user .user_comment {
+	MARGIN-TOP: 12px; FONT-SIZE: 12px; FLOAT: left; MARGIN-BOTTOM: 20px; OVERFLOW: hidden; WIDTH: 474px; LINE-HEIGHT: 24px
+}
+.box_rect .user .user_comment A {
+	COLOR: #666
+}
+.box_rect .user .user_comment A:hover {
+	COLOR: #fff
+}
+.switch_show_my_product A {
+	FONT-SIZE: 12px; COLOR: #666
+}
+.switch_show_my_product A:hover {
+	COLOR: #fff
+}
+.box_rect .user .my_home_nav LI {
+	FLOAT: left; COLOR: #aaa; MARGIN-RIGHT: 5px; HEIGHT: 34px
+}
+.box_rect .user .my_home_nav LI A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 8px; PADDING-TOP: 3px
+}
+.my_home_nav LI A:hover {
+	COLOR: #fff
+}
+.my_home_nav LI.selected A {
+	COLOR: #fff
+}
+.my_home_nav LI:hover A {
+	COLOR: #fff
+}
+.box_rect .user .my_home_nav LI.selected A {
+	BACKGROUND: url(i/product_report/my_home_nav_bg.png) no-repeat center 50%
+}
+.product_report .box_rect .user .my_home_nav LI A:hover {
+	BACKGROUND: url(i/product_report/my_home_nav_bg.png) no-repeat center 50%
+}
+.guest_message {
+	BORDER-TOP: #d8d0c6 1px solid; MARGIN-TOP: 10px
+}
+.guest_message .til {
+	MARGIN-TOP: 10px; FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.guest_message .til B {
+	FONT-SIZE: 14px
+}
+.guest_message .til A {
+	FONT-SIZE: 12px
+}
+.guest_message UL {
+	MARGIN-TOP: 10px
+}
+.guest_message LI {
+	MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #ccc 1px solid
+}
+.guest_message LI.last {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.guest_message LI .avatar {
+	FLOAT: left; WIDTH: 40px; MARGIN-RIGHT: 10px; HEIGHT: 40px
+}
+.guest_message LI .content {
+	FLOAT: left; WIDTH: 173px
+}
+.guest_message LI .content SPAN {
+	DISPLAY: block; FLOAT: right
+}
+.guest_message LI .content .nickname {
+	FLOAT: left
+}
+.guest_message LI .content .message {
+	CLEAR: both; WIDTH: 173px; WORD-WRAP: break-word
+}
+.box_container .guest_message {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 10px; BORDER-TOP-STYLE: none; PADDING-TOP: 10px; BORDER-BOTTOM: #ccc 1px solid
+}
+.box_container .guest_message .avatar {
+	FLOAT: left; WIDTH: 64px; MARGIN-RIGHT: 20px; HEIGHT: 64px
+}
+.box_container .guest_message .message {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 588px
+}
+.box_container .guest_message .name {
+	FLOAT: left
+}
+.box_container .guest_message .timestamp {
+	FONT-SIZE: 12px; FLOAT: right; COLOR: #888
+}
+.box_container .guest_message .head {
+	FLOAT: left; WIDTH: 588px
+}
+.box_container .guest_message .description {
+	FLOAT: left; WIDTH: 588px
+}
+.box_container .guest_message .description A {
+	COLOR: #888
+}
+.box_container .guest_message .description A:hover {
+	COLOR: #fff
+}
+#title_input_notice {
+	CLEAR: both; MARGIN-LEFT: 130px; COLOR: #999
+}
