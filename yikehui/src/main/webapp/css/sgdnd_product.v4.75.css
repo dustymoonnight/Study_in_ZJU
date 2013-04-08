@@ -1,0 +1,204 @@
+.classify LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; WIDTH: 200px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none; TEXT-ALIGN: center
+}
+.searchtime {
+	BORDER-RIGHT: #ed145b 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: #ed145b 1px solid; PADDING-LEFT: 20px; FLOAT: left; PADDING-BOTTOM: 10px; OVERFLOW: hidden; BORDER-LEFT: #ed145b 1px solid; WIDTH: 630px; PADDING-TOP: 10px; BORDER-BOTTOM: #ed145b 1px solid; -moz-border-radius: 5px; _padding-left: 10px
+}
+.searchtime .step1 {
+	PADDING-LEFT: 160px; FONT-SIZE: 12px; BACKGROUND: url(/templates/sgdnd/css/i/searchtime/search_time_step1.gif) no-repeat; LINE-HEIGHT: 38px; HEIGHT: 38px
+}
+#brand_name {
+	PADDING-RIGHT: 20px; FONT-SIZE: 14px; COLOR: #ed145b
+}
+.searchtime .hot_brand {
+	WIDTH: 670px
+}
+.searchtime .hot_brand LI {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 140px; LINE-HEIGHT: 25px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+.searchtime .hot_brand LI A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.searchtime .hot_brand LI A:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+.searchtime .brand {
+	MARGIN-TOP: 10px; BACKGROUND: #fff; OVERFLOW: hidden; WIDTH: 710px
+}
+.searchtime .brand .brand_left {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 60px; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.searchtime .brand .brand_type {
+	FLOAT: left; WIDTH: 632px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 30px
+}
+.searchtime .brand .brand_type UL {
+	MARGIN-LEFT: 10px
+}
+.searchtime .brand .brand_type LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 0px; CURSOR: pointer; LINE-HEIGHT: 30px; PADDING-TOP: 0px; HEIGHT: 30px
+}
+.searchtime .brand .brand_type LI.selected {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BACKGROUND: #fff; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 0px solid
+}
+.searchtime .brand .brand_list {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 0px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 630px; BORDER-BOTTOM: #ccc 1px solid; paddint-top: 10px
+}
+.searchtime .brand .brand_list LI {
+	DISPLAY: none; FONT-SIZE: 12px; FLOAT: left; MARGIN: 5px; WIDTH: 140px
+}
+.searchtime .brand .brand_list LI.hot {
+	DISPLAY: block
+}
+.searchtime .brand .brand_list LI A {
+	COLOR: #000
+}
+.searchtime .brand .brand_list LI A:hover {
+	COLOR: red
+}
+.searchtime .step2 {
+	MARGIN-TOP: 15px; FONT-SIZE: 12px; BACKGROUND: url(/templates/sgdnd/css/i/searchtime/search_time_step2.gif) no-repeat; LINE-HEIGHT: 38px; HEIGHT: 38px
+}
+.searchtime .number {
+	PADDING-LEFT: 8px; FONT-SIZE: 14px
+}
+.searchtime .number INPUT {
+	FONT-SIZE: 14px; WIDTH: 300px
+}
+.searchtime .number .desc {
+	FONT-SIZE: 12px; COLOR: #999; HEIGHT: 35px
+}
+.searchtime .number .button {
+	PADDING-LEFT: 0px; PADDING-TOP: 10px
+}
+.searchtime .rs {
+	BORDER-RIGHT: #ffa506 1px dashed; PADDING-RIGHT: 20px; BORDER-TOP: #ffa506 1px dashed; DISPLAY: none; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; MARGIN: 10px 0px; BORDER-LEFT: #ffa506 1px dashed; PADDING-TOP: 10px; BORDER-BOTTOM: #ffa506 1px dashed
+}
+.searchtime .rs .p {
+	FLOAT: left; MARGIN-BOTTOM: 10px; WIDTH: 280px; LINE-HEIGHT: 25px
+}
+.searchtime .rs .p .til {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; LINE-HEIGHT: 35px
+}
+.searchtime .rs .p .f24 {
+	FONT-SIZE: 24px
+}
+.button #submit {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; MARGIN-TOP: 15px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 48px; BACKGROUND: url(/templates/sgdnd/css/i/searchtime/search_time_button.gif) no-repeat; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; WIDTH: 95px; LINE-HEIGHT: 38px; PADDING-TOP: 0px; HEIGHT: 36px; BORDER-RIGHT-WIDTH: 0px
+}
+.help_shop {
+	BORDER-RIGHT: #ed145b 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ed145b 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fff; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 10px; BORDER-LEFT: #ed145b 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #ed145b 1px solid; -moz-border-radius: 5px; border-radius: 5px
+}
+.help_shop P {
+	FONT-SIZE: 13px
+}
+.red {
+	COLOR: red
+}
+#brand_name {
+	WIDTH: 200px
+}
+.collect {
+	BORDER-RIGHT: #ed145b 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ed145b 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fff; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 43px; BORDER-LEFT: #ed145b 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #ed145b 1px solid; -moz-border-radius: 5px; border-radius: 5px
+}
+.collect H2 {
+	PADDING-LEFT: 25px; FONT-WEIGHT: bold; FONT-SIZE: 16px; BACKGROUND: url(i/section_marker.png) no-repeat 0px 10px; MARGIN-BOTTOM: 5px; LINE-HEIGHT: 32px; HEIGHT: 32px
+}
+.kose_box {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 0px solid; PADDING-LEFT: 55px; BORDER-LEFT: #ccc 1px solid; WIDTH: 935px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: auto
+}
+.kose_box .info {
+	FLOAT: left; MARGIN-BOTTOM: 50px; OVERFLOW: hidden; WIDTH: 190px; MARGIN-RIGHT: 50px; HEIGHT: 250px
+}
+.kose_box .info .discount_badge {
+	PADDING-LEFT: 10px; FONT-SIZE: 32px; LEFT: 120px; WIDTH: 40px; COLOR: #fff; PADDING-TOP: 5px; POSITION: relative; TOP: -250px; HEIGHT: 36px; _background: transparent
+}
+.kose_box .info .sold_out {
+	LEFT: 20px; WIDTH: 97px; POSITION: relative; TOP: -230px; HEIGHT: 63px; _background: transparent
+}
+.kose_box .four {
+	MARGIN-RIGHT: 0px
+}
+.kose_box .info .price {
+	FLOAT: none; HEIGHT: 70px
+}
+#activity_time_left {
+	FONT-SIZE: 24px; Z-INDEX: 100; MARGIN-LEFT: 45px; OVERFLOW: hidden; WIDTH: 205px; POSITION: absolute; TOP: 255px; HEIGHT: 33px
+}
+#activity_time_left SPAN {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FLOAT: left; PADDING-BOTTOM: 2px; COLOR: #fff; PADDING-TOP: 2px
+}
+#activity_time_left SPAN.d {
+	TEXT-ALIGN: right
+}
+#activity_time_left SPAN.z {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; LINE-HEIGHT: 40px
+}
+.accpet {
+	Z-INDEX: 2000; MARGIN-LEFT: 113px; WIDTH: 132px; CURSOR: pointer; POSITION: absolute; TOP: 306px; HEIGHT: 161px
+}
+.product_search_filter {
+	Z-INDEX: 100; BACKGROUND: url(i/product/search_filter_bg.gif) repeat-x; POSITION: relative
+}
+.product_search_filter .selector {
+	HEIGHT: 38px
+}
+.product_search_filter LI.list {
+	DISPLAY: inline; PADDING-LEFT: 25px; FONT-SIZE: 12px; FLOAT: left; WIDTH: 156px; LINE-HEIGHT: 38px; POSITION: relative; HEIGHT: 38px
+}
+.product_search_filter LI.list .show_filter_options {
+	FLOAT: left; HEIGHT: 39px
+}
+.product_search_filter LI.list SPAN {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.product_search_filter LI.list .filter_select {
+	PADDING-RIGHT: 15px; MARGIN-TOP: 9px; PADDING-LEFT: 5px; BACKGROUND: url(i/product/list_bg.gif) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 102px; CURSOR: pointer; LINE-HEIGHT: 21px; PADDING-TOP: 0px; HEIGHT: 21px
+}
+.product_search_filter LI.list .filter_options {
+	PADDING-RIGHT: 10px; MIN-WIDTH: 300px; DISPLAY: none; PADDING-LEFT: 10px; Z-INDEX: 100; BACKGROUND: #efefef; LEFT: 20px; PADDING-BOTTOM: 10px; WIDTH: 385px; PADDING-TOP: 10px; POSITION: absolute; TOP: 37px; opacity: 0.9; -moz-opacity: 0.9
+}
+.product_search_filter .filter_options .types_list {
+	WIDTH: 100%; HEIGHT: 25px
+}
+.product_search_filter .filter_options .types_list SPAN {
+	FONT-WEIGHT: bold; LINE-HEIGHT: 25px; LETTER-SPACING: 1px
+}
+.product_search_filter .filter_options .types_list UL {
+	BORDER-RIGHT: #d4d4d4 1px solid; BORDER-TOP: #d4d4d4 1px solid; BACKGROUND: #fff; FLOAT: left; BORDER-LEFT: #d4d4d4 1px solid; LINE-HEIGHT: 25px; BORDER-BOTTOM: #d4d4d4 1px solid
+}
+.product_search_filter .filter_options .types_list UL LI {
+	PADDING-RIGHT: 8px; DISPLAY: inline; PADDING-LEFT: 8px; FLOAT: left; PADDING-BOTTOM: 0px; CURSOR: pointer; LINE-HEIGHT: 25px; PADDING-TOP: 0px
+}
+.product_search_filter .filter_options .types_box {
+	CLEAR: both
+}
+.product_search_filter .filter_options .types_box A {
+	DISPLAY: block; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; OVERFLOW: hidden; WIDTH: 60px; COLOR: #000; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+.product_search_filter .filter_options .types_box A:hover {
+	COLOR: #ed145b
+}
+.product_search_filter .filter_options .types_box A.all {
+	FLOAT: right; WIDTH: 120px; COLOR: #ed145b; TEXT-ALIGN: right
+}
+.product_search_filter .filter_options A.selected {
+	COLOR: #ed145b
+}
+.product_search_filter .filter_options .types_list LI.selected {
+	COLOR: #ed145b
+}
+.product_search_number {
+	CLEAR: both; PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 14px; LINE-HEIGHT: 35px
+}
+#brands .filter_options {
+	WIDTH: 520px
+}
+#brands .types_list UL {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#brands .types_list LI {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#brands .types_box A {
+	WIDTH: 160px
+}
