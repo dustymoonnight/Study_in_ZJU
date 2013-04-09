@@ -12,11 +12,11 @@
 <head>
 
 <base href="<%=basePath%>">
-<title>男士香水 - 男士 - 聚美优品商城</title>
+<title>男士香水 - 男士 - 亿客汇商城</title>
 
-            <link rel="stylesheet" href="http://s0.jmstatic.com/templates/jumei/css/v15.5/jumei.min.css" type="text/css" media="screen" charset="utf-8" />
-            <link rel="stylesheet" href="http://s0.jmstatic.com/templates/jumei/css/v15.5/jumei_mall.min.css" type="text/css" media="screen" charset="utf-8" />
-            <link rel="stylesheet" href="http://s0.jmstatic.com/templates/jumei/css/v15.5/malllist.min.css" type="text/css" media="screen" charset="utf-8" />
+            <link rel="stylesheet" href="<%=path%>/css/sgdnd.min.css" type="text/css" media="screen" charset="utf-8" />
+            <link rel="stylesheet" href="<%=path%>/css/sgdnd_mall.min.css" type="text/css" media="screen" charset="utf-8" />
+            <link rel="stylesheet" href="<%=path%>/css/malllist.min.css" type="text/css" media="screen" charset="utf-8" />
     
 <script type="text/javascript">
 
@@ -60,8 +60,8 @@ _gaq.push(['_setAllowHash', false]);
 
 
 </script>
-<script type="text/javascript" charset="utf-8" src="http://s0.jmstatic.com/templates/jumei/js/jquery/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" charset="utf-8" src="http://s0.jmstatic.com/templates/jumei/js/jquery/jquery.all_plugins.js?v=1"></script>
+<script type="text/javascript" charset="utf-8" src="<%=path%>/js/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="<%=path%>/js/jquery.all_plugins.js?v=1"></script>
 
 </head>
 
@@ -80,7 +80,7 @@ _gaq.push(['_setAllowHash', false]);
 .ipad_box .ipad_notice{padding-top:18px;_padding-top:13px;color:#666666;font-size:16px;height:22px;padding-left:40px;}
 .ipad_box .ipad_notice span.line{padding:0 40px;font-weight:normal;}
 
-/**315临时加**/
+/**315临时加 hot **/
 .pop_hoticon{
   width: 29px;
 height: 16px;
@@ -115,9 +115,6 @@ z-index: 2;
 
 </script>
 
-
-
-
 <div id="header_container">
     <div id="user_header">
         <div id="user_control">
@@ -144,7 +141,7 @@ z-index: 2;
 
     <div id="logo">
         <a href="http://sh.jumei.com" id="home">
-            <img src="http://p0.jmstatic.com/banner/1285/global/2845_0.jpg?v=1361982498" alt="化妆品团购">
+            <img src="<%=path%>/images/logo.jpg" alt="化妆品团购">
         </a>
 
         <a id="cart" href="http://sh.jumei.com/i/cart/show" rel="nofollow">

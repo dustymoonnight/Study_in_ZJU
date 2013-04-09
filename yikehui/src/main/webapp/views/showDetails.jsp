@@ -10,11 +10,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <base href="<%=basePath%>">
-<title>迪黛（ADA)轻柔泡沫BB霜（粉红色） 20ml怎么样，好用吗 - 真人评价，使用心得 - 聚美优品口碑中心</title>
+<title>商品详情</title>
 <meta name="keywords" content="迪黛,ADA,彩妆,隔离">
 <meta name="description" content="聚美优品">
 <link rel="stylesheet"
-	href="http://p0.jmstatic.com/product_report/newKoubei/css/13/main.css" />
+	href="<%=path%>/css/main.css" />
 <!--[if IE 6]>
         <script src="http://p0.jmstatic.com/product_report/newKoubei/js/js/1/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
         <script type="text/javascript">
@@ -22,11 +22,11 @@
         </script>
         <![endif]-->
 <link rel="stylesheet"
-	href="http://p0.jmstatic.com/product_report/newKoubei/css/20/index.css"
+	href="<%=path%>/css/index.css"
 	type="text/css" media="screen" charset="utf-8" />
 
 <script
-	src="http://p0.jmstatic.com/product_report/newKoubei/js/js/1/sea.js"
+	src="<%=path%>/js/sea.js"
 	type="text/javascript"></script>
 <script type="text/javascript">
 	var siteurl = 'http://www.jumei.com/';

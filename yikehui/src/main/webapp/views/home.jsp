@@ -11,16 +11,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <base href="<%=basePath%>">
-<title>聚美优品商城 - 女士男士品牌化妆品,100%正品 - 护肤,彩妆,香水,护理</title>
+<title>亿客汇商城</title>
 
 <link rel="stylesheet"
-	href="http://s0.jmstatic.com/templates/jumei/css/v15.5/jumei.min.css"
+	href="<%=path%>/css/sgdnd.min.css"
 	type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet"
-	href="http://s0.jmstatic.com/templates/jumei/css/v15.5/jumei_mall.min.css"
+	href="<%=path%>/css/sgdnd_mall.min.css"
 	type="text/css" media="screen" charset="utf-8" />
 <link rel="stylesheet"
-	href="http://s0.jmstatic.com/templates/jumei/css/v15.5/jumei_newmall.min.css"
+	href="<%=path%>/css/sgdnd_newmall.min.css"
 	type="text/css" media="screen" charset="utf-8" />
 
 <script type="text/javascript">
@@ -43,7 +43,7 @@
 		if (screen_wide) {
 			var head = document.getElementsByTagName('HEAD')[0];
 			var style = document.createElement('link');
-			style.href = 'http://s0.jmstatic.com/templates/jumei/css/v15.5/jumei_newmall_wide.min.css';
+			style.href = 'http://s0.jmstatic.com/templates/jumei/css/v15.5/jumei_newmall_wide.min.css1';
 			style.rel = 'stylesheet';
 			style.type = 'text/css';
 			head.appendChild(style);
@@ -73,9 +73,9 @@
 	_gaq.push([ '_setAllowHash', false ]);
 </script>
 <script type="text/javascript" charset="utf-8"
-	src="http://s0.jmstatic.com/templates/jumei/js/jquery/jquery-1.4.2.min.js"></script>
+	src="<%=path%>/js/jquery.min.js"></script>
 <script type="text/javascript" charset="utf-8"
-	src="http://s0.jmstatic.com/templates/jumei/js/jquery/jquery.all_plugins.js?v=1"></script>
+	src="<%=path%>/js/jquery.all_plugins.js?v=1"></script>
 
 </head>
 <!-- KEEP THIS!
