@@ -1,0 +1,1003 @@
+.num_warp_list_pic_mall.clearfix {
+	overflow: hidden;
+	zoom: 1
+}
+
+#body {
+	padding-top: 18px;
+	width: 960px
+}
+
+.pList_item_button .add_to_cart {
+	float: left;
+	display: inline
+}
+
+#warp_right {
+	margin: 0;
+	width: 240px;
+	float: left;
+	display: inline;
+	background: #f2f2f2
+}
+
+#warp_right .content {
+	background: #fff
+}
+
+#warp_right .box_v1 {
+	width: auto;
+	_width: auto
+}
+
+#warp_left {
+	float: right;
+	width: 702px;
+	overflow: inherit
+}
+
+body {
+	background: #f2f2f2
+}
+
+#header_container {
+	background: #fff
+}
+
+.num_right_word {
+	margin-right: 10px
+}
+
+.next_selected ul li {
+	background: 0
+}
+
+#warp_left_top {
+	background: #fff;
+	width: 700px;
+	box-shadow: 0 1px 4px #e2e2e2
+}
+
+.result_next {
+	width: 700px
+}
+
+.next_selected {
+	width: 700px;
+	margin-top: 12px
+}
+
+.next_selected_first {
+	font-weight: bold
+}
+
+.line {
+	margin-bottom: 0;
+	_margin-bottom: 0;
+	overflow: hidden;
+	font-size: 0
+}
+
+.allready_selected {
+	height: 44px;
+	background: #dadada
+}
+
+.allready_selected .tit {
+	font-weight: bold;
+	float: left;
+	display: inline;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 14px
+}
+
+.next_selected_name_warp {
+	background: #fff;
+	box-shadow: 0 1px 4px #e2e2e2;
+	border: solid 1px #cecece;
+	height: 26px;
+	margin-top: 8px
+}
+
+.next_selected_bor {
+	border: 0;
+	height: 26px;
+	line-height: 26px
+}
+
+#pListContainer {
+	width: 702px
+}
+
+.num_tit {
+	width: 700px;
+	background: #dadada;
+	padding: 0;
+	height: 40px;
+	border: solid 1px #c4c4c4;
+	border-bottom: 0
+}
+
+#warp_left .num_tit ul li {
+	background: 0;
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 0
+}
+
+#warp_left .num_tit ul li a {
+	font-size: 14px
+}
+
+#warp_left .num_tit ul li.asc_enable {
+	box-shadow: 0 2px 0 #ccc, 4px 0 2px #ccc, 0px 0 0 #fff;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/asc_enable.jpg)
+		no-repeat 65px center #fff
+}
+
+#warp_left .num_tit ul li.desc_enable {
+	box-shadow: 0 2px 0 #ccc, 4px 0 2px #ccc, 0px 0 0 #fff;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/desc_enable.jpg)
+		no-repeat 65px center #fff
+}
+
+#warp_left .num_tit ul li.asc_disable {
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/asc_disable.jpg)
+		no-repeat 65px center
+}
+
+#warp_left .num_tit ul li.desc_disable {
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/desc_disable.jpg)
+		no-repeat 65px center
+}
+
+.next_selected .next_selected_folddiv_word {
+	width: 30px
+}
+
+.num_right {
+	margin-top: 8px
+}
+
+.num_warp {
+	width: 700px;
+	background: #fff;
+	overflow: inherit;
+	font-size: 12px
+}
+
+#warp_right .right_part {
+	width: auto
+}
+
+.num_warp_list_top_white {
+	width: 162px;
+	height: 319px;
+	overflow: hidden
+}
+
+.result_error_tit {
+	width: 700px
+}
+
+.search {
+	width: 700px
+}
+
+.num_warp_list_pic_top {
+	width: 162px
+}
+
+.num_warp_list_pic_mall {
+	margin: 1px;
+	border: 0 none
+}
+
+.num_warp_list_pic_mall table {
+	overflow: hidden
+}
+
+.num_warp_list_pic_mall a img {
+	width: 160px;
+	height: 160px
+}
+
+.num_warp_list_warp_word {
+	margin: 0 0 0 5px
+}
+
+.num_warp ul {
+	margin: 0;
+	padding-top: 23px
+}
+
+.item_nextpage a {
+	float: left;
+	display: inline;
+	width: 162px;
+	height: 336px;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/nextpage.jpg)
+		no-repeat
+}
+
+.item_nextpage a:hover {
+	background-position: -162px 0
+}
+
+.num_warp ul li {
+	margin: 0;
+	height: auto
+}
+
+#pListContainer .plistul {
+	padding-left: 2px
+}
+
+#pListContainer .pList-item {
+	margin: 5px 3px;
+	position: relative;
+	width: 162px;
+	border: solid 3px #fff;
+	float: left;
+	display: inline;
+	z-index: 9
+}
+
+#pListContainer .pList-item.hover {
+	border: solid 3px #fbd0df;
+	z-index: 10
+}
+
+.num_warp_list_name {
+	margin: 12px 0 0 10px
+}
+
+.num_warp_list_name_mall {
+	margin: 7px 0 0 8px;
+	width: 150px
+}
+
+.pList_item_button {
+	margin: 12px 0 0 8px
+}
+
+.pList_item_icon {
+	margin: 2px 0 0 10px;
+	height: 16px;
+	font-size: 0;
+	*word-spacing: -1px
+}
+
+.pList_item_icon span {
+	padding: 2px 4px;
+	color: #fff;
+	display: inline-block;
+	line-height: 16px;
+	height: 16px;
+	font-size: 12px;
+	margin-right: 1px
+}
+
+.pList_item_icon .zeng {
+	background: #ec9b9b
+}
+
+.pList_item_icon .jian {
+	background: #f6b18b
+}
+
+.pList_item_icon .fan {
+	background: #a4d98c
+}
+
+.pList_item_icon .zhe {
+	background: #9fdbe2
+}
+
+.pList_item_icon .vip {
+	background: #d7bfe3
+}
+
+.pList-item .tipbox {
+	position: absolute;
+	left: 174px;
+	top: -3px;
+	background: #ededed;
+	opacity: 1;
+	border: solid 1px #d4d4d4;
+	padding: 10px;
+	margin: 0;
+	display: none;
+	width: 242px
+}
+
+.pList-item.hover .tipbox {
+	display: block
+}
+
+.pList-item.hover.left .tipbox {
+	left: -273px
+}
+
+.pList-item .p_hover_info {
+	width: 242px;
+	overflow: hidden
+}
+
+.pList-item .tipbox .tipbox-direction {
+	top: 17%;
+	margin-top: 0;
+	left: -8px
+}
+
+.pList-item .tipbox .tipbox-direction span {
+	left: 1px
+}
+
+.pList-item.left .tipbox .tipbox-direction {
+	margin-top: 0;
+	left: 254px
+}
+
+.pList-item.left .tipbox .tipbox-direction span {
+	left: -1px
+}
+
+.pList-item .tipbox .tipbox-direction label {
+	color: #d4d4d4
+}
+
+.pList-item .tipbox .tipbox-direction span {
+	color: #ededed
+}
+
+.p_hover_info .info_top {
+	height: 56px;
+	margin-bottom: 8px
+}
+
+.p_hover_info .info_top span {
+	float: left;
+	display: inline;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/zhengpinbaozheng.jpg)
+		no-repeat;
+	width: 56px;
+	height: 56px;
+	text-indent: -9999px;
+	margin-right: 6px
+}
+
+.p_hover_info .info_top span.t1 {
+	background-position: 0 0
+}
+
+.p_hover_info .info_top span.t2 {
+	background-position: -62px 0
+}
+
+.p_hover_info .info_top span.t3 {
+	background-position: -247px 0
+}
+
+.p_hover_info .info_top span.t4 {
+	background-position: -186px 0;
+	margin: 0
+}
+
+.p_hover_info .info_top span.t5 {
+	background-position: -315px 0;
+	margin: 0
+}
+
+.p_hover_info .promotions_info {
+	padding: 10px;
+	background: #fff
+}
+
+.p_hover_info .promotions_info .p_i_item {
+	margin: 3px 0
+}
+
+.promotions_info .icon {
+	float: left;
+	display: inilne;
+	margin-top: 4px;
+	text-align: center;
+	line-height: 16px;
+	color: #fff;
+	font-size: 12px;
+	width: 20px;
+	height: 16px;
+	background: #ed145b
+}
+
+.promotions_info .icon.jian {
+	background-position: -21px 0
+}
+
+.promotions_info .icon.zeng {
+	background-position: 0 0
+}
+
+.promotions_info .icon.fan {
+	background-position: -42px 0
+}
+
+.promotions_info .icon.zhe {
+	background-position: -63px 0
+}
+
+.promotions_info .text {
+	float: left;
+	display: inline;
+	width: 187px;
+	overflow: hidden;
+	margin-left: 5px;
+	line-height: 20px;
+	color: #ef2b6b
+}
+
+.promo_icon {
+	color: #fff;
+	background: #ed145b;
+	padding: 1px 2px;
+	border: solid 1px #da084d
+}
+
+.star_score {
+	padding: 10px;
+	background: #fff;
+	margin-top: 10px
+}
+
+.star_score .text {
+	color: #666;
+	font-size: 14px;
+	float: left;
+	display: inline;
+	margin-right: 20px
+}
+
+.star_score .tag {
+	border-top: solid 1px #e5e5e5;
+	padding-top: 10px;
+	margin-top: 5px
+}
+
+.star_score .tag span {
+	float: left;
+	display: inline;
+	padding: 3px 5px;
+	border: solid 1px #dbdbdb;
+	color: #ed145b;
+	margin: 1px 2px
+}
+
+.star_score .text strong {
+	color: #ed145b;
+	font-family: Arial;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-left: 2px
+}
+
+.star_score .rat {
+	float: left;
+	display: inline;
+	height: 13px;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/newmall/rating_small_v2.png)
+		0 26px;
+	width: 80px;
+	position: relative;
+	margin-top: 5px
+}
+
+.star_bar {
+	padding: 5px;
+	background: #fff;
+	margin-top: 10px
+}
+
+.star_bar dl dd {
+	margin: 5px 0
+}
+
+.star_bar dl dd label {
+	float: left;
+	display: inline
+}
+
+.star_bar dl dd .barbg {
+	margin-left: 5px;
+	width: 197px;
+	height: 13px;
+	float: left;
+	display: inline;
+	position: relative;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/starbar.jpg)
+		no-repeat 0 0
+}
+
+.star_bar dl dd .bar {
+	width: 20%;
+	position: absolute;
+	height: 13px;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/starbar.jpg) 0
+		-13px
+}
+
+.star_score .rat span {
+	position: absolute;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/newmall/rating_small_v2.png)
+		0 0;
+	height: 13px
+}
+
+.picwall {
+	background: #fff;
+	margin-top: 10px;
+	padding: 10px
+}
+
+.picwall ul {
+	padding-top: 5px;
+	padding-left: 6px
+}
+
+.picwall textarea {
+	display: none
+}
+
+.picwall .count {
+	color: #ef2b6b
+}
+
+.picwall ul li {
+	float: left;
+	display: inline;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	width: 29px;
+	height: 29px
+}
+
+.picwall ul li img {
+	width: 29px;
+	height: 29px
+}
+
+.products_Category {
+	width: 238px;
+	border: solid 1px #ccc;
+	margin-bottom: 20px
+}
+
+.products_Category h2 {
+	background: #919191;
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 10px;
+	font-family: "Microsoft YaHei"
+}
+
+.products_Category h2 a {
+	color: #fff;
+	text-decoration: none
+}
+
+.products_Category ul {
+	background: #fff
+}
+
+.products_Category ul .item {
+	z-index: 999;
+	background: #fff;
+	position: relative;
+	color: #000;
+	height: 35px;
+	border-top: solid 1px #e5e5e5;
+	float: left;
+	display: inline;
+	width: 238px
+}
+
+.products_Category ul .item .item_p {
+	position: absolute;
+	z-index: 101;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/categoryarrow.jpg)
+		no-repeat 200px center #fff;
+	text-indent: 13px;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	width: 238px;
+	overflow: hidden
+}
+
+.products_Category ul .item .item_p a {
+	color: #000;
+	margin-right: 5px
+}
+
+.products_Category ul .item .icon {
+	float: left;
+	display: inline;
+	width: 25px;
+	height: 35px;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/categoryicon.jpg)
+		no-repeat;
+	margin-left: 14px
+}
+
+.products_Category ul .item .icon.i2 {
+	background-position: 0 -36px
+}
+
+.products_Category ul .item .icon.i3 {
+	background-position: 0 -72px
+}
+
+.products_Category ul .item .icon.i4 {
+	background-position: 0 -108px
+}
+
+.products_Category ul .item .icon.i5 {
+	background-position: 0 -144px
+}
+
+.products_Category ul .item .icon.i6 {
+	background-position: 0 -180px
+}
+
+.products_Category ul .item .icon.i7 {
+	background-position: 0 -36px
+}
+
+.products_Category ul .item .icon.i8 {
+	background-position: 0 -216px
+}
+
+.products_Category ul .item.hover .icon.i1 {
+	background-position: -25px 0
+}
+
+.products_Category ul .item.hover .icon.i2 {
+	background-position: -25px -36px
+}
+
+.products_Category ul .item.hover .icon.i3 {
+	background-position: -25px -72px
+}
+
+.products_Category ul .item.hover .icon.i4 {
+	background-position: -25px -108px
+}
+
+.products_Category ul .item.hover .icon.i5 {
+	background-position: -25px -144px
+}
+
+.products_Category ul .item.hover .icon.i6 {
+	background-position: -25px -180px
+}
+
+.products_Category ul .item.hover .icon.i7 {
+	background-position: -25px -36px
+}
+
+.products_Category ul .item.hover .icon.i8 {
+	background-position: -25px -216px
+}
+
+.products_Category ul .item.hover {
+	background: #eee
+}
+
+.products_Category .item .moreCategory {
+	display: none;
+	position: absolute;
+	top: -1px;
+	background: #eee;
+	padding: 10px;
+	left: 238px;
+	width: 185px;
+	border: solid 1px #ccc;
+	z-index: 100;
+	overflow: hidden;
+	padding-top: 5px;
+	box-shadow: 1px 2px 4px #ccc
+}
+
+.products_Category .item.hover .moreCategory {
+	display: block
+}
+
+.products_Category ul .item.hover .item_p {
+	width: 239px;
+	background: #eee
+}
+
+.moreCategory p {
+	height: 27px;
+	border-bottom: dashed 1px #bebebe;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/malllist_line.jpg)
+		no-repeat center center
+}
+
+.moreCategory p span {
+	float: left;
+	display: inline;
+	height: 27px;
+	line-height: 27px;
+	overflow: hidden
+}
+
+.moreCategory p span.left {
+	width: 88px;
+	margin-left: 22px
+}
+
+.moreCategory p span a {
+	color: #000;
+	padding: 3px;
+	text-decoration: none
+}
+
+.moreCategory p span a:hover {
+	background: #f8a3bf;
+	color: #fff
+}
+
+p.noicon {
+	position: absolute;
+	z-index: 130;
+	text-indent: 51px;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	width: 238px;
+	overflow: hidden
+}
+
+p.noicon a {
+	color: #000;
+	margin-right: 5px
+}
+
+.mtsBanner {
+	width: 223px;
+	margin: 10px 6px
+}
+
+.mtsBanner {
+	height: 311px;
+	width: 223px;
+	margin: 10px 6px
+}
+
+.mtsBanner .bannerWrap {
+	height: 304px;
+	overflow: hidden
+}
+
+.mtsBanner ul {
+	position: relative
+}
+
+.belongs_brand {
+	width: 238px
+}
+
+.belongs_brand_num {
+	width: 238px
+}
+
+.belongs_brand_num_all {
+	width: 238px
+}
+
+.belongs_brand_num .proname {
+	width: 220px
+}
+
+#warp_right .title {
+	width: 238px
+}
+
+#warp_right .box_v1 {
+	width: 238px
+}
+
+#warp_right .right_part {
+	width: 125px
+}
+
+#warp_right .all_categories .tit {
+	font-size: 16px;
+	padding-top: 8px;
+	font-weight: normal
+}
+
+#warp_right .product_container {
+	height: auto;
+	margin: 0;
+	width: 100%
+}
+
+#warp_right .bottom_part .pinglun {
+	height: 20px;
+	color: #f8a3bf;
+	float: left;
+	margin-left: 10px
+}
+
+.service_rating {
+	margin-top: 5px
+}
+
+.service_rating label {
+	width: 80px;
+	float: left
+}
+
+.service_rating .hint {
+	float: left;
+	margin-left: 5px
+}
+
+.service_rating .rating.editable {
+	cursor: pointer
+}
+
+.service_rating .rating {
+	float: left;
+	line-height: 16px;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/rating_small_v2.png)
+		repeat-x 0 -16px;
+	width: 85px;
+	height: 16px
+}
+
+.service_rating .rating .value {
+	height: 16px;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/rating_small_v2.png)
+		repeat-x 0 0
+}
+
+.service_rating .rating .cf_val {
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/rating_small_v2.png)
+		repeat-x 0 -32px
+}
+
+.service_rating.small .koubei {
+	float: left;
+	color: #999;
+	margin-right: 3px;
+	width: 75px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.service_rating.small .koubei a {
+	color: #999;
+	text-decoration: none
+}
+
+.service_rating.small .koubei a:hover {
+	color: #ed145b;
+	text-decoration: none
+}
+
+.service_rating.small .rating {
+	float: left;
+	line-height: 10px;
+	margin-top: 3px;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/rating_small_v2_2.png)
+		repeat-x 0 -10px;
+	width: 60px;
+	height: 10px;
+	overflow: hidden
+}
+
+.service_rating.small .rating .value {
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/rating_small_v2_2.png)
+		repeat-x 0 0;
+	width: 48px;
+	height: 10px;
+	_font-size: 0
+}
+
+.service_rating.small .rating .cf_val {
+	background:
+		url(http://images.jumei.com/templates/jumei/images/mall/rating_small_v2_2.png)
+		repeat-x 0 -20px
+}
+
+.num_warp ul li .sale_sign {
+	display: block;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 0;
+	bottom: 0;
+	z-index: 1000
+}
+
+.num_warp ul li .sale_sign.qg {
+	background:
+		url(http://images.jumei.com/templates/jumei/images/search/search_qg2.png);
+	_background: none transparent;
+	filter: progid : DXImageTransform.Microsoft.AlphaImageLoader ( src =
+		'http://images.jumei.com/templates/jumei/images/search/search_qg2.png'
+		)
+}
+
+.num_warp ul li .sale_sign.mj {
+	background:
+		url(http://images.jumei.com/templates/jumei/images/search/search_mj2.png);
+	_background: none transparent;
+	filter: progid : DXImageTransform.Microsoft.AlphaImageLoader ( src =
+		'http://images.jumei.com/templates/jumei/images/search/search_mj2.png'
+		)
+}
+
+.num_warp ul li .sale_sign.mf {
+	background:
+		url(http://images.jumei.com/templates/jumei/images/search/search_mf2.png);
+	_background: none transparent;
+	filter: progid : DXImageTransform.Microsoft.AlphaImageLoader ( src =
+		'http://images.jumei.com/templates/jumei/images/search/search_mf2.png'
+		)
+}
+
+.num_warp ul li .sale_sign.zk {
+	background:
+		url(http://images.jumei.com/templates/jumei/images/search/search_zk2.png);
+	_background: none transparent;
+	filter: progid : DXImageTransform.Microsoft.AlphaImageLoader ( src =
+		'http://images.jumei.com/templates/jumei/images/search/search_zk2.png'
+		)
+}
+
+.num_warp ul li .sale_sign.mz {
+	background:
+		url(http://images.jumei.com/templates/jumei/images/search/search_mz2.png);
+	_background: none transparent;
+	filter: progid : DXImageTransform.Microsoft.AlphaImageLoader ( src =
+		'http://images.jumei.com/templates/jumei/images/search/search_mz2.png'
+		)
+}
+
+#list_container {
+	background: #fff;
+	border: solid 1px #c4c4c4;
+	box-shadow: 0 1px 4px #e2e2e2;
+	border-top: 0
+}

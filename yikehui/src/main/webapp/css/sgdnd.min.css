@@ -1,0 +1,2989 @@
+@charset "utf-8"; 
+
+html {
+	filter: expression(document.execCommand ( "BackgroundImageCache", false, true)
+		);
+	_background-image: url(about:blank);
+	_background-attachment: fixed
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td
+	{
+	margin: 0;
+	padding: 0
+}
+
+body {
+	_zoom: 1
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+fieldset,img {
+	border: 0
+}
+
+address,caption,cite,code,dfn,em,var {
+	font-style: normal;
+	font-weight: normal
+}
+
+ul li {
+	list-style: none
+}
+
+ol li {
+	list-style: decimal;
+	list-style-position: inside
+}
+
+caption,th {
+	text-align: left
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%
+}
+
+q:before,q:after {
+	content: ''
+}
+
+abbr,acronym {
+	border: 0;
+	font-variant: normal
+}
+
+sup {
+	vertical-align: text-top
+}
+
+sub {
+	vertical-align: text-bottom
+}
+
+input,textarea,select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit
+}
+
+input,textarea,select {
+	*font-size: 100%
+}
+
+legend {
+	color: #000
+}
+
+body {
+	font-family: Tahoma, Geneva, sans-serif
+}
+
+a {
+	color: #ed145b;
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+.clear {
+	clear: both
+}
+
+.f-input {
+	font-size: 14px;
+	padding: 3px 4px;
+	border-color: #e186b1;
+	border-style: solid;
+	border-width: 1px
+}
+
+.password .f-input,.password-confirmation .f-input {
+	_padding: 3px 14px 3px 4px
+}
+
+.f-text {
+	font-size: 14px;
+	padding: 3px 4px;
+	border: #e186b1 1px solid;
+	background-color: white
+}
+
+.f-textarea {
+	font-size: 14px;
+	padding: 3px 4px;
+	border-color: #7c7c7c #c3c3c3 #ddd;
+	border-style: solid;
+	border-width: 1px;
+	background-color: white
+}
+
+.f-select {
+	font-size: 14px;
+	padding: 3px 0 3px 4px;
+	border-color: #e186b1;
+	border-style: solid;
+	border-width: 1px
+}
+
+input.formbutton {
+	padding: 4px 1em;
+	*padding: 5px 1.5em 0;
+	border: 2px solid;
+	border-color: #e186b1 #751b4c #751b4c #e186b1;
+	background: #ed145b;
+	color: #fff;
+	letter-spacing: .1em;
+	cursor: pointer;
+	*width: auto;
+	_width: 0;
+	*overflow: visible
+}
+
+input.disabled {
+	border: 1px solid #ccc;
+	background: #eee;
+	color: #999;
+	cursor: default
+}
+
+button.formbutton {
+	height: 23px;
+	padding: 0 1.5em;
+	border: 1px solid;
+	border-color: #82d0d4 #92D6D9 #54a3a7 #4D989B;
+	background: #63c5c8;
+	color: #fff;
+	letter-spacing: .3em;
+	cursor: pointer;
+	line-height: 23px
+}
+
+a.formbutton {
+	padding: 4px 1em;
+	border: 2px solid;
+	border-color: #e186b1 #751b4c #751b4c #e186b1;
+	background: #ed145b;
+	color: #fff;
+	letter-spacing: .1em;
+	cursor: pointer
+}
+
+.watermark {
+	color: grey
+}
+
+.grey {
+	color: #999
+}
+
+.pink {
+	color: #ed145b
+}
+
+.ac {
+	text-align: center
+}
+
+body {
+	font-size: 12px
+}
+
+#container {
+	width: 995px;
+	min-height: 450px;
+	margin: auto;
+	margin-top: 20px
+}
+
+#body #main {
+	float: left;
+	width: 710px;
+	padding: 0;
+	font-size: 14px
+}
+
+#sidebar {
+	width: 260px;
+	float: right
+}
+
+#container.grid_v2 {
+	width: 965px;
+	padding-top: 0
+}
+
+#container.grid_v2 #main {
+	margin-top: 20px;
+	width: 700px
+}
+
+#container.grid_v2 #sidebar {
+	width: 240px;
+	margin-top: 20px;
+	min-height: 400px
+}
+
+#footer_container {
+	overflow: hidden;
+	padding-top: 20px;
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+	background: #eee
+}
+
+#footer {
+	overflow: hidden
+}
+
+.notification {
+	height: 40px;
+	line-height: 40px;
+	width: 100%
+}
+
+.notification .message {
+	width: 960px;
+	margin: auto;
+	padding-left: 30px
+}
+
+.error {
+	border: 1px #f00 solid;
+	border-left: none;
+	border-right: 0;
+	background: #ffdddf
+}
+
+.success {
+	border: 1px #5b9400 solid;
+	border-left: none;
+	border-right: 0;
+	background: #e6fec2
+}
+
+.error .message {
+	background: url(/templates/jumei/css_pics/i/error_icon.png) no-repeat 0
+		13px transparent
+}
+
+.success .message {
+	background: url(/templates/jumei/css_pics/i/success_icon.png) no-repeat
+		0 13px transparent
+}
+
+#sidebar .box {
+	border: #ccc 1px solid;
+	background: #fff;
+	margin-bottom: 20px;
+	padding-bottom: 10px
+}
+
+#sidebar .box h2 {
+	background: url(/templates/jumei/css_pics/i/section_marker.png)
+		no-repeat;
+	background-position: 0 10px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 25px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px
+}
+
+#sidebar .box h1 em a {
+	font-size: 18px;
+	font-weight: bold
+}
+
+#sidebar
+ 
+.box
+ 
+h3
+,
+{
+background
+:
+#fdeff3
+ 
+none
+ 
+repeat
+ 
+scroll
+ 
+0
+0;
+padding
+:
+8px
+ 
+18
+px
+;font-size
+:
+16px;margin-top
+:
+20px
+}
+#sidebar .box p {
+	text-align: left;
+	margin: 10px
+}
+
+#sidebar .box .title {
+	height: 39px;
+	line-height: 39px;
+	border-bottom: 1px solid #ccc;
+	padding-left: 10px;
+	background: #000;
+	font-size: 14px;
+	font-family: "΢���ź�";
+	color: #FFF
+}
+
+#sidebar .box .title .arrow {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin-right: 7px;
+	*float: left;
+	*margin: 15px 5px 0 10px;
+	background: url(/templates/jumei/images/detail/sidebar_arrow_v2.png) 0 0
+		no-repeat transparent;
+	overflow: hidden
+}
+
+.bold {
+	font-weight: bold
+}
+
+#header_container {
+	min-width: 960px
+}
+
+#user_header {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #ececec
+}
+
+#user_header #user_control,#top_menu #top_nav,#logo {
+	width: 960px;
+	margin: 0 auto
+}
+
+#user_header #user_control a {
+	color: #000
+}
+
+#user_header #user_control ul.menu_header {
+	width: auto;
+	float: left
+}
+
+#user_header #user_control ul.menu_header li {
+	float: left
+}
+
+#user_header #user_control ul.menu_header li.menu_phone .arrow,#user_header #user_control ul.menu_header li.menu_intro .arrow,#user_header #user_control ul.menu_header li.menu_stow .arrow,#user_header #user_control ul.login_header li .mycorn,#user_header #user_control ul.menu_header li .mycorn,#user_header #user_control #my_jumei_attention_menu li.sina .arrow,#user_header #user_control #my_jumei_attention_menu li.qqblog .arrow,#user_header #user_control #my_jumei_attention_menu li.qq .arrow,#logo #cart span.num
+	{
+	background: url(/templates/jumei/images/home/top_corn_v3.png) no-repeat
+		transparent;
+	display: inline-block;
+	margin-right: 5px;
+	cursor: pointer;
+	overflow: hidden
+}
+
+#user_header #user_control ul.menu_header li.menu_phone .arrow,#user_header #user_control ul.menu_header li.menu_intro .arrow,#user_header #user_control ul.menu_header li.menu_stow .arrow
+	{
+	float: left;
+	margin-top: 8px
+}
+
+#user_header #user_control ul.menu_header li.menu_phone .arrow {
+	width: 10px;
+	height: 15px;
+	background-position: 0 0
+}
+
+#user_header #user_control ul.menu_header li.menu_intro .arrow {
+	width: 16px;
+	height: 15px;
+	background-position: -11px 0
+}
+
+#user_header #user_control ul.menu_header li.menu_stow .arrow {
+	width: 14px;
+	height: 13px;
+	background-position: 0 -16px
+}
+
+#user_header #user_control #my_jumei_attention_menu a {
+	display: block
+}
+
+#user_header #user_control #my_jumei_attention_menu a .arrow {
+	vertical-align: middle
+}
+
+#user_header #user_control #my_jumei_attention_menu li.sina .arrow {
+	width: 15px;
+	height: 14px;
+	background-position: -16px -16px
+}
+
+#user_header #user_control #my_jumei_attention_menu li.qqblog .arrow {
+	width: 13px;
+	height: 14px;
+	background-position: 0 -31px
+}
+
+#user_header #user_control #my_jumei_attention_menu li.qq .arrow {
+	width: 15px;
+	height: 15px;
+	background-position: -16px -31px
+}
+
+#user_header #user_control ul.login_header {
+	float: right;
+	width: 500px
+}
+
+#user_header #user_control ul.login_header li {
+	float: right;
+	line-height: 30px
+}
+
+#user_header #user_control ul.login_header li.user {
+	background: 0
+}
+
+#user_header #user_control ul li em {
+	color: #000;
+	margin: 0 8px
+}
+
+#user_header #user_control ul.login_header li .mycorn,#user_header #user_control ul.menu_header li .mycorn
+	{
+	width: 8px;
+	height: 5px;
+	background-position: -27px -6px;
+	margin-left: 5px;
+	*margin-bottom: 3px;
+	_margin-top: 13px
+}
+
+#user_header #user_control ul.menu_header li .mycorn {
+	background-position: -27px 0
+}
+
+#user_header #user_control #my_jumei_navigation_menu,#user_header #user_control #my_jumei_attention_menu,#yuexiang_user_nav_menu
+	{
+	display: block;
+	position: absolute;
+	z-index: 10005;
+	width: 93px
+}
+
+#user_header #user_control #my_jumei_navigation_menu,#user_header #user_control #my_jumei_attention_menu,#yuexiang_user_nav_menu ul
+	{
+	background: #f0f0f0;
+	background: rgba(255, 250, 250, 0.95);
+	border: 1px solid #e5e5e5;
+	border-top: 0;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	padding-left: 9px;
+	background: #fffafa
+}
+
+#user_header #user_control #my_jumei_navigation_menu li,#yuexiang_user_nav_menu li
+	{
+	margin: 0;
+	height: 25px;
+	line-height: 25px;
+	float: none;
+	display: block;
+	text-align: left
+}
+
+#user_header #user_control #my_jumei_attention_menu ul {
+	background-color: #eee;
+	padding-bottom: 10px;
+	line-height: normal
+}
+
+#user_header #user_control #my_jumei_attention_menu li {
+	width: 100%;
+	margin-top: 10px;
+	display: inline-block;
+	float: none;
+	line-height: normal
+}
+
+#logo {
+	height: 104px;
+	position: relative;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/logo_cart.jpg)
+		right center no-repeat
+}
+
+#logo #new_logo {
+	position: absolute;
+	left: 190px;
+	top: 0;
+	z-index: 30
+}
+
+#logo #cart {
+	width: 177px;
+	height: 33px;
+	position: absolute;
+	float: right;
+	right: 0;
+	top: 35px;
+	color: #000;
+	line-height: 25px;
+	cursor: pointer;
+	text-decoration: none
+}
+
+#logo #cart span.num {
+	width: 35px;
+	height: 24px;
+	line-height: 22px;
+	position: absolute;
+	top: -15px;
+	left: 21px;
+	background-position: 0 -69px;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	padding: 0;
+	margin: 0
+}
+
+#logo .referral_banner {
+	position: absolute;
+	width: 113px;
+	height: 30px;
+	line-height: 30px;
+	color: #ed145b;
+	top: 63px;
+	right: 216px
+}
+
+#logo .referral_banner a {
+	color: #ed145b
+}
+
+#logo #home {
+	position: absolute;
+	left: 0
+}
+
+#logo a.top_link {
+	width: 110px;
+	height: 45px;
+	position: absolute;
+	top: 30px;
+	background: #fff;
+	opacity: 0;
+	filter: alpha(opacity = 0)
+}
+
+#logo a.persent {
+	width: 118px;
+	left: 318px
+}
+
+#logo a.credit {
+	left: 440px
+}
+
+#logo a.gild {
+	left: 553px
+}
+
+#logo a.lightning {
+	left: 665px
+}
+
+#top_menu {
+	width: 100%;
+	background: #000;
+	display: block
+}
+
+#top_menu #top_nav {
+	position: relative;
+	z-index: 10002;
+	height: 38px
+}
+
+#top_menu #top_nav ul {
+	float: left;
+	font-family: '����', arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	height: 38px;
+	line-height: 38px
+}
+
+#top_menu #top_nav ul li {
+	width: 108px;
+	float: left;
+	text-align: center;
+	position: relative;
+	z-index: 200
+}
+
+#top_menu #top_nav ul li .header_list {
+	position: absolute;
+	width: 108px;
+	top: 38px;
+	left: 0;
+	z-index: 200;
+	display: none;
+	background: #ed145b
+}
+
+#top_menu #top_nav ul li .header_list a:hover {
+	background: #fc7ca6
+}
+
+#top_menu #top_nav ul li.selected,#top_menu #top_nav ul li.hover {
+	background: #ed145b
+}
+
+#top_menu #top_nav li a {
+	color: #fff;
+	font-family: "΢���ź�";
+	display: block;
+	position: relative;
+	font-size: 14px;
+	_zoom: 1
+}
+
+#top_nav li a:hover {
+	text-decoration: none
+}
+
+#top_nav li.selected a,#top_nav ul li.hover a {
+	color: #fff;
+	background: #ed145b
+}
+
+#top_nav li a .arrow {
+	position: absolute;
+	left: 7px;
+	top: 15px;
+	*top: 6px;
+	_top: 15px;
+	display: block;
+	width: 9px;
+	height: 8px;
+	background: url(/templates/jumei/images/home/arrow_header_bg.jpg)
+		no-repeat 0 -16px transparent;
+	overflow: hidden
+}
+
+#top_nav li.selected a .arrow {
+	background-position: 0 0
+}
+
+#top_nav li.hover a .arrow {
+	background-position: 0 -8px
+}
+
+.footer_top {
+	border-bottom: 1px solid #fff
+}
+
+.footer_top_bg {
+	border-bottom: 1px solid #ccc
+}
+
+#footer_links {
+	width: 960px;
+	height: 143px;
+	margin: 0 auto
+}
+
+#footer_links ul {
+	width: 140px;
+	*width: 125px;
+	height: 143px;
+	line-height: 20px;
+	padding-left: 20px;
+	*padding-left: 35px;
+	float: left;
+	zoom: 1;
+	overflow: hidden
+}
+
+#footer_links ul.linksa,#footer_links ul.linksb,#footer_links ul.linksc,#footer_links ul.linksd,#footer_links ul.linkse,#footer_links ul.linksf
+	{
+	background: url(/templates/jumei/images/home/deal_home_foot_v3.png)
+		no-repeat 0 0
+}
+
+#footer_links ul.linksa {
+	margin-left: 0
+}
+
+#footer_links ul.linksb {
+	background-position: 0 -143px
+}
+
+#footer_links ul.linksc {
+	background-position: 0 -286px
+}
+
+#footer_links ul.linksd {
+	background-position: 0 -429px
+}
+
+#footer_links ul.linkse {
+	background-position: 0 -572px
+}
+
+#footer_links ul.linksf {
+	background-position: 0 -715px
+}
+
+#footer_links li {
+	line-height: 22px;
+	padding-left: 15px;
+	*padding-left: 0;
+	font-size: 12px;
+	color: #808080;
+	white-space: nowrap;
+	*zoom: 1
+}
+
+#footer_links li a {
+	color: #808080
+}
+
+#footer_links .links {
+	font-size: 14px;
+	color: #4d4d4d
+}
+
+#footer_credit {
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+	position: relative
+}
+
+#footer_credit a.foot_link {
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	top: 15px;
+	background: #fff;
+	opacity: 0;
+	filter: alpha(opacity = 0)
+}
+
+#footer_credit a.mostmall {
+	left: 0
+}
+
+#footer_credit a.quality {
+	left: 110px
+}
+
+#footer_credit a.back {
+	left: 225px
+}
+
+#footer_credit a.depot {
+	left: 340px
+}
+
+#footer_credit a.consignment {
+	left: 465px
+}
+
+#footer_credit a.packaging {
+	left: 580px
+}
+
+#footer_credit a.confide {
+	left: 700px
+}
+
+#footer_credit a.commend {
+	left: 820px
+}
+
+#footer_hotline_container {
+	width: 960px;
+	height: 83px;
+	display: block;
+	float: left;
+	margin-top: 17px
+}
+
+#footer_hotline_container {
+	width: 580px;
+	height: 83px;
+	float: left;
+	display: block
+}
+
+#footer_hotline {
+	width: 580px;
+	height: 83px;
+	display: block;
+	margin-left: 190px
+}
+
+#footer_copyright {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 30px;
+	padding-bottom: 20px
+}
+
+#footer_copyright,#footer_copyright a {
+	color: #808080
+}
+
+.paginator {
+	padding: 10px 0 10px;
+	margin-right: 10px;
+	white-space: nowrap;
+	text-align: right;
+	font-size: 12px
+}
+
+.paginator li {
+	display: inline;
+	margin: 0 1px;
+	*vertical-align: middle
+}
+
+.paginator li.current {
+	*height: 24px;
+	margin: 0 6px;
+	font-weight: bold;
+	*line-height: 24px
+}
+
+.paginator li a {
+	*display: inline-block;
+	*height: 22px;
+	padding: 3px 6px 4px;
+	*padding: 0 6px;
+	border: 1px solid #bbb;
+	text-decoration: none;
+	*line-height: 22px;
+	*position: relative
+}
+
+.paginator li a:hover {
+	*height: 24px;
+	padding: 4px 7px 5px;
+	*padding: 0 7px;
+	border: 0;
+	*line-height: 24px;
+	background: #e186b1;
+	color: #fff;
+	text-decoration: none
+}
+
+.paginator li span {
+	padding: 0 4px
+}
+
+#colorbox,#cboxOverlay,#cboxWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	overflow: hidden
+}
+
+#cboxOverlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1000
+}
+
+#cboxMiddleLeft,#cboxBottomLeft {
+	clear: left
+}
+
+#cboxContent {
+	position: relative;
+	overflow: hidden
+}
+
+#cboxLoadedContent {
+	overflow: auto
+}
+
+#cboxLoadedContent iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0
+}
+
+#cboxTitle {
+	margin: 0
+}
+
+#cboxLoadingOverlay,#cboxLoadingGraphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%
+}
+
+#cboxPrevious,#cboxNext,#cboxClose,#cboxSlideshow {
+	cursor: pointer
+}
+
+#cboxOverlay {
+	background-color: black
+}
+
+#cboxTopLeft {
+	width: 25px
+}
+
+#cboxTopCenter {
+	height: 25px
+}
+
+#cboxTopRight {
+	width: 25px
+}
+
+#cboxBottomLeft {
+	width: 25px
+}
+
+#cboxBottomCenter {
+	height: 25px
+}
+
+#cboxBottomRight {
+	width: 25px;
+	height: 25px
+}
+
+#cboxMiddleLeft {
+	width: 25px
+}
+
+#cboxMiddleRight {
+	width: 25px
+}
+
+#cboxContent {
+	background: #ffe4e8;
+	border: 4px solid #ed415b;
+	-webkit-box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3)
+}
+
+#cboxLoadedContent {
+	background: #FFF;
+	margin-top: 50px
+}
+
+#cboxTitle {
+	position: absolute;
+	top: 12px;
+	left: 0;
+	text-align: left;
+	width: 70%;
+	margin-left: 15px;
+	color: #000;
+	font: 20px/30px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif
+}
+
+#cboxClose {
+	position: absolute;
+	top: 12px;
+	right: 0;
+	text-align: right;
+	width: 50px;
+	padding-right: 20px;
+	margin-right: 15px;
+	color: #999;
+	font: 20px/30px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background: url(/templates/jumei/css_pics/i/sprite.png) no-repeat 54px
+		7px
+}
+
+#cboxClose:hover {
+	color: #ed145b;
+	background: url(/templates/jumei/css_pics/i/sprite.png) no-repeat 54px
+		-17px
+}
+
+#cboxLoadingOverlay {
+	background: #fff url(/templates/jumei/css_pics/i/spinner.gif) no-repeat
+		10px 10px
+}
+
+#lb_user_info_alert .picture {
+	float: left;
+	margin-left: 30px;
+	background: #fff url(/templates/jumei/css_pics/i/lb_user_info_alert.jpg)
+		no-repeat 0 0;
+	width: 313px;
+	height: 149px
+}
+
+.content_body .gateway_list li.type_name {
+	width: 620px
+}
+
+.notification_center {
+	margin: auto;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	margin: 5px 0
+}
+
+.notification_center.information_notification {
+	border: 1px #28afed solid;
+	background: #d7eef7
+}
+
+.notification_center.success_notification {
+	border: 1px #5c9317 solid;
+	background: #e8fec7
+}
+
+.notification_center.warning_notification {
+	border: 1px #f4932f solid;
+	background: #fef69e
+}
+
+.notification_center.error_notification {
+	border: 1px #fb0219 solid;
+	background: #fedddf
+}
+
+div.notification_center .message {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 5px 5px;
+	margin-left: 8px;
+	padding: 5px;
+	padding-left: 22px;
+	float: left;
+	color: #000;
+	padding-bottom: 0\9
+}
+
+div.notification_center.information_notification .message {
+	background:
+		url(/templates/jumei/css_pics/i/notification_center/icon_information.png)
+		no-repeat;
+	background-position: 0 50%
+}
+
+div.notification_center.success_notification .message {
+	background:
+		url(/templates/jumei/css_pics/i/notification_center/icon_success.png)
+		no-repeat;
+	background-position: 0 50%
+}
+
+div.notification_center.warning_notification .message {
+	background:
+		url(/templates/jumei/css_pics/i/notification_center/icon_warning.png)
+		no-repeat;
+	background-position: 0 50%
+}
+
+div.notification_center.error_notification .message {
+	background:
+		url(/templates/jumei/css_pics/i/notification_center/icon_error.png)
+		no-repeat;
+	background-position: 0 50%
+}
+
+div.notification_center .action {
+	padding: 10px
+}
+
+div.notification_center .action a {
+	font-size: 14px;
+	width: 150px;
+	color: #666;
+	width: 90px
+}
+
+div.notification_center .action div {
+	float: right
+}
+
+#user_notification {
+	margin-bottom: 15px
+}
+
+ul.friendlinks {
+	padding: 20px;
+	display: inline-block
+}
+
+ul.friendlinks li {
+	float: left;
+	height: 30px;
+	width: 143px;
+	word-break: keep-all;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 12px
+}
+
+ul.friendlinks li a {
+	color: #333
+}
+
+ul.friendlinks li a:hover {
+	color: #ed145b
+}
+
+.service_rating {
+	margin: 5px 0;
+	*margin-top: 0
+}
+
+.service_rating label {
+	width: 80px;
+	float: left
+}
+
+.service_rating .hint {
+	float: left;
+	margin-left: 5px
+}
+
+.service_rating .rating.editable {
+	cursor: pointer
+}
+
+.service_rating .rating {
+	float: left;
+	line-height: 16px;
+	background: url('/templates/jumei/css_pics/i/rating.png') repeat-x 0
+		-16px;
+	width: 85px;
+	height: 16px
+}
+
+.service_rating .rating .value {
+	height: 16px;
+	background: url('/templates/jumei/css_pics/i/rating.png') repeat-x 0 0
+}
+
+.service_rating .rating .cf_val {
+	background: url('/templates/jumei/css_pics/i/rating.png') repeat-x 0
+		-32px
+}
+
+.service_rating.small .rating {
+	float: left;
+	line-height: 13px;
+	background: url(/templates/jumei/css_pics/i/rating_small_v2.png)
+		repeat-x 0 -13px;
+	width: 80px;
+	height: 13px;
+	overflow: hidden
+}
+
+.service_rating.small .rating .value {
+	background: url(/templates/jumei/css_pics/i/rating_small_v2.png)
+		repeat-x 0 0;
+	width: 48px;
+	height: 13px;
+	_font-size: 0
+}
+
+.service_rating.small .rating .cf_val {
+	background: url(/templates/jumei/css_pics/i/rating_small_v2.png)
+		repeat-x 0 -26px
+}
+
+.gateway_list {
+	background: #fafafa;
+	padding: 15px 24px
+}
+
+.gateway_list li {
+	float: left;
+	width: 176px;
+	*width: 185px;
+	display: block;
+	height: 40px;
+	margin-bottom: 20px
+}
+
+.gateway_list li.desc {
+	width: 600px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #959595
+}
+
+.gateway_list li.desc a {
+	font-size: 12px
+}
+
+.gateway_list li.type_name {
+	width: 860px;
+	border-top: 1px dashed #333;
+	height: 30px;
+	line-height: 50px;
+	color: #959595;
+	font-size: 12px
+}
+
+.gateway_list li.type_name b {
+	color: #333
+}
+
+.gateway_list li input {
+	float: left;
+	margin: 15px 10px 0 0
+}
+
+.gateway_list li label {
+	float: left;
+	background: url(/templates/jumei/css_pics/i/gateway_bg_v2.png);
+	height: 38px;
+	width: 130px;
+	border: 1px solid #ccc;
+	cursor: pointer
+}
+
+.gateway_list li.selected label {
+	border-color: #ed145b
+}
+
+.gateway_list li .Alipay {
+	background-position: 0 0
+}
+
+.gateway_list li .Alipay_CCB-MOTO-CREDIT {
+	width: 149px;
+	background-position: 0 -120px
+}
+
+.gateway_list li .Alipay_ICBC-MOTO-CREDIT {
+	width: 149px;
+	background-position: 0 -160px
+}
+
+.gateway_list li .Alipay_BOC-MOTO-CREDIT {
+	width: 149px;
+	background-position: 0 -200px
+}
+
+.gateway_list li .Alipay_ICBCB2C {
+	background-position: 0 -240px
+}
+
+.gateway_list li .Alipay_CCB {
+	background-position: 0 -280px
+}
+
+.gateway_list li .Alipay_BOCB2C {
+	background-position: 0 -320px
+}
+
+.gateway_list li .Alipay_CMB {
+	background-position: 0 -360px
+}
+
+.gateway_list li .Alipay_COMM {
+	background-position: 0 -400px
+}
+
+.gateway_list li .Alipay_ABC {
+	background-position: 0 -440px
+}
+
+.gateway_list li .Alipay_PSBC-DEBIT {
+	background-position: 0 -480px
+}
+
+.gateway_list li .Alipay_CITIC {
+	background-position: 0 -520px
+}
+
+.gateway_list li .Alipay_CIB {
+	background-position: 0 -560px
+}
+
+.gateway_list li .Alipay_SPDB {
+	background-position: 0 -600px
+}
+
+.gateway_list li .Alipay_CMBC {
+	background-position: 0 -640px
+}
+
+.gateway_list li .Alipay_CEBBANK {
+	background-position: 0 -680px
+}
+
+.gateway_list li .Alipay_NBBANK {
+	background-position: 0 -720px
+}
+
+.gateway_list li .Alipay_SDB {
+	background-position: 0 -760px
+}
+
+.gateway_list li .Alipay_BJRCB {
+	background-position: 0 -800px
+}
+
+.gateway_list li .Alipay_SPABANK {
+	background-position: 0 -840px
+}
+
+.gateway_list li .Alipay_GDB {
+	background-position: 0 -880px
+}
+
+.gateway_list li .Alipay_SHBANK {
+	background-position: 0 -958px
+}
+
+.gateway_list li .Alipay_HZCBB2C {
+	background-position: 0 -996px
+}
+
+.gateway_list li .Alipay_BJBANK {
+	background-position: 0 -1034px
+}
+
+.gateway_list li .Alipay_ABC-MOTO-CREDIT {
+	width: 149px;
+	background-position: 0 -1072px
+}
+
+.gateway_list li .Alipay_CMB-MOTO-CREDIT {
+	width: 149px;
+	background-position: 0 -1110px
+}
+
+.gateway_list li .COD {
+	background-position: 0 -920px
+}
+
+.gateway_list li .Tenpay_0 {
+	background-position: 0 -40px
+}
+
+.gateway_list li .Tenpay_1001 {
+	background-position: 0 -360px
+}
+
+.gateway_list li .Tenpay_1002 {
+	background-position: 0 -240px
+}
+
+.gateway_list li .Tenpay_1003 {
+	background-position: 0 -280px
+}
+
+.gateway_list li .Tenpay_1004 {
+	background-position: 0 -600px
+}
+
+.gateway_list li .Tenpay_1005 {
+	background-position: 0 -440px
+}
+
+.gateway_list li .Tenpay_1006 {
+	background-position: 0 -640px
+}
+
+.gateway_list li .Tenpay_1008 {
+	background-position: 0 -760px
+}
+
+.gateway_list li .Tenpay_1009 {
+	background-position: 0 -560px
+}
+
+.gateway_list li .Tenpay_1010 {
+	background-position: 0 -840px
+}
+
+.gateway_list li .Tenpay_1020 {
+	background-position: 0 -400px
+}
+
+.gateway_list li .Tenpay_1021 {
+	background-position: 0 -520px
+}
+
+.gateway_list li .Tenpay_1022 {
+	background-position: 0 -680px
+}
+
+.gateway_list li .Tenpay_1027 {
+	background-position: 0 -880px
+}
+
+.gateway_list li .Tenpay_1052 {
+	background-position: 0 -320px
+}
+
+.gateway_list li .Cmpay {
+	background-position: 0 -80px
+}
+
+#new_icon {
+	background: url(/templates/jumei/css_pics/i/new.gif) no-repeat;
+	width: 25px;
+	height: 22px;
+	position: absolute;
+	z-index: 50
+}
+
+.enter-address {
+	-moz-background-clip: border;
+	-moz-background-inline-policy: continuous;
+	-moz-background-origin: padding;
+	background: #fdfeee none repeat scroll 0 0;
+	border: 1px solid #f3d3c4;
+	margin-top: 20px;
+	padding: 15px 20px 0
+}
+
+.enter-address p {
+	margin-bottom: 10px
+}
+
+.enter-address .tip {
+	color: #7c7a7d;
+	display: block;
+	padding-top: 5px
+}
+
+.consult-list .item {
+	margin: 0 0 23px 0;
+	padding: 10px 22px 20px
+}
+
+.consult-list .alt .item {
+	background: #f6f6f6
+}
+
+.consult-list .item a {
+	color: #666
+}
+
+.consult-list .item a:hover {
+	color: #666
+}
+
+.consult-list .user {
+	font-size: 12px;
+	color: #999
+}
+
+.consult-list .user strong {
+	float: left;
+	width: 300px
+}
+
+.consult-list .user span {
+	float: right;
+	width: 200px;
+	text-align: right
+}
+
+.consult-list .text {
+	clear: both;
+	margin-top: 8px;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.consult-list .reply {
+	margin-top: 8px;
+	color: #cb3234
+}
+
+.consult-list .noreply {
+	margin-top: 8px;
+	color: #cb3234
+}
+
+.consult-list .consult-rating {
+	float: right;
+	background: transparent url(/templates/jumei/css_pics/i/rating.png)
+		repeat-x left -17px;
+	width: 85px;
+	height: 16px;
+	cursor: pointer
+}
+
+.consult-list .please_rate {
+	float: right
+}
+
+.consult-list .consult-rating .value {
+	background: transparent url(/templates/jumei/css_pics/i/rating.png)
+		repeat-x;
+	width: 0;
+	height: 16px
+}
+
+.consult-list .consult-rating .last_value {
+	display: none
+}
+
+.consult-form {
+	padding: 35px 55px 15px;
+	width: auto;
+	height: 152px
+}
+
+.consult-form .commit {
+	margin-top: 10px
+}
+
+.consult-form .f-textarea {
+	width: 405px
+}
+
+.consult-form .succ {
+	display: none;
+	padding: 10px 0
+}
+
+.consult-type {
+	font-size: 12px;
+	padding: 5px 0 15px 540px;
+	width: auto;
+	height: 20px
+}
+
+.consult-type a {
+	color: #ed145b;
+	padding: 10px;
+	background-color: white
+}
+
+.consult-type a.selected {
+	color: white;
+	background-color: #ed145b
+}
+
+ol.survey {
+	padding: 10px
+}
+
+ol.survey .option {
+	display: inline-block;
+	margin: 3px 0;
+	width: 200px
+}
+
+ol.survey .option label {
+	margin-left: 3px
+}
+
+ol.survey h5 {
+	font-size: 14px;
+	margin: 10px 0 5px 0
+}
+
+.seperator_line {
+	border-bottom: 1px #aeaeae solid;
+	margin-bottom: 10px
+}
+
+#lightbox {
+	position: fixed;
+	_position: absolute;
+	left: 50%;
+	top: 50%;
+	background: #ddd;
+	z-index: 5
+}
+
+#lightbox_pal {
+	position: absolute;
+	z-index: -1;
+	filter: Alpha(Opacity = 0);
+	opacity: 0
+}
+
+#lightbox_shadow {
+	position: absolute;
+	z-index: 4;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #000;
+	filter: Alpha(Opacity = 50);
+	opacity: .50;
+	overflow: hidden
+}
+
+#lightbox_shadow iframe {
+	width: 100%;
+	filter: Alpha(Opacity = 0);
+	opacity: 0;
+	border: 0
+}
+
+#lightbox .container {
+	display: block;
+	border: #aeaeae 1px solid;
+	width: 400px;
+	position: relative;
+	background: #fff
+}
+
+#lightbox .close_button {
+	position: absolute;
+	top: 12px;
+	right: 12px
+}
+
+#lightbox .title {
+	background: #f9f9f9;
+	font-size: 14px;
+	line-height: 48px;
+	height: 48px;
+	border-bottom: 1px solid #aeaeae;
+	font-weight: bold;
+	padding-left: 20px
+}
+
+#lightbox .content {
+	padding: 20px
+}
+
+#lightbox .ctrl {
+	margin-top: 20px
+}
+
+#lightbox .popup_ctrl a {
+	margin: 0 15px 0 12px
+}
+
+#lightbox h1.info {
+	background: url(/templates/jumei/css_pics/i/lightbox_info.png) no-repeat;
+	height: 80px;
+	line-height: 80px;
+	padding-left: 100px;
+	margin-bottom: 20px
+}
+
+#lightbox p {
+	font-size: 14px
+}
+
+#cboxOverlay {
+	filter: alpha(Opacity = 60);
+	opacity: .6
+}
+
+.christmas_box .close {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	width: 25px;
+	height: 25px;
+	display: block
+}
+
+.christmas_box .jumei_home {
+	text-align: center
+}
+
+.christmas_box .get_gift {
+	position: absolute;
+	left: 80px;
+	top: 120px;
+	width: 350px;
+	height: 150px;
+	display: block
+}
+
+.christmas_box .gift_info {
+	position: absolute;
+	top: 90px;
+	left: 50px;
+	display: none
+}
+
+.christmas_box .gift_info h2 {
+	margin-bottom: 5px;
+	color: #fff;
+	font-size: 14px
+}
+
+.christmas_box .gift_info a {
+	color: #fff;
+	text-decoration: underline
+}
+
+.christmas_box .gift_info h2 .price {
+	font-size: 20px
+}
+
+.box_yellow {
+	height: 35px;
+	line-height: 35px;
+	padding: 0 10px;
+	background: #feffe5;
+	border: 1px solid #efe68b;
+	font-size: 14px;
+	position: relative
+}
+
+.box_yellow .close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer
+}
+
+#home_notice {
+	overflow: hidden
+}
+
+#home_notice .box_yellow {
+	display: none;
+	width: 938px;
+	margin-top: 20px
+}
+
+#home_notice .box_yellow a {
+	font-weight: bold
+}
+
+#waiting_pay {
+	width: 938px;
+	display: none
+}
+
+#waiting_pay a {
+	font-weight: bold
+}
+
+#user_header #top_waiting_pay {
+	display: none;
+	width: 255px;
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	left: -135px;
+	bottom: -22px;
+	z-index: 99;
+	background: #feffe5;
+	border: 1px solid #efe68b;
+	font-size: 12px;
+	color: #333;
+	text-align: center
+}
+
+#user_header #top_waiting_pay a {
+	color: #ed145b
+}
+
+#user_header #top_waiting_pay .close {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	cursor: pointer
+}
+
+#user_header #top_waiting_pay .arrow {
+	display: block;
+	position: absolute;
+	top: -6px;
+	left: 155px;
+	width: 6px;
+	height: 6px;
+	background: url(/templates/jumei/images/top_waiting_pay_arrow.jpg)
+		no-repeat 0 0 transparent
+}
+
+#sidebar .box_v1 .title,.deal_browse_title {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	background: #000;
+	font-size: 14px;
+	font-family: "΢���ź�";
+	color: #FFF
+}
+
+#sidebar .box_v1 .title .arrow,.deal_browse_title .arrow {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin-right: 7px;
+	*float: left;
+	*margin: 15px 5px 0 10px;
+	background: url(/templates/jumei/images/detail/sidebar_arrow_v2.png) 0 0
+		no-repeat transparent;
+	overflow: hidden
+}
+
+#sidebar .box_v1 .content {
+	overflow: hidden;
+	border: 1px solid #d3d3d3;
+	border-top: 0;
+	background: #fff
+}
+
+#sidebar .product_function_box .content a,#sidebar .hot_brands_box .list_container .list_content a
+	{
+	float: left;
+	margin: 0 4px 4px 0;
+	padding: 5px 10px;
+	background: #FFF;
+	color: #000;
+	white-space: nowrap;
+	border: 1px solid #ccc
+}
+
+#sidebar .product_function_box .content a:hover,#sidebar .hot_brands_box .list_container .list_content a:hover
+	{
+	color: #FFF;
+	text-decoration: none;
+	background: #fca3c1;
+	border: 1px solid #fca3c1
+}
+
+#sidebar .hot_brands_box .list_container {
+	_width: 236px;
+	padding-bottom: 10px;
+	overflow: hidden
+}
+
+#sidebar #buyers .list_container {
+	height: 80px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	display: inline-block;
+	overflow: hidden
+}
+
+#sidebar #buyers .list_container .list_newcontent {
+	font-size: 12px;
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	margin-bottom: 5px
+}
+
+#sidebar #buyers .list_container .list_product_name {
+	height: 24px;
+	line-height: 16px;
+	padding: 5px 0 10px;
+	overflow: hidden
+}
+
+#sidebar #buyers .list_container .list_product_name a {
+	font-size: 12px;
+	color: #333
+}
+
+#sidebar #buyers .list_container .list_product_name a:hover {
+	color: #ed145b;
+	text-decoration: none
+}
+
+#sidebar .hot_brands_box .list_container .list_title {
+	width: 228px;
+	height: 22px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-left: 10px
+}
+
+#sidebar .hot_brands_box .list_container .list_content {
+	overflow: hidden;
+	padding-left: 10px
+}
+
+#sidebar .hot_brands_box .list_container .list_content a {
+	text-align: center;
+	font-family: "����"
+}
+
+.box_v1 {
+	overflow: hidden;
+	_width: 238px;
+	margin-bottom: 20px;
+	position: relative;
+	box-shadow: 0 1px 4px #e2e2e2;
+	clear: both
+}
+
+.box_v1 h2 {
+	background: url(/templates/jumei/css_pics/i/section_marker.png)
+		no-repeat;
+	background-position: 0 10px;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 25px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 5px 10px;
+	_float: left;
+	_display: inline
+}
+
+.box_v1 .product_container {
+	height: 60px;
+	overflow: hidden;
+	padding: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	_zoom: 1;
+	display: inline-block
+}
+
+.box_v1 .product_container.last {
+	border-bottom: 0
+}
+
+.box_v1 .left_part,.box_v1 .left_part img {
+	width: 60px;
+	height: 60px;
+	overflow: hidden
+}
+
+.box_v1 .left_part {
+	float: left;
+	margin-top: 2px
+}
+
+.box_v1 .right_part {
+	width: 145px;
+	float: left;
+	margin-left: 10px;
+	overflow: hidden
+}
+
+.box_v1 .right_part p {
+	margin-bottom: 3px;
+	line-height: 14px;
+	font-family: Arial, "����";
+	overflow: hidden
+}
+
+.box_v1 .right_part .name {
+	height: 28px;
+	overflow: hidden
+}
+
+.box_v1 .right_part .name a {
+	color: #333
+}
+
+.box_v1 .right_part .price {
+	color: #ed145b
+}
+
+#sidebar .popular_products_box .title a.hover .arrow {
+	background-position: 0 0
+}
+
+#sidebar .popular_products_box .info_title {
+	height: 39px;
+	line-height: 39px;
+	font-family: Arial, "����";
+	overflow: hidden;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	padding-left: 15px;
+	background: #FFF
+}
+
+#sidebar .popular_products_box .info_titles {
+	height: 39px;
+	line-height: 39px;
+	font-family: Arial, "����";
+	overflow: hidden;
+	border-top: 1px solid #d9d9d9;
+	padding-left: 15px;
+	border-bottom: 0;
+	background: #fff
+}
+
+#sidebar .popular_products_box .info_titles a {
+	word-wrap: break-word;
+	break-word: break-all;
+	overflow: hidden;
+	color: #333
+}
+
+#sidebar .popular_products_box .info_titles a:hover {
+	text-decoration: none;
+	color: #ed145b
+}
+
+#sidebar .popular_products_box .info_titles a span.color_ecb {
+	color: #ec1a5b;
+	padding-left: 5px
+}
+
+#sidebar .popular_products_box .info_titles a span.tit_name {
+	width: 145px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer
+}
+
+#sidebar .popular_products_box .info_title a {
+	word-wrap: break-word;
+	break-word: break-all;
+	overflow: hidden;
+	color: #333
+}
+
+#sidebar .popular_products_box .info_title a:hover {
+	text-decoration: none;
+	color: #ed145b
+}
+
+#sidebar .popular_products_box .info_title a span.color_ecb {
+	color: #ec1a5b;
+	padding-left: 5px
+}
+
+#sidebar .popular_products_box .info_title a span.tit_name {
+	width: 145px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer
+}
+
+#sidebar .popular_products_box .info_content {
+	width: 236px;
+	_width: 234px;
+	height: 136px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	position: relative;
+	left: 1px;
+	display: block;
+	border-bottom: 1px solid #d7d7d7;
+	background: #FFF
+}
+
+#sidebar .popular_products_box .info_content img {
+	position: absolute;
+	top: -2px;
+	left: -2px
+}
+
+#sidebar .popular_products_box .last {
+	margin-bottom: 0;
+	border-bottom: 0
+}
+
+#sidebar .brand_pic {
+	height: 60px;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+	text-align: center
+}
+
+#browse_number {
+	background: url(/templates/jumei/images/browse_number.jpg) no-repeat;
+	height: 85px;
+	width: 230px;
+	padding-left: 8px
+}
+
+#browse_number .number {
+	height: 29px;
+	width: 29px;
+	float: left;
+	margin: 16px 3px 0 0;
+	display: inline;
+	text-align: center;
+	color: #fff;
+	font-size: 22px
+}
+
+.enquiry_list {
+	margin-bottom: 20px
+}
+
+.cart_popup_container {
+	position: relative;
+	z-index: 1001;
+	display: none
+}
+
+.cart_popup {
+	border: 3px solid #ccc;
+	padding: 19px;
+	background: #fafafa;
+	width: 460px;
+	position: absolute;
+	top: 122px;
+	left: -1px;
+	z-index: 10000;
+	zoom: 1
+}
+
+.cart_popup .pink {
+	font-family: Tahoma
+}
+
+.cart_popup .hide {
+	display: none
+}
+
+.cart_popup .popup_hint {
+	border: 1px solid #ccc;
+	background: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+	overflow: hidden;
+	padding: 10px;
+	position: relative;
+	_zoom: 1
+}
+
+.cart_popup .popup_hint .hint_pic {
+	float: left;
+	margin-right: 20px;
+	width: 100px;
+	height: 100px;
+	overflow: hidden
+}
+
+.cart_popup .popup_hint .hint_status {
+	float: left;
+	width: 260px;
+	height: 100px;
+	overflow: hidden
+}
+
+.top_search_pop_div a {
+	color: #666;
+	text-decoration: none
+}
+
+.top_search_pop_div.selected a {
+	color: #fff
+}
+
+.top_search_pop_div a:hover {
+	color: #ed0c5b;
+	text-decoration: underline
+}
+
+.top_search_pop_div .div_warp {
+	padding: 5px 0 10px 0;
+	width: 150px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 5px 13px
+}
+
+.cart_popup .popup_hint .hint_status h2 {
+	font-size: 16px;
+	color: #333;
+	font-family: "΢���ź�", "����", "����", Tahoma, Helvetica, arial,
+		sans-serif
+}
+
+.cart_popup .popup_hint .hint_status p {
+	margin-top: 10px
+}
+
+.cart_popup .popup_user_buy {
+	overflow: hidden;
+	margin-top: 15px
+}
+
+.cart_popup .popup_user_buy h4 {
+	margin-bottom: 15px;
+	color: #474747;
+	font-size: 14px;
+	font-weight: normal
+}
+
+.cart_popup .user_buy_products {
+	overflow: hidden;
+	width: 460px;
+	margin-bottom: 10px
+}
+
+.cart_popup .user_buy_products li {
+	float: left;
+	width: 102px;
+	margin-right: 17px
+}
+
+.cart_popup .user_buy_products li.last {
+	margin-right: 0
+}
+
+.cart_popup .user_buy_products li a {
+	display: block;
+	color: #333;
+	font-size: 12px
+}
+
+.cart_popup .user_buy_products li a:hover {
+	color: #ed145b;
+	text-decoration: none
+}
+
+.cart_popup .user_buy_products li .pic {
+	display: block;
+	width: 98px;
+	height: 98px;
+	border: 1px solid #ccc;
+	overflow: hidden
+}
+
+.cart_popup .hint_status .summary {
+	font-size: 12px
+}
+
+.cart_popup .user_buy_products li .price {
+	height: 16px;
+	overflow: hidden;
+	margin-top: 5px;
+	font-size: 12px
+}
+
+.cart_popup .user_buy_products li .tit {
+	height: 28px;
+	overflow: hidden;
+	line-height: 14px
+}
+
+.cart_popup .user_buy_products li img {
+	display: block
+}
+
+.cart_popup #add_to_cart {
+	display: inline-block;
+	width: 90px;
+	height: 32px;
+	line-height: 30px;
+	background: url(/templates/jumei/images/cart/btn_pink_mid.png) no-repeat
+		0 0 #ed145b;
+	color: #fff;
+	font-size: 14px;
+	text-align: center
+}
+
+.cart_popup .go_on_shopping {
+	margin-left: 5px;
+	font-size: 12px
+}
+
+.cart_popup #add_to_cart:hover {
+	text-decoration: none
+}
+
+.cart_popup .close {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	color: #333;
+	cursor: pointer;
+	font-size: 12px;
+	_zoom: 1
+}
+
+.top_search_wrap {
+	width: 208px;
+	color: white;
+	border: solid 1px #e8e8e8;
+	height: 24px;
+	background: white;
+	float: right;
+	display: inline;
+	margin-top: 6px;
+	position: relative
+}
+
+#mall_search_form {
+	width: 208px;
+	height: 24px
+}
+
+#btn_global_search {
+	border: 0 none;
+	width: 31px;
+	height: 24px;
+	background:
+		url(http://images.jumei.com/templates/jumei/images/search/mallsearchbg.jpg)
+		no-repeat #ddd;
+	cursor: pointer;
+	position: absolute;
+	right: 1px;
+	top: 0;
+	text-indent: -99999px
+}
+
+.top_search_input.focus {
+	color: #000;
+	border: 0
+}
+
+.top_search_input {
+	width: 171px;
+	height: 24px;
+	padding: 0 2px;
+	line-height: 24px;
+	background: white;
+	border: 0;
+	outline: 0;
+	color: #999;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset
+}
+
+.home_guarantee {
+	display: none
+}
+
+.search_result_pop {
+	width: 100%;
+	position: absolute;
+	background: #fff;
+	z-index: 99999;
+	display: none;
+	top: 26px;
+	left: -1px;
+	border: solid 1px #e6e6e6;
+	box-shadow: 0 1px 3px #e4e4e4
+}
+
+.search_result_pop a {
+	color: #666;
+	text-decoration: none
+}
+
+.search_result_pop a:hover {
+	color: #ed0c5b;
+	text-decoration: underline
+}
+
+.search_result_pop div {
+	text-indent: 5px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: solid 1px #e6e6e6;
+	overflow: hidden;
+	cursor: pointer;
+	color: #666
+}
+
+.search_result_pop div span {
+	float: left;
+	width: 95%;
+	overflow: hidden;
+	color: #333
+}
+
+.search_result_pop div label {
+	float: right;
+	margin-right: 2px;
+	color: #919191
+}
+
+.sidebars_hot_word {
+	color: #000;
+	background: #eee;
+	display: block;
+	float: left;
+	*display: inline;
+	*float: none;
+	*zoom: 1;
+	*white-space: nowrap;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	*margin-right: 1px
+}
+
+.sidebars_hot_word a {
+	padding: 5px 10px;
+	padding: 7px 10px\9;
+	color: #000;
+	background: #fff;
+	display: block;
+	float: left;
+	*display: inline;
+	*float: none;
+	*zoom: 1;
+	*white-space: nowrap;
+	overflow: hidden
+}
+
+.sidebars_hot_word a:hover {
+	text-decoration: none;
+	background: #f9a3bf;
+	color: #fff
+}
+
+.sidebars_hot_word_hover {
+	background: #f9a3bf;
+	border: 1px solid #f9a3bf
+}
+
+.search_result_pop .selected {
+	background: #ffdfe9;
+	color: #666
+}
+
+.tipbox {
+	background-color: #ffffe9;
+	border: 1px solid #ffde8e;
+	padding: 5px 25px 5px 10px;
+	margin: 10px;
+	position: absolute;
+	z-index: 100;
+	font-size: 12px;
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+	opacity: .9
+}
+
+.tipbox .close-ico,.notice-tip .close-ico {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-image: url(/templates/jumei/images/close-ico.png);
+	text-indent: -900px;
+	overflow: hidden
+}
+
+.tipbox .close-ico:hover,.notice-tip .close-ico:hover {
+	background-position: 0 -16px
+}
+
+.tipbox p {
+	line-height: 1.5
+}
+
+.tipbox .tipbox-direction {
+	position: absolute
+}
+
+.tipbox .tipbox-direction label,.tipbox .tipbox-direction span {
+	height: 19px;
+	width: 17px;
+	font-family: Simsun;
+	font-size: 16px;
+	line-height: 21px;
+	overflow: hidden;
+	position: absolute
+}
+
+.tipbox .tipbox-direction label {
+	color: #ffde8e
+}
+
+.tipbox .tipbox-direction span {
+	color: #ffffe9
+}
+
+.tipbox .tipbox-up {
+	left: 50%;
+	margin-left: -8px;
+	top: -10px;
+	*top: -11px;
+	_top: -10px
+}
+
+.tipbox .tipbox-up span {
+	top: 1px
+}
+
+.tipbox .tipbox-down {
+	left: 50%;
+	margin-left: -8px;
+	bottom: 9px
+}
+
+.tipbox .tipbox-down span {
+	top: -1px
+}
+
+.tipbox .tipbox-right {
+	top: 50%;
+	margin-top: -8px;
+	right: 7px
+}
+
+.tipbox .tipbox-right span {
+	left: -1px
+}
+
+.tipbox .tipbox-left {
+	top: 50%;
+	margin-top: -8px;
+	left: -8px
+}
+
+.tipbox .tipbox-left span {
+	left: 1px
+}
+
+.notice-tip {
+	width: 200px;
+	margin: 0
+}
+
+.notice-tip p {
+	line-height: 22px
+}
+
+#header_notice {
+	left: -160px;
+	top: 20px;
+	display: none
+}
+
+#user_header #user_control #header_notice a {
+	color: #ed145b
+}
+
+#header_notice p {
+	line-height: 23px
+}
+
+.referral_links {
+	height: 38px;
+	line-height: 38px;
+	margin: 0 3px;
+	padding: 0 12px;
+	font-size: 12px;
+	color: #959595;
+	border-bottom: 1px solid #ccc
+}
+
+.referral_links h5 {
+	float: left;
+	font-weight: normal;
+	line-height: 40px;
+	color: #666;
+	font-size: 14px
+}
+
+.referral_links a:hover {
+	color: #0981be
+}
+
+#deal_referral_links #ckepop {
+	float: left;
+	margin-top: 12px;
+	overflow: hidden
+}
+
+#deal_referral_links #ckepop a {
+	float: left;
+	width: 55px;
+	padding-left: 25px;
+	height: 18px;
+	line-height: 18px;
+	color: #959595;
+	font-size: 12px;
+	font-family: Helvetica, arial, sans-serif;
+	outline: 0;
+	background: url(/templates/jumei/images/home/pic_share.png) no-repeat 0
+		0
+}
+
+#deal_referral_links #ckepop .jiathis_button_tsina {
+	background-position: 0 -30px
+}
+
+#deal_referral_links #ckepop .jiathis_button_tqq {
+	background-position: 0 -60px
+}
+
+#deal_referral_links #ckepop .jtico_kaixin001 {
+	background-position: 0 -90px
+}
+
+#deal_referral_links #ckepop .jtico_douban {
+	background-position: 0 -120px
+}
+
+#deal_referral_links #ckepop .jtico_msn {
+	background-position: 0 -150px
+}
+
+#deal_referral_links #ckepop .jiathis_button_qzone {
+	background-position: 0 -180px
+}
+
+#deal_referral_links #ckepop .jiathis_button_renren {
+	background-position: 0 -210px
+}
+
+#deal_referral_links #ckepop .jtico_tsohu {
+	background-position: 0 -240px
+}
+
+#deal_referral_links #ckepop .jtico_sc115 {
+	background-position: 0 -270px
+}
+
+#deal_referral_links #ckepop .jiathis_button_mogujie {
+	background-position: 0 -300px
+}
+
+#deal_referral_links #ckepop .jiathis_button_email {
+	background-position: 0 -330px
+}
+
+#deal_referral_links #ckepop .jiathis_button_meilishuo {
+	background-position: 0 -360px
+}
+
+#deal_referral_links #ckepop .jtico_more,#deal_referral_links #ckepop .jtico_jiathis
+	{
+	background-position: 0 -380px
+}
+
+#back-to-top {
+	position: fixed;
+	width: 56px;
+	bottom: 10px;
+	right: 10px;
+	display: none
+}
+
+#back-to-top .button_bookmark {
+	display: block;
+	width: 56px;
+	height: 34px;
+	background: url(/templates/jumei/css_pics/i/backtotop_v4.gif) no-repeat;
+	margin-bottom: 10px
+}
+
+#back-to-top .button_feedback {
+	display: block;
+	width: 56px;
+	height: 34px;
+	background: url(/templates/jumei/css_pics/i/backtotop_v4.gif) 0 -200px
+		no-repeat;
+	margin-bottom: 10px
+}
+
+#back-to-top .button_service {
+	display: none;
+	width: 56px;
+	height: 34px;
+	background: url(/templates/jumei/css_pics/i/backtotop_v4.gif) 0 -160px
+		no-repeat;
+	margin-bottom: 10px
+}
+
+#back-to-top .button_back-to-top {
+	display: block;
+	width: 56px;
+	height: 53px;
+	background: url(/templates/jumei/css_pics/i/backtotop_v4.gif) no-repeat
+		0 -40px
+}
+
+#back-to-top .button_back-to-top:hover {
+	background-position: 0 -100px
+}
+
+.img_slider {
+	float: left;
+	overflow: hidden
+}
+
+.img_resize {
+	overflow: hidden
+}
+
+.img_resize .second_pic {
+	display: none
+}
+
+.box_shadow {
+	border-top: 1px solid #ececec;
+	*border-right: 1px solid #e2e2e2;
+	*border-bottom: 2px solid #e2e2e2;
+	box-shadow: 1px 2px 6px #d2d2d2
+}
+
+.mall_dot,.mall_dot_hover {
+	float: left;
+	margin-right: 15px;
+	width: 11px;
+	overflow: hidden;
+	height: 11px;
+	line-height: 100px;
+	text-align: center;
+	font-weight: 800;
+	font-size: 12px;
+	color: white;
+	cursor: pointer;
+	font-family: Tahoma;
+	text-decoration: none;
+	background:
+		url(http://p0.jmstatic.com/templates/jumei/images/mall/mall_dot.png)
+		no-repeat;
+	_filter: progid : DXImageTransform.Microsoft.AlphaImageLoader ( src =
+		'http://p0.jmstatic.com/templates/jumei/images/mall/mall_dot.png' )
+}
+
+.mall_dot_hover {
+	background:
+		url(http://p0.jmstatic.com/templates/jumei/images/mall/mall_dot_hover.png)
+		no-repeat;
+	_filter: progid : DXImageTransform.Microsoft.AlphaImageLoader ( src =
+		'http://p0.jmstatic.com/templates/jumei/images/mall/mall_dot_hover.png'
+		)
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+#search_bottom_keyword {
+	padding-top: 7px
+}
+
+#search_bottom_keyword,#search_bottom_keyword a {
+	color: #999
+}
+
+#search_bottom_keyword a {
+	margin-right: 6px
+}
+
+#logo #cart:hover {
+	background: url(/templates/jumei/images/home/cart_hover.jpg) no-repeat 0
+		0 transparent
+}
+
+.cart_content {
+	border: 1px solid #ccc;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 67px;
+	display: none;
+	_zoom: 1;
+	background-color: #FFF;
+	z-index: 10010
+}
+
+.cart_content .cart_content_null {
+	width: 288px;
+	text-align: center;
+	padding: 20px;
+	color: #666;
+	font-size: 14px;
+	font-family: "����";
+	display: none;
+	_zoom: 1;
+	background: #FFF
+}
+
+.cart_content .cart_content_all,.cart_content .cart_content_center {
+	width: 300px;
+	_zoom: 1
+}
+
+.cart_content .cart_content_all {
+	display: none
+}
+
+.cart_content .cart_content_center {
+	max-height: 320px;
+	_height: 320px;
+	overflow: auto;
+	margin-bottom: -1px
+}
+
+.cart_content .cart_con_single {
+	height: 61px;
+	padding: 9px 12px;
+	border-bottom: 1px dashed #000;
+	overflow: hidden
+}
+
+.cart_content .single_hover {
+	background: #f2f2f2
+}
+
+.cart_content .single_pic {
+	width: 62px;
+	height: 62px;
+	float: left;
+	overflow: hidden
+}
+
+.cart_content .single_pic a,.cart_content .single_pic a img {
+	width: 60px;
+	height: 60px;
+	display: inline-block
+}
+
+.cart_content .single_pic a {
+	border: 1px solid #f5f5f5
+}
+
+.cart_content .single_pic a:hover {
+	border: 1px solid #f6d1dd
+}
+
+.cart_content .single_info {
+	width: 187px;
+	padding-left: 10px;
+	float: left;
+	overflow: hidden
+}
+
+.cart_content .single_info a.name,.cart_content .price_all .delete,.cart_content .con_all .price_whole,.cart_content .con_all .num_two
+	{
+	font-size: 12px;
+	font-family: "����";
+	text-decoration: none;
+	color: #333
+}
+
+.cart_content .single_info a.name {
+	display: block;
+	height: 36px;
+	line-height: 18px;
+	overflow: hidden;
+	word-break: break-all;
+	text-overflow: ellipsis
+}
+
+.cart_content .single_info a.name:hover,.cart_content .price_all .delete:hover,.cart_content .price_all .price,.cart_content .con_all .price_gongji span,.cart_content .con_all .price_gongji em,.cart_content .con_all .num_all
+	{
+	color: #ed145b
+}
+
+.cart_content .price_all,.cart_content .con_all .price_whole,.cart_content .con_all .num_two
+	{
+	height: 30px;
+	line-height: 30px;
+	display: inline-block
+}
+
+.cart_content .price_all {
+	width: 187px
+}
+
+.cart_content .price_all .delete {
+	float: right;
+	color: #919191
+}
+
+.cart_content .price_all .price,.cart_content .con_all .price_gongji em,.cart_content .con_all .num_all,.cart_content .con_all .price_gongji span
+	{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: arial
+}
+
+.cart_content .price_all .price_plus,.cart_content .price_all .price_num
+	{
+	color: #333
+}
+
+.cart_content .price_all .price_plus {
+	padding: 0 4px
+}
+
+.cart_content .con_all {
+	padding: 10px 15px;
+	width: 270px;
+	border-top: 1px solid #CCC;
+	background: #f2f2f2;
+	overflow: hidden;
+	position: relative;
+	z-index: 10
+}
+
+.cart_content .con_all .price_whole {
+	width: 270px
+}
+
+.cart_content .con_all .price_gongji {
+	float: right
+}
+
+.cart_content .con_all .price_gongji span {
+	font-size: 18px
+}
+
+.cart_content .con_all .price_gongji em {
+	font-weight: normal;
+	padding: 0 2px 0 5px
+}
+
+.cart_content .con_all .cart_btn {
+	float: right
+}
+
+.cart_content .con_all .num_all {
+	text-align: center;
+	padding: 0 3px
+}
+
+.pop_newicon {
+	width: 29px;
+	height: 16px;
+	display: inline-block;
+	background: url(/templates/jumei/images/home/newicon.gif) no-repeat;
+	position: absolute;
+	top: -6px;
+	left: 50%;
+	z-index: 2
+}

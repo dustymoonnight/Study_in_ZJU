@@ -1,0 +1,1459 @@
+@charset "utf-8"; 
+
+html {
+	_background: url(about:blank)
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td
+	{
+	margin: 0;
+	padding: 0
+}
+
+body {
+	color: #333;
+	font-size: 12px;
+	font-family: 'Hiragino Sans GB', 'Microsoft Yahei', 'Helvetica Neue',
+		' Helvetica, Arial', 'sans-serif', '\5FAE\8F6F\96C5\9ED1';
+	background: #f2f0f0
+}
+
+code,pre {
+	white-space: pre-wrap
+}
+
+address,caption,cite,code,dfn,em,var {
+	font-style: normal;
+	font-weight: 400
+}
+
+em {
+	margin: 0 6px
+}
+
+input {
+	outline: 0
+}
+
+a {
+	text-decoration: none;
+	color: #ec195b
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+a:focus {
+	outline: 0
+}
+
+a.aid {
+	color: #ff538c
+}
+
+a.aid2 {
+	color: #f9a3be
+}
+
+a.tit {
+	font-size: 16px;
+	color: #ec195b;
+	font-weight: 700
+}
+
+.song_font {
+	font-family: 'SimSun', '\5B8B\4F53'
+}
+
+.gray_f1 {
+	color: #999
+}
+
+.gray_f2 {
+	color: #ccc
+}
+
+.l {
+	float: left
+}
+
+.r {
+	float: right
+}
+
+.red,a.red {
+	color: #ed145b
+}
+
+.cl {
+	clear: both
+}
+
+input.n {
+	float: none
+}
+
+.gray_f {
+	color: #919191
+}
+
+.error_tips {
+	line-height: 30px;
+	color: #ed145b;
+	float: left;
+	padding-left: 10px
+}
+
+div.gray {
+	color: #ccc
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+fieldset,img {
+	border: 0;
+	display: block
+}
+
+ul,li {
+	list-style: none
+}
+
+.tl {
+	text-align: left
+}
+
+.tr {
+	text-align: right
+}
+
+.mt5 {
+	margin-top: 5px
+}
+
+.mt10 {
+	margin-top: 10px
+}
+
+.mr10 {
+	margin-right: 10px
+}
+
+.mt20 {
+	margin-top: 20px
+}
+
+.mt30 {
+	margin-top: 30px
+}
+
+.mb20 {
+	margin-bottom: 20px
+}
+
+.pt20 {
+	padding-top: 20px
+}
+
+.pt10 {
+	padding-top: 10px
+}
+
+.pt5 {
+	padding-top: 5px
+}
+
+.sel {
+	margin: 5px 10px 0 0;
+	float: left
+}
+
+button.ml {
+	margin-left: 10px
+}
+
+h2,h3 {
+	font-size: 18px
+}
+
+h3 {
+	font-size: 16px
+}
+
+.w960 {
+	width: 960px
+}
+
+i,h1 a,.addBtn,.cancelBtn,.mutualBtn,i.index,.separator,.search_txt,.search_btn,.l_radius,.r_radius,.lb_radius,.rb_radius,.myhome_tab a,.myhome_tab span,.filter_tab a,.product_reports .arrow,.like_btn,.dialog_close,.btn,.btn span,.write_btn,.side_tit,.side_tit span,.active_btn,.report_btn,.replease_btn,.release_btn,.change_btn,.sure_btn,.cancel_btn,.useful_btn,.look_btn,.preview_btn
+	{
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/8/index.png)
+		no-repeat
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	font-size: 0
+}
+
+.clearfix {
+	*zoom: 1
+}
+
+.clear {
+	clear: both
+}
+
+.header {
+	width: 100%;
+	background: #fff
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/header_bg.jpg)
+		repeat-x 0 30px
+}
+
+.site_nav_wrap {
+	background: #e8e8e8;
+	height: 30px;
+	line-height: 30px
+}
+
+.site_nav,.logo_wrap,.nav {
+	width: 960px;
+	margin: auto;
+	color: #333
+}
+
+.site_nav a {
+	color: #333
+}
+
+.logo_small {
+	float: left;
+	padding: 3px 15px 0 4px
+}
+
+#my_jumei_wrap {
+	position: relative;
+	z-index: 5
+}
+
+.my_jumei {
+	position: relative;
+	padding-right: 12px;
+	zoom: 1;
+	z-index: 2
+}
+
+.my_jumei i {
+	position: absolute;
+	width: 12px;
+	height: 10px;
+	background-position: -424px -141px;
+	right: 0;
+	top: 0;
+	margin-top: 4px;
+	*margin-top: 8px;
+	overflow: hidden
+}
+
+#my_jumei_navigation_menu {
+	border: 1px solid #e5e5e5;
+	border-top: 0;
+	border-radius: 2px;
+	border-radius: 2px;
+	z-index: 33;
+	position: absolute;
+	padding: 0 9px;
+	white-space: nowrap;
+	display: none;
+	background: #e8e8e8;
+	left: 0;
+	top: 0;
+	margin-top: 14px;
+	padding-top: 10px;
+	line-height: 26px;
+	*margin-top: 20px
+}
+
+.logo_wrap {
+	height: 112px
+}
+
+.logo_wrap h1 {
+	padding-top: 25px;
+	height: 62px
+}
+
+.logo_wrap h1 a {
+	width: 346px;
+	height: 62px;
+	text-indent: -999em;
+	overflow: hidden;
+	float: left
+}
+
+.declaration {
+	color: #fe898f;
+	font-size: 14px;
+	font-weight: 700;
+	width: 360px;
+	height: 90px;
+	padding-top: 10px;
+	float: right;
+	line-height: 30px
+}
+
+.nav_wrap {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFF;
+	background: #f50e5e
+}
+
+.nav .nav_item {
+	float: left;
+	position: relative;
+	z-index: 1000
+}
+
+.nav a {
+	color: #FFF;
+	padding: 0 20px;
+	float: left;
+	height: 40px
+}
+
+.nav a.childNav {
+	padding-left: 30px;
+	background-image:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/bg_nav.jpg);
+	background-repeat: no-repeat;
+	background-position: 10px -4px
+}
+
+.nav a:hover,.nav a.lnk_cur {
+	background-color: #000;
+	background-position: 10px -44px;
+	text-decoration: none
+}
+
+.nav_item_over a.childNav {
+	background-color: #000;
+	background-position: center 36px;
+	_background-position: center 36px !important
+}
+
+.nav_new_icon {
+	position: absolute;
+	left: 62px;
+	top: -4px;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/nav_new_icon.gif);
+	width: 26px;
+	height: 14px;
+	padding: 0;
+	overflow: hidden
+}
+
+.child_nav {
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	top: 40px
+}
+
+.child_nav_bg {
+	border-left: 1px solid #fbfafa;
+	padding-right: 3px;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/nav_bg_r.png)
+		right 0
+}
+
+.child_nav_bg2 {
+	position: relative;
+	padding: 0 10px 0 8px;
+	height: 10px;
+	overflow: hidden
+}
+
+.child_nav_bg3 {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/nav_bg_b.png);
+	height: 10px;
+	overflow: hidden
+}
+
+.child_nav_bg2 .lb_radius,.child_nav_bg2 .rb_radius {
+	overflow: hidden;
+	width: 8px;
+	height: 10px;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/nav_bg_radius.png)
+		no-repeat;
+	position: absolute;
+	bottom: 1px
+}
+
+.child_nav_bg2 .rb_radius {
+	width: 10px;
+	background-position: -8px 0;
+	right: 0
+}
+
+.child_nav_bg2 .lb_radius {
+	left: 0
+}
+
+.child_nav a {
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #797979;
+	float: none;
+	display: block;
+	background: #fff
+}
+
+.child_nav a:hover {
+	color: #000;
+	text-decoration: none;
+	background: #fff
+}
+
+.nav_search {
+	float: right;
+	padding-top: 4px
+}
+
+.search_txt {
+	height: 29px;
+	background-position: -415px -29px;
+	border: 0;
+	margin: 0;
+	padding: 0 5px;
+	width: 173px;
+	float: left;
+	color: #cecece;
+	line-height: 28px
+}
+
+.search_btn {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	cursor: pointer;
+	width: 32px;
+	height: 29px;
+	background-position: -593px -29px;
+	float: left
+}
+
+.sel_name {
+	position: fixed;
+	top: 200px;
+	left: 20px;
+	width: 150px;
+	background: #fff;
+	text-align: center;
+	border: #f2f0f0 1px solid;
+	z-index: 9999;
+	padding: 20px 25px
+}
+
+.sel_name h2 {
+	font-size: 16px
+}
+
+#sel_name ul#sle_user_name {
+	width: 150px;
+	list-style: none;
+	border-bottom: #000 1px solid
+}
+
+#sel_name ul li {
+	width: 148px;
+	height: 30px;
+	border: #000 1px solid;
+	border-bottom: 0;
+	list-style-type: none;
+	line-height: 30px;
+	background: #f2f0f0
+}
+
+#sel_name ul li a {
+	color: #3c3b3b;
+	display: block;
+	height: 30px;
+	font-size: 14px
+}
+
+#sel_name ul li a:hover {
+	text-decoration: none;
+	color: #fc38ad;
+	font-size: 16px;
+	background: #FFF
+}
+
+#sel_name ul li a.selected {
+	color: #fc38ad;
+	font-weight: bold;
+	font-size: 16px
+}
+
+.main {
+	width: 960px;
+	margin: 0 auto
+}
+
+.main:after,.cl:after {
+	clear: both;
+	content: '';
+	visibility: hidden;
+	overflow: hidden;
+	height: 0;
+	display: block
+}
+
+.breadcrumb_nav {
+	padding: 10px 0
+}
+
+.container {
+	position: relative;
+	overflow: visible;
+	background: #FFF;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/main_line_bg.png)
+		repeat-y;
+	border: 1px solid #edebeb;
+	border-width: 1px 0;
+	padding: 14px 0;
+	float: left;
+	width: 960px;
+	min-height: 100px
+}
+
+.l_radius,.r_radius,.lb_radius,.rb_radius {
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	overflow: hidden
+}
+
+.l_radius {
+	background-position: -476px -90px;
+	left: 0;
+	top: 0;
+	margin-top: -1px
+}
+
+.r_radius {
+	background-position: -490px -90px;
+	right: 0;
+	top: 0;
+	margin-top: -1px
+}
+
+.lb_radius {
+	background-position: -476px -104px;
+	left: 0;
+	bottom: 0;
+	margin-bottom: -1px
+}
+
+.rb_radius {
+	background-position: -490px -104px;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -1px
+}
+
+.containerAuto {
+	padding: 0 0 0 2px
+}
+
+.containerAuto .containerBgR {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/main_line_bg.png)
+		repeat-y right 0;
+	padding: 14px 2px 0 0;
+	color: #666;
+	overflow: hidden
+}
+
+.containerAuto .containerBgR:after {
+	clear: both
+}
+
+.container_white .l_radius,.container_white .r_radius,.container_white .lb_radius,.container_white .rb_radius
+	{
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/6/profileIndex.png)
+		no-repeat
+}
+
+.container_white .l_radius {
+	background-position: -317px -98px
+}
+
+.container_white .r_radius {
+	background-position: -331px -98px
+}
+
+.container_white .lb_radius {
+	background-position: -317px -112px
+}
+
+.container_white .rb_radius {
+	background-position: -331px -112px
+}
+
+.container_white,.container_white .container,.container_white .containerBgR
+	{
+	background-image:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/main_line_bg_white.png)
+}
+
+.attention_layer {
+	border: 2px solid #f78cb1;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-wekit-border-radius: 2px;
+	width: 300px;
+	position: relative;
+	background: #FFF
+}
+
+.layer_arrow {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/layer_arrow.gif)
+		no-repeat;
+	position: absolute;
+	width: 11px;
+	height: 9px;
+	overflow: hidden
+}
+
+.layer_arrow_l {
+	background-position: -3px -11px;
+	right: 0;
+	bottom: 0;
+	margin: 0 15px -9px 0
+}
+
+.layer_arrow_r {
+	background-position: -3px -11px;
+	left: 0;
+	bottom: 0;
+	margin: 0 0 -9px 15px
+}
+
+.layer_arrow_bl {
+	background-position: -3px -2px;
+	right: 0;
+	top: 0;
+	margin: -9px 15px 0 0
+}
+
+.layer_arrow_br {
+	background-position: -3px -2px;
+	left: 0;
+	top: 0;
+	margin: -9px 0 0 15px
+}
+
+.layer_img {
+	float: left
+}
+
+.layer_img img {
+	width: 64px;
+	height: 64px
+}
+
+.attention_wrap {
+	padding: 18px;
+	overflow: hidden
+}
+
+.attention_info {
+	padding-left: 8px;
+	line-height: 22px;
+	float: left;
+	width: 190px;
+	overflow: hidden
+}
+
+.attention_ico {
+	width: 200px;
+	overflow: hidden;
+	clear: both
+}
+
+.attention_ico a {
+	float: left;
+	margin-right: 3px;
+	white-space: nowrap;
+	overflow: hidden
+}
+
+.vip_icon_wrap {
+	float: left;
+	float: left
+}
+
+.vip_icon {
+	float: left;
+	margin-right: 4px
+}
+
+.addBtn_wrap {
+	background: #f4f4f4;
+	height: 20px;
+	padding: 10px 0 10px 210px
+}
+
+.addBtn,.cancelBtn,.mutualBtn {
+	width: 71px;
+	height: 20px;
+	background-position: -78px -305px;
+	display: block;
+	overflow: hidden;
+	text-indent: -999em
+}
+
+.cancelBtn {
+	background-position: 0 -305px
+}
+
+.mutualBtn {
+	background-position: -157px -306px;
+	width: 46px;
+	height: 19px;
+	margin: 0 0 5px
+}
+
+.pf_short_box {
+	padding: 0 15px 15px 15px
+}
+
+.pf_short_box .pf_name,.pf_short_box .pf_tag_num {
+	height: 24px;
+	line-height: 24px
+}
+
+.pf_tag_num a {
+	color: #666
+}
+
+.pf_short_box .pf_name {
+	color: #ec195b
+}
+
+.pf_short_box .addBtn,.pf_short_box .cancelBtn {
+	float: left
+}
+
+.pf_short_box .pf_show_info {
+	float: right
+}
+
+.pf_short_box .pf_kb_mz_num_box {
+	clear: both
+}
+
+.pf_kb_mz_num_box .pf_num_box,.pf_kb_mz_num_box .pf_split_str {
+	float: left
+}
+
+.pf_num_box .pf_num,.pf_split_str {
+	font-size: 24px;
+	color: #ed145b;
+	text-align: center
+}
+
+.pf_num_box .pf_num a {
+	font-size: 24px;
+	color: #ed145b
+}
+
+.pf_split_str {
+	float: left
+}
+
+.pf_num_box .pf_str {
+	text-align: center
+}
+
+.back_to_top {
+	z-index: 1000;
+	height: 98px;
+	position: fixed;
+	bottom: 74px;
+	right: 20px;
+	width: 50px;
+	_position: absolute;
+	visibility: hidden;
+	_top: expression(document.documentElement.scrollTop +
+		document.documentElement.clientHeight-this.offsetHeight -74);
+	_left: expression(document.documentElement.scrollLeft +
+		document.documentElement.clientWidth-this.offsetWidth-20)
+}
+
+.to_favorite .to_top_btn,.to_favorite .to_reward_btn {
+	background-image:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/back_to_top_favorite.png)
+}
+
+.to_top_btn,.to_reward_btn {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/5/back_to_top.png);
+	height: 50px;
+	height: 47px;
+	display: block
+}
+
+.to_top_btn {
+	background-position: 0 -47px;
+	margin-top: 4px;
+	_height: 46px
+}
+
+.to_top_btn:hover {
+	background-position: -50px -47px
+}
+
+.to_reward_btn:hover {
+	background-position: -50px 0
+}
+
+#footer_container {
+	overflow: hidden;
+	padding-top: 20px;
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+	background: #eee
+}
+
+#footer {
+	overflow: hidden
+}
+
+.footer_top {
+	border-bottom: 1px solid #fff
+}
+
+.footer_top_bg {
+	border-bottom: 1px solid #ccc
+}
+
+#footer_links {
+	width: 960px;
+	height: 143px;
+	margin: 0 auto;
+	font-family: Tahoma, "\5B8B\4F53", Arial, Helvetica, sans-serif
+}
+
+#footer_links ul {
+	width: 140px;
+	*width: 125px;
+	height: 143px;
+	line-height: 20px;
+	padding-left: 20px;
+	*padding-left: 35px;
+	float: left;
+	zoom: 1;
+	overflow: hidden;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/deal_home_foot_v3.png)
+		no-repeat
+}
+
+#footer_links .linksa {
+	margin-left: 0
+}
+
+#footer_links .linksb {
+	background-position: 0 -143px
+}
+
+#footer_links .linksc {
+	background-position: 0 -286px
+}
+
+#footer_links .linksd {
+	background-position: 0 -429px
+}
+
+#footer_links .linkse {
+	background-position: 0 -572px
+}
+
+#footer_links .linksf {
+	background-position: 0 -715px
+}
+
+#footer_links li {
+	line-height: 22px;
+	padding-left: 15px;
+	*padding-left: 0;
+	font-size: 12px;
+	color: #808080;
+	white-space: nowrap;
+	*zoom: 1
+}
+
+#footer_links li a {
+	color: #808080
+}
+
+#footer_links .links {
+	font-size: 14px;
+	color: #4d4d4d
+}
+
+#footer_credit {
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+	position: relative
+}
+
+.foot_link {
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	top: 15px;
+	background: #fff;
+	opacity: 0;
+	filter: alpha(opacity = 0)
+}
+
+.mostmall {
+	left: 0
+}
+
+.quality {
+	left: 110px
+}
+
+.back {
+	left: 225px
+}
+
+.depot {
+	left: 340px
+}
+
+.consignment {
+	left: 465px
+}
+
+.packaging {
+	left: 580px
+}
+
+.confide {
+	left: 700px
+}
+
+.commend {
+	left: 820px
+}
+
+#footer_hotline_container {
+	width: 580px;
+	height: 83px;
+	float: left;
+	margin-top: 17px
+}
+
+#footer_hotline {
+	width: 580px;
+	height: 83px;
+	display: block;
+	margin-left: 190px
+}
+
+#footer_copyright {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 30px;
+	padding-bottom: 20px
+}
+
+#footer_copyright img {
+	display: inline
+}
+
+#footer_copyright,#footer_copyright a {
+	color: #808080
+}
+
+.nav_search {
+	position: relative
+}
+
+.searchTips,.searchTipstwo {
+	overflow: visible;
+	margin: -2px 0 0 1px;
+	margin: -2px 0 0 0\9;
+	padding: 0 1px;
+	background: #fff;
+	border: 1px solid #d5d5d5;
+	border-width: 0 1px 1px 1px;
+	border-left-color: #f1f1f1;
+	line-height: 23px;
+	position: absolute;
+	width: 173px;
+	top: 30px;
+	z-index: 999
+}
+
+.searchTips li,.searchTipstwo li {
+	white-space: nowrap;
+	color: #5b5b5b;
+	display: block;
+	padding: 0 6px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 30px;
+	height: 30px;
+	width: 163px;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer
+}
+
+.searchTips .tips_hover,.searchTipstwo .tips_hover {
+	background: #eee
+}
+
+.searchTipstwo {
+	width: 288px;
+	margin-top: 0
+}
+
+.searchTipstwo li {
+	width: 268px
+}
+
+#tips_mod {
+	position: fixed;
+	top: 40%;
+	left: 0;
+	width: 100%;
+	font: 700 14px/58px "Simsun";
+	text-align: center;
+	z-index: 10000000;
+	margin-top: 15px;
+	opacity: 0;
+	filter: alpha(opacity = 0)
+}
+
+#tips_mod strong,#tips_mod i {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/tip_bg.png)
+		no-repeat;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/tip_bg.png)
+		no-repeat\9
+}
+
+#tips_mod,#tips_mod strong,#tips_mod i,#tips_mod em {
+	display: inline-block;
+	_display: inline;
+	_zoom: 1
+}
+
+#tips_mod strong {
+	position: relative;
+	margin: 0 auto;
+	background-repeat: repeat-x;
+	background-position: 0 -57px;
+	height: 52px
+}
+
+#tips_mod em {
+	padding-left: 35px;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/tip_bg.png)
+		no-repeat;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/tip_bg.png)
+		no-repeat\9;
+	color: #4c4c4c;
+	height: 40px;
+	overflow: hidden
+}
+
+#tips_mod .tips_error {
+	background-position: 0 -166px
+}
+
+#tips_mod .tips_warn {
+	background-position: 0 -219px
+}
+
+#tips_mod .tips_success {
+	background-position: 0 -110px
+}
+
+#tips_mod i {
+	position: absolute;
+	top: 0;
+	left: -20px;
+	width: 20px;
+	background-position: 0 -3px;
+	text-indent: -999px;
+	overflow: hidden;
+	height: 52px
+}
+
+#tips_mod .tips_rs {
+	left: auto;
+	right: -20px;
+	background-position: -7px -3px
+}
+
+#dialog {
+	display: none;
+	position: fixed;
+	_position: absolute;
+	z-index: 9999
+}
+
+.dialog_wrap {
+	width: 520px;
+	background: rgba(214, 214, 214, 0.5);
+	background: #d6d6d6;
+	background: rgba(214, 214, 214, 0.5);
+	border-radius: 6px;
+	padding: 6px
+}
+
+.dialog {
+	background: #FFF;
+	padding: 10px
+}
+
+.dialog_tit {
+	font-size: 14px;
+	color: #ec195b;
+	float: left;
+	padding-bottom: 10px
+}
+
+.dialog_close {
+	float: right;
+	width: 15px;
+	height: 15px;
+	overflow: hidden;
+	width: 11px;
+	height: 11px;
+	background-position: -321px -377px
+}
+
+.dialog_close:hover {
+	background-position: -334px -377px
+}
+
+.dialog_content {
+	clear: both;
+	overflow: hidden;
+	zoom: 1
+}
+
+.dialogbtn_wrap {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-top: 15px
+}
+
+.dialogbtn_wrap a {
+	display: inline-block;
+	text-align: center;
+	margin-right: 8px
+}
+
+div.dialogbtn_wrap span {
+	display: inline;
+	padding: 0
+}
+
+.cover_list {
+	overflow: hidden;
+	padding: 10px 0 0 20px;
+	zoom: 1
+}
+
+.cover_list li {
+	float: left;
+	padding-right: 20px;
+	width: 100px;
+	height: 137px;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.cover_list img {
+	width: 100px;
+	height: 100px
+}
+
+.cover_list span {
+	display: block;
+	padding: 10px 0;
+	text-align: center;
+	white-space: nowrap;
+	height: 18px;
+	overflow: hidden
+}
+
+.sure_btn,.cancel_btn {
+	width: 57px;
+	height: 27px;
+	background-position: -357px -375px;
+	display: block;
+	color: #FFF;
+	text-align: center;
+	line-height: 24px;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+.cover_list input {
+	float: left;
+	line-height: 1;
+	overflow: hidden;
+	width: 13px;
+	height: 13px;
+	padding-right: 2px
+}
+
+.cover_list span label {
+	float: left;
+	width: 84px;
+	overflow: hidden
+}
+
+.cancel_btn {
+	background-position: -417px -375px;
+	color: #ec195b
+}
+
+button.sure_btn,button.cancel_btn {
+	height: auto;
+	line-height: 23px
+}
+
+.rp_hf_brand a,.brand_ico a {
+	display: block;
+	width: 120px;
+	height: 48px;
+	border: 1px solid #eee;
+	margin: -1px 0 0 -1px;
+	overflow: hidden
+}
+
+.rp_hf_brand a:hover,.brand_ico a:hover {
+	zoom: 1
+}
+
+.rp_hf_brand a img,.brand_ico a img {
+	width: 240px;
+	height: 48px
+}
+
+.rp_hf_brand a:hover img,.rp_hf_brand a.clicked img,.brand_ico a:hover img
+	{
+	margin-left: -120px
+}
+
+a.see_kb_report,.write_kb_report {
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/3/kb_index.png)
+		0 -145px;
+	width: 122px;
+	height: 32px;
+	cursor: pointer;
+	display: block;
+	float: right;
+	margin-top: 5px
+}
+
+.write_kb_report {
+	background-position: -128px -235px
+}
+
+.report .user_info .vip_icon {
+	margin-top: 4px
+}
+
+.report .desc a {
+	color: #636363;
+	line-height: 18px;
+	word-break: break-all;
+	word-wrap: break-word
+}
+
+.report .desc a:hover {
+	text-decoration: none;
+	color: #ff4482
+}
+
+.login_guide_pos,.lg_box {
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	bottom: 0
+}
+
+.login_guide_pos {
+	position: fixed;
+	_position: absolute;
+	_bottom: 0;
+	z-index: 999;
+	_top: expression(document.documentElement.scrollTop +
+		document.documentElement.clientHeight-this.offsetHeight)
+}
+
+.lg_box {
+	position: relative
+}
+
+.lg_bg {
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	top: 0;
+	background: #000;
+	z-index: 1
+}
+
+.lg_info {
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	top: 0;
+	z-index: 2
+}
+
+.lg_wrap {
+	width: 960px;
+	height: 54px;
+	margin: 0 auto;
+	padding-top: 16px
+}
+
+.lg_l {
+	width: 300px;
+	float: left;
+	color: #fff;
+	line-height: 20px;
+	font-weight: bold
+}
+
+.lg_c {
+	width: 320px;
+	float: left
+}
+
+.lg_big_btn {
+	display: block;
+	width: 120px;
+	height: 40px;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/6/profileIndex.png)
+		no-repeat -331px 0;
+	float: left;
+	margin-right: 15px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center
+}
+
+.lg_big_btn:hover {
+	background-position: -452px 0;
+	text-decoration: none
+}
+
+.lg_r {
+	width: 310px;
+	float: left
+}
+
+.lg_r a {
+	height: 20px;
+	display: block;
+	float: left;
+	margin-right: 3px;
+	width: 80px;
+	background: #fff;
+	text-align: center;
+	padding-top: 3px
+}
+
+.lg_r a span {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	height: 16px;
+	padding-left: 18px;
+	line-height: 16px;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/oauth.png)
+		no-repeat;
+	color: #000
+}
+
+.lg_r a:hover span {
+	color: #ed145b;
+	text-decoration: none
+}
+
+.lg_r a.qq span {
+	background-position: 0 -60px
+}
+
+.lg_r a.sina span {
+	background-position: 0 0
+}
+
+.lg_r a.renren span {
+	background-position: 0 -20px
+}
+
+.lg_close_btn {
+	float: right;
+	margin-top: 5px;
+	width: 30px;
+	height: 30px;
+	background:
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/6/profileIndex.png)
+		no-repeat -347px -103px;
+	display: block
+}
+
+.null_info {
+	height: 200px;
+	background: #fff
+		url(http://p0.jmstatic.com/product_report/newKoubei/images/1/null_info.gif)
+		no-repeat center 14px
+}
