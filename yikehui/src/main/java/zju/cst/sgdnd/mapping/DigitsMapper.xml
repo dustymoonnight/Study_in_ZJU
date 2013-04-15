@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="zju.cst.sgdnd.dao.DigitsMapper">
+	<resultMap id="BaseResultMap" type="zju.cst.sgdnd.model.Digits">
+		<id column="DigitsId" property="digitsid" jdbcType="CHAR" />
+		<result column="DigitsName" property="digitsname" jdbcType="VARCHAR" />
+		<result column="DigitsTp" property="digitstp" jdbcType="CHAR" />
+		<result column="TpName" property="tpname" jdbcType="VARCHAR" />
+		<result column="Price" property="price" jdbcType="FLOAT" />
+		<result column="Discount" property="discount" jdbcType="FLOAT" />
+		<result column="AddDate" property="adddate" jdbcType="TIMESTAMP" />
+		<result column="Content" property="content" jdbcType="VARCHAR" />
+		<result column="ImageFile" property="imagefile" jdbcType="VARCHAR" />
+		<result column="IsStore" property="isstore" jdbcType="SMALLINT" />
+		<result column="TradeVol" property="tradevol" jdbcType="INTEGER" />
+	</resultMap>
+	<sql id="Base_Column_List">
+		DigitsId, DigitsName, DigitsTp, TpName, Price, Discount,
+		AddDate, Content, ImageFile, IsStore, TradeVol
+	</sql>
+	<select id="selectByPrimaryKey" resultMap="BaseResultMap"
+		parameterType="java.lang.Integer">
+		select
+		<include refid="Base_Column_List" />
+		from digits
+		where DigitsId = #{digitsid,jdbcType=CHAR}
+	</select>
+
+	<select id="getAll" resultMap="BaseResultMap">
+		select * from digits
+	</select>
+</mapper>

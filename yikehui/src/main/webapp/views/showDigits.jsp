@@ -42,6 +42,7 @@
 					.call(arguments)));
 		};
 	};
+
 	function onImgError(img, imgW, headimg) {
 		var noImgSrc;
 		if (headimg) {
@@ -279,11 +280,10 @@
 		};
 	</script>
 	<div class="main">
-		<div class="breadcrumb_nav">
-			<a href="http://koubei.jumei.com/">口碑中心首页</a><span> > </span><a
-				href="/product_brands.html">美妆大全</a><span> > </span><a
-				href="/products_1-1176-0-0.html">迪黛（ADA)</a><span> > </span>迪黛（ADA)轻柔泡沫BB霜（粉红色）
-			20ml
+		<div class="breadcrumb_nav" items="${list}"  var="digits">
+			<a href="http://koubei.jumei.com/">亿客汇商城首页</a><span> > </span><a
+				href="/product_brands.html">数码配件</a><span> > </span><a
+				href="/products_1-1176-0-0.html">电池</a><span> > </span>${digits.digitsname}
 		</div>
 		<div id="topkoubei_warp_mall" style="display: none;"></div>
 		<div class="pf_content">
@@ -299,8 +299,8 @@
 					<div class="containerBgR" style="padding-bottom: 20px;">
 						<div class="product_big_image_box">
 							<img onerror="onImgError(this);"
-								src="http://p0.jmstatic.com/product/000/008/8527_std/8527_350_350.jpg"
-								alt="迪黛（ADA)轻柔泡沫BB霜（粉红色） 20ml">
+								src="<%=path%>/images/${digits.imagefile }"
+								alt="${digits.digitsname}">
 							<div class="love_position">
 								<a href="javascript:;" class="like_btn" pid='8527'>0</a>
 							</div>
@@ -308,13 +308,13 @@
 						<div class="product_description_box">
 							<ul>
 								<li>
-									<h1 class="brand_title">迪黛（ADA)轻柔泡沫BB霜（粉红色） 20ml</h1></li>
+									<h1 class="brand_title">${digits.digitsname}</h1></li>
 								<li><span class="bolder">分类：</span> <span> <a
-										href="/products_1-0-3-0.html"> 彩妆 </a> > <a
-										href="/products_1-0-55-0.html"> 隔离 </a> </span>
+										href="/products_1-0-3-0.html"> ${digits.tpname} </a> > <a
+										href="/products_1-0-55-0.html"> 电池 </a> </span>
 								</li>
 								<li><span class="bolder">品牌：</span> <span> <a
-										href="/products_1-1176-0-0.html"> 迪黛（ADA) </a> </span>
+										href="/products_1-1176-0-0.html"> ${digits.digitstp} </a> </span>
 								</li>
 								<li><span class="bolder">功效：</span></br>
 									<p>
@@ -339,12 +339,13 @@
 
 					</div>
 				</div>
+				
+<!-- 
 				<div class="container containerAuto pf_radius_l">
 					<div class="l_radius"></div>
 					<div class="r_radius"></div>
 					<div class="lb_radius"></div>
 					<div class="rb_radius"></div>
-
 					<div class="containerBgR">
 						<div class="pfRadius7XContent">
 							<div class="pfPartTitle">
@@ -393,15 +394,167 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
+-->			
+
 				<div class="kb_report_tab_out">
 					<div class="kb_report_tab">
-						<a href="#" class="curr">口碑报告</a> <a href="#">收货短评</a> <a href="#">产品详情</a>
+						<a href="#" class="curr">产品详情</a> <a href="#">成交记录</a> <a href="#">用户评价</a> 
 						<a href="#" style="display: none;">真假鉴别</a>
 					</div>
 				</div>
-				<div id="kb_report_hook" class="container containerAuto pf_radius_l">
+				
+					<div id="kb_report_hook" class="container containerAuto pf_radius_l">
+						<div class="deal_introduction"></div>
+						<div class="deal_specs">
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td width="110"><b>商品名称：</b>
+									</td>
+									<td><span>迪黛（ADA)轻柔泡沫BB霜（粉红色） 20ml</span>
+									</td>
+ 									<td style="padding-top: 0;" rowspan="6" align="right"><img
+										onerror="onImgError(this);"
+										src="<%=path%>/images/${digits.imagefile}"
+										alt="${digits.digitsname}">
+									</td>
+								</tr>
+								<tr>
+									<td><b>生产地区：</b>
+									</td>
+									<td><span>中国上海</span>
+									</td>
+								</tr>
+								<tr>
+									<td><b>有效期至：</b>
+									</td>
+									<td><span>2014年3月生产（具体日期以收到产品为准）</span>
+									</td>
+								</tr>
+								<tr>
+									<td><b>适合人群：</b>
+									</td>
+									<td><span>适用于所有使用底妆产品的人群，即使不化妆的MM也应该备有一款BB霜哦！</span>
+									</td>
+								</tr>
+								<tr>
+									<td><b>特别说明：</b>
+									</td>
+									<td><span>本产品为全新专柜正装，有外盒，盒口有封贴</span>
+									</td>
+								</tr>
+								<tr>
+									<td><b>注意事项：</b>
+									</td>
+									<td><span>本品包装为压力型容器，请保存于阴凉通风处，避免阳光直射及环境温度超过50度。使用后请勿投入火中或用利器穿刺破坏。</span>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="deal_usage">
+							<p>
+								<p>将产品轻轻摇匀后，垂直按压挤出适量大小，均匀涂抹于全脸及颈部即可。</p>
+								<p>
+									<img alt=""
+										src="<%=path%>/images/${digits.imagefile}" />
+								</p>
+							</p>
+						</div>
+						<div class="deal_photos">
+							<p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;<img
+										alt=""
+										src="http://images.jumei.com/deal_content/201203/13/1331629483930.jpg" />
+									</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">爱上与空气轻柔触碰的感觉，全球第一款泡沫质地BB霜，
+										ADA迪黛轻柔泡沫BB霜（粉红色），带你体验前所未有的透薄服帖！&nbsp;&nbsp;</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;"><img
+										alt=""
+										src="http://images.jumei.com/deal_content/201203/13/13316294846475.jpg" />
+									</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">本品包装盒上印有相信的中文产品信息，产地为中国上海，你未曾体验过的底妆新境界，今天就来尝试吧！</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;"><img
+										alt=""
+										src="http://images.jumei.com/deal_content/201203/13/13316294836384.jpg" />
+									</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">本品有效期至2014年3月，具体日期请以收到的产品为准哦。</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;<img
+										alt=""
+										src="http://images.jumei.com/deal_content/201203/13/13316294857371.jpg" />
+									</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">轻轻一按即可化成云朵般轻盈泡沫，前所未有的透薄服帖质感，兼具遮瑕、亮肤、保湿、修复、控油、隔离，一举收获多重功效！</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;<img
+										alt=""
+										src="http://images.jumei.com/deal_content/201203/13/1331629486542.jpg" />
+									</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">细长的粉红色瓶子，美丽BB就藏在里面哦！质感非常好，并且非常容易携带。</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;"><img
+										alt=""
+										src="http://images.jumei.com/deal_content/201203/13/13316295141055.jpg" />
+									</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">本品包装为压力型容器，请保存于阴凉通风处，避免阳光直射及环境温度超过50度，使用后请勿投入火中或用利器穿刺破坏哦！</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;<img
+										alt=""
+										src="http://images.jumei.com/deal_content/201203/13/13316295146832.jpg" />
+									</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">独特弹性压力喷头，轻轻一按，细致丰富的泡沫便出来了，注意，用前需要摇一摇瓶身哦！</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;<img
+										alt=""
+										src="http://images.jumei.com/deal_content/201203/13/13316295153100.jpg" />
+									</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">瓶身高约12.4cm，共20ml容量，虽然每次按出的泡沫很丰富，但也能使用很长时间呢，快来感受它的神奇之处吧！</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;"><img
+										alt=""
+										src="http://images.jumei.com/deal_content/201203/13/13316302463423.jpg" />
+									</span>
+								</p>
+								<p>
+									<span style="font-family: Microsoft YaHei; font-size: medium;">非常独特的泡沫BB霜，将泡沫挤在手上并轻轻推开，肤色会变得粉嫩白皙，并倍感滋润，非常舒服。</span>
+								</p>
+							</p>
+						</div>
+					</div>
+
+				<div class="containerBgR">
 					<div class="lb_radius"></div>
 					<div class="rb_radius"></div>
 					<div class="containerBgR">
@@ -963,155 +1116,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="containerBgR">
-						<div class="deal_introduction"></div>
-						<div class="deal_specs">
-							<table border="0" cellpadding="0" cellspacing="0" width="100%">
-								<tr>
-									<td width="110"><b>商品名称：</b>
-									</td>
-									<td><span>迪黛（ADA)轻柔泡沫BB霜（粉红色） 20ml</span>
-									</td>
-									<td style="padding-top: 0;" rowspan="6" align="right"><img
-										onerror="onImgError(this);"
-										src="http://p0.jmstatic.com/product/000/008/8527_std/8527_200_200.jpg"
-										alt="迪黛（ADA)轻柔泡沫BB霜（粉红色） 20ml">
-									</td>
-								</tr>
-								<tr>
-									<td><b>生产地区：</b>
-									</td>
-									<td><span>中国上海</span>
-									</td>
-								</tr>
-								<tr>
-									<td><b>有效期至：</b>
-									</td>
-									<td><span>2014年3月生产（具体日期以收到产品为准）</span>
-									</td>
-								</tr>
-								<tr>
-									<td><b>适合人群：</b>
-									</td>
-									<td><span>适用于所有使用底妆产品的人群，即使不化妆的MM也应该备有一款BB霜哦！</span>
-									</td>
-								</tr>
-								<tr>
-									<td><b>特别说明：</b>
-									</td>
-									<td><span>本产品为全新专柜正装，有外盒，盒口有封贴</span>
-									</td>
-								</tr>
-								<tr>
-									<td><b>注意事项：</b>
-									</td>
-									<td><span>本品包装为压力型容器，请保存于阴凉通风处，避免阳光直射及环境温度超过50度。使用后请勿投入火中或用利器穿刺破坏。</span>
-									</td>
-								</tr>
-							</table>
-						</div>
-						<div class="deal_usage">
-							<p>
-								<p>将产品轻轻摇匀后，垂直按压挤出适量大小，均匀涂抹于全脸及颈部即可。</p>
-								<p>
-									<img alt=""
-										src="http://images.jumei.com/deal_content/201203/13/1331620363285.jpg" />
-								</p>
-							</p>
-						</div>
-						<div class="deal_photos">
-							<p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;<img
-										alt=""
-										src="http://images.jumei.com/deal_content/201203/13/1331629483930.jpg" />
-									</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">爱上与空气轻柔触碰的感觉，全球第一款泡沫质地BB霜，
-										ADA迪黛轻柔泡沫BB霜（粉红色），带你体验前所未有的透薄服帖！&nbsp;&nbsp;</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;"><img
-										alt=""
-										src="http://images.jumei.com/deal_content/201203/13/13316294846475.jpg" />
-									</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">本品包装盒上印有相信的中文产品信息，产地为中国上海，你未曾体验过的底妆新境界，今天就来尝试吧！</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;"><img
-										alt=""
-										src="http://images.jumei.com/deal_content/201203/13/13316294836384.jpg" />
-									</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">本品有效期至2014年3月，具体日期请以收到的产品为准哦。</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;<img
-										alt=""
-										src="http://images.jumei.com/deal_content/201203/13/13316294857371.jpg" />
-									</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">轻轻一按即可化成云朵般轻盈泡沫，前所未有的透薄服帖质感，兼具遮瑕、亮肤、保湿、修复、控油、隔离，一举收获多重功效！</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;<img
-										alt=""
-										src="http://images.jumei.com/deal_content/201203/13/1331629486542.jpg" />
-									</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">细长的粉红色瓶子，美丽BB就藏在里面哦！质感非常好，并且非常容易携带。</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;"><img
-										alt=""
-										src="http://images.jumei.com/deal_content/201203/13/13316295141055.jpg" />
-									</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">本品包装为压力型容器，请保存于阴凉通风处，避免阳光直射及环境温度超过50度，使用后请勿投入火中或用利器穿刺破坏哦！</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;<img
-										alt=""
-										src="http://images.jumei.com/deal_content/201203/13/13316295146832.jpg" />
-									</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">独特弹性压力喷头，轻轻一按，细致丰富的泡沫便出来了，注意，用前需要摇一摇瓶身哦！</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">&nbsp;<img
-										alt=""
-										src="http://images.jumei.com/deal_content/201203/13/13316295153100.jpg" />
-									</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">瓶身高约12.4cm，共20ml容量，虽然每次按出的泡沫很丰富，但也能使用很长时间呢，快来感受它的神奇之处吧！</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;"><img
-										alt=""
-										src="http://images.jumei.com/deal_content/201203/13/13316302463423.jpg" />
-									</span>
-								</p>
-								<p>
-									<span style="font-family: Microsoft YaHei; font-size: medium;">非常独特的泡沫BB霜，将泡沫挤在手上并轻轻推开，肤色会变得粉嫩白皙，并倍感滋润，非常舒服。</span>
-								</p>
-							</p>
-						</div>
-					</div>
+					
 					<div class="containerBgR" style="display: none;">
 						<div class="video">
 							<h3>VIDEO 正品视频</h3>
